@@ -1,0 +1,4 @@
+{
+  "_note": "Rolling dedup + comment-delta state. Keyed by post_url. The agent loads this every cycle, compares each scraped post's comments_count against last_comments_count, then rewrites the file. A post is NEW (absent here), RE-REVIEW (present but comments_count went up), or SKIP (present, count unchanged or lower). Do not hand-edit unless resetting state.",
+  "posts": {}
+}

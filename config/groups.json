@@ -1,0 +1,20 @@
+{
+  "_note": "Operator-edited. Each entry: {name, url, active}. The agent reads this file every cycle, so edits land on the next cron fire (no restart needed). Set active:false to disable a group temporarily. SEED LIST below is placeholder Viper groups carried from the parts-scraper reference; replace with the real ViperLegacy Facebook network group URLs.",
+  "groups": [
+    {
+      "name": "4viperclub",
+      "url": "https://www.facebook.com/groups/4viperclub",
+      "active": true
+    },
+    {
+      "name": "Viper Group 2574946562765549",
+      "url": "https://www.facebook.com/groups/2574946562765549",
+      "active": true
+    },
+    {
+      "name": "Viper Group 646530975516107",
+      "url": "https://www.facebook.com/groups/646530975516107",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "viperlegacy2-facebook-bot-repo",
+  "version": "0.1.0",
+  "description": "Playbook + Playwright wrapper for the ViperLegacy Facebook parts bot agent. Read-only: scrapes Viper FB groups hourly, classifies parts being searched/sold/located, indexes findings by generation + part.",
+  "private": true,
+  "scripts": {
+    "auth-check": "node specialists/fb-groups.js auth-check",
+    "read-group": "node specialists/fb-groups.js read-group",
+    "read-post": "node specialists/fb-groups.js read-post"
+  },
+  "dependencies": {
+    "playwright": "1.49.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-extra-plugin-user-preferences": "^2.4.1",
+    "puppeteer-extra-plugin-user-data-dir": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "comment": "All deps are also pre-installed globally inside the worker_v1-playwright:0.1.4+ image. Declaring them locally is defense-in-depth for hosts on older image tags or stock Node setups."
+}
