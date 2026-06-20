@@ -1,20 +1,110 @@
 {
-  "_note": "Operator-edited. Each entry: {name, url, active}. The agent reads this file every cycle, so edits land on the next cron fire (no restart needed). Set active:false to disable a group temporarily. SEED LIST below is placeholder Viper groups carried from the parts-scraper reference; replace with the real ViperLegacy Facebook network group URLs.",
+  "_note": "Operator-edited. Each entry: {name, url, active}. The agent reads this file every cycle, so edits land on the next cron fire (no restart needed). Set active:false to disable a group temporarily. Populated 2026-06-16 from the operator's joined Facebook groups (facebook.com/groups/joins). All Viper groups active; 'Crystal Lake Cars and Caffeine' (a general local car-meet group, not Viper-specific) is included but active:false. Order: parts/classifieds first, then owner/club groups.",
   "groups": [
     {
-      "name": "4viperclub",
-      "url": "https://www.facebook.com/groups/4viperclub",
+      "name": "Dodge Viper Parts - Buy/Sell/Trade",
+      "url": "https://www.facebook.com/groups/1439929562963758/",
       "active": true
     },
     {
-      "name": "Viper Group 2574946562765549",
-      "url": "https://www.facebook.com/groups/2574946562765549",
+      "name": "Dodge Viper Parts & Accessories FORSALE",
+      "url": "https://www.facebook.com/groups/TheViperStore/",
       "active": true
     },
     {
-      "name": "Viper Group 646530975516107",
-      "url": "https://www.facebook.com/groups/646530975516107",
+      "name": "Dodge Viper Buy & Sale. Cars, Parts,& Info",
+      "url": "https://www.facebook.com/groups/1490844011152477/",
       "active": true
+    },
+    {
+      "name": "Dodge Viper For Sale",
+      "url": "https://www.facebook.com/groups/1406749243343144/",
+      "active": true
+    },
+    {
+      "name": "Dodge Viper Originals 92-02 Classifieds - Cars & Parts",
+      "url": "https://www.facebook.com/groups/261218964862013/",
+      "active": true
+    },
+    {
+      "name": "Dodge Viper Originals 92-02 Sneaky Pete",
+      "url": "https://www.facebook.com/groups/335349806967085/",
+      "active": true
+    },
+    {
+      "name": "Gen V Dodge Vipers Buy/Sell/Trade/Chat",
+      "url": "https://www.facebook.com/groups/1012457883847298/",
+      "active": true
+    },
+    {
+      "name": "VIPER related Help-Sell-Buy",
+      "url": "https://www.facebook.com/groups/ViperRelatedSellBuy/",
+      "active": true
+    },
+    {
+      "name": "Viper Owners Tech Help/How to/Q&A",
+      "url": "https://www.facebook.com/groups/ViperTech/",
+      "active": true
+    },
+    {
+      "name": "The Viper Garage.com",
+      "url": "https://www.facebook.com/groups/396856087036918/",
+      "active": true
+    },
+    {
+      "name": "DODGE VIPER OWNERS AND ALL VIPER CLUBS MEMBER'S SITE",
+      "url": "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+      "active": true
+    },
+    {
+      "name": "Dodge Viper Owners and Enthusiasts",
+      "url": "https://www.facebook.com/groups/481789254000352/",
+      "active": true
+    },
+    {
+      "name": "Dodge Viper RT 10",
+      "url": "https://www.facebook.com/groups/1438361473048175/",
+      "active": true
+    },
+    {
+      "name": "Gen 3 & 4 Dodge Viper Owners",
+      "url": "https://www.facebook.com/groups/228838842192257/",
+      "active": true
+    },
+    {
+      "name": "Viper Owners Association (the official VOA group)",
+      "url": "https://www.facebook.com/groups/viperownersassociation/",
+      "active": true
+    },
+    {
+      "name": "Viper Owners Group",
+      "url": "https://www.facebook.com/groups/BestViperClub/",
+      "active": true
+    },
+    {
+      "name": "Viper Owners",
+      "url": "https://www.facebook.com/groups/3552832571664906/",
+      "active": true
+    },
+    {
+      "name": "Viper Club of America",
+      "url": "https://www.facebook.com/groups/4viperclub/",
+      "active": true
+    },
+    {
+      "name": "Viper Club Of Ontario",
+      "url": "https://www.facebook.com/groups/646530975516107/",
+      "active": true
+    },
+    {
+      "name": "Chicagoland Viper Owners",
+      "url": "https://www.facebook.com/groups/2574946562765549/",
+      "active": true
+    },
+    {
+      "name": "Crystal Lake Cars and Caffeine",
+      "url": "https://www.facebook.com/groups/389632989553839/",
+      "active": false
     }
   ]
 }
