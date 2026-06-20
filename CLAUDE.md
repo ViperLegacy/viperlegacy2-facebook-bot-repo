@@ -105,13 +105,16 @@ If `{ok:false}` with `error: "not logged in"` / `"cookies missing"`:
 
 ```bash
 cd /workspace/repo
-jq -c '.groups[] | select(.active != false)' config/groups.json   # target groups
+jq -c '.groups[] | select(.active != false)' config/groups.json   # active groups (ordered)
+jq '.scan_per_cycle // 4' config/groups.json                      # round-robin batch size
 cat config/generations.json                                       # year -> gen map
 cat data/state/seen.json                                          # dedup + comment-delta state
+cat data/state/rotation.json                                      # round-robin cursor
 ```
 
-- `config/groups.json` — which groups to scrape. Operator edits
-  out of band; you just read it.
+- `config/groups.json` — which groups to scrape, plus
+  `scan_per_cycle` (default 4). Operator edits out of band; you
+  just read it.
 - `config/generations.json` — the year/slug → generation map. Use
   it to assign `generation` (1-5) to every finding.
 - `data/state/seen.json` — the rolling dedup + comment-delta state,
@@ -119,10 +122,29 @@ cat data/state/seen.json                                          # dedup + comm
   last_comments_count, last_classification }`. Load it into your
   turn; you will compare against it in step 4 and rewrite it in
   step 7.
+- `data/state/rotation.json` — the round-robin cursor:
+  `{ next_index }`, a 0-based offset into the ACTIVE-group list.
+  You use it in step 3 to pick which groups to scan this cycle and
+  rewrite it in step 7.
 
-### Step 3. Scrape each group's feed (bash, sequential)
+### Step 3. Pick this cycle's groups (round-robin) + scrape
 
-For each active group:
+You do **not** scan every group every cycle. You scan only
+`scan_per_cycle` of them (default 4), rotating through the active
+list so the footprint on Facebook stays light. This is deliberate:
+20 groups every hour from one session is exactly the pattern Meta's
+automation detection flags.
+
+Selection (your turn):
+1. Let `ACTIVE` = the active groups from step 2, in `groups.json`
+   order. Let `N = ACTIVE.length`, `K = scan_per_cycle`,
+   `i = rotation.next_index` (clamp to `0` if out of range).
+2. This cycle's batch = the `K` groups starting at `i`, wrapping
+   around: `ACTIVE[i], ACTIVE[i+1], …` modulo `N`. If `K >= N`,
+   scan all of them.
+3. Remember `new_next_index = (i + K) % N` for step 7.
+
+For each group in this cycle's batch only:
 
 ```bash
 xvfb-run -a node specialists/fb-groups.js read-group \
@@ -139,6 +161,12 @@ visits):
 ```bash
 sleep $((30 + RANDOM % 30))
 ```
+
+Note: comment-delta RE-REVIEW (step 4) only fires for posts in the
+groups scanned THIS cycle. A thread in a group that's not in this
+cycle's batch is re-checked when its group next comes up in the
+rotation — that latency is the accepted cost of the lighter
+footprint.
 
 ### Step 4. Triage every post against seen-state (your turn)
 
@@ -255,6 +283,10 @@ run steps 6 and 7.
    bump `last_updated`); otherwise append. Set top-level
    `updated_at`. This file is the operator's deliverable: parts
    searched/sold/located, organized by generation, then part.
+3. **`data/state/rotation.json`** — set `next_index` to the
+   `new_next_index` you computed in step 3, and `last_cycle_scanned`
+   to the group URLs you actually scanned. This is what advances the
+   round-robin for next cycle.
 
 ### Step 7. Compile cycle file + commit + audit (bash)
 
@@ -262,9 +294,10 @@ run steps 6 and 7.
 cd /workspace/repo
 mkdir -p data/cycles data/screenshots data/state
 TS=$(date -u +%Y-%m-%d-%H%M%SZ)
-echo "$CYCLE_JSON"  > "data/cycles/$TS.json"
-echo "$SEEN_JSON"   > data/state/seen.json
-echo "$CATALOG_JSON" > data/catalog.json
+echo "$CYCLE_JSON"     > "data/cycles/$TS.json"
+echo "$SEEN_JSON"      > data/state/seen.json
+echo "$CATALOG_JSON"   > data/catalog.json
+echo "$ROTATION_JSON"  > data/state/rotation.json
 git add data/
 git commit -m "vl2-fb $TS (<N> new, <M> updated)" || true
 git push 2>&1 | tail -5
@@ -275,6 +308,7 @@ git push 2>&1 | tail -5
 ```json
 {
   "ts": "2026-06-16T19:00:00Z",
+  "rotation": { "start_index": 0, "scanned": 4, "active_total": 20, "next_index": 4 },
   "groups_scraped": [
     {"url":"...","name":"...","posts_extracted":47,"new":3,"rereviewed":2,"skipped":42}
   ],
@@ -295,7 +329,7 @@ Past-tense digest. Active cycle with findings:
 ```
 mcp__clawborrator__route_to_peer({
   peer:   "<NOTIFY_PEER, default clauderemote>",
-  prompt: "Scanned <N> Viper FB groups. <A> new + <B> updated findings: <s> searching, <l> selling, <c> locating, <amb> ambiguous. Notable: <one or two one-line highlights, e.g. 'Gen2 GTS hardtop WTS $4500 Phoenix', 'Gen5 ACR wheels located at a yard via comments'>. Full: data/cycles/<ts>.json; catalog: data/catalog.json",
+  prompt: "Scanned <K> of <N> Viper FB groups (rotation). <A> new + <B> updated findings: <s> searching, <l> selling, <c> locating, <amb> ambiguous. Notable: <one or two one-line highlights, e.g. 'Gen2 GTS hardtop WTS $4500 Phoenix', 'Gen5 ACR wheels located at a yard via comments'>. Full: data/cycles/<ts>.json; catalog: data/catalog.json",
   mode:   "tell"
 })
 ```
@@ -323,6 +357,8 @@ the next cycle in an hour.
 - `config/generations.json` — year/slug → generation map.
 - `data/state/seen.json` — dedup + comment-delta state. SOURCE OF
   TRUTH for "is this new / did the thread move / already handled".
+- `data/state/rotation.json` — round-robin cursor (`next_index`,
+  `last_cycle_scanned`). Picks which groups each cycle scans.
 - `data/catalog.json` — rolling findings index by generation. The
   operator's deliverable.
 - `data/cycles/<ts>.json` — per-cycle audit, one per cycle.
@@ -383,6 +419,11 @@ Every "skip cycle" path still runs step 7 (commit) and step 8 (notify).
 - Cadence: `CronList` → `CronDelete` the old id → `CronCreate` with
   a new schedule (e.g. `0 */2 * * *` for every 2h).
 - Groups: edit `config/groups.json` and push; next cycle picks it up.
+- Round-robin batch size: edit `scan_per_cycle` in `config/groups.json`
+  (default 4). Higher = faster coverage + faster re-review but a
+  heavier Facebook footprint; set it `>=` the active count to scan
+  every group every cycle. To restart the rotation, set
+  `next_index` to 0 in `data/state/rotation.json`.
 - Generations: edit `config/generations.json` and push.
 - Deep-read budget: adjust the per-cycle cap in step 4 if cost or
   coverage needs tuning.
@@ -392,13 +433,14 @@ Every "skip cycle" path still runs step 7 (commit) and step 8 (notify).
 ## TL;DR
 
 - Boot: install cron `0 * * * *`, run one warmup cycle, return.
-- Each fire: auth-check, load config + seen-state, read each group
-  feed (with comment counts), triage every post into NEW /
-  RE-REVIEW (comment count went up) / SKIP, deep-read the queued
-  ones for the comment signal, classify by JUDGMENT into searching
-  / selling / locating / ambiguous, extract part + year + generation,
-  update seen.json + catalog.json, write the cycle file, commit +
-  push, notify.
+- Each fire: auth-check, load config + seen-state + rotation cursor,
+  pick this cycle's round-robin batch (scan_per_cycle active groups,
+  default 4), read those group feeds (with comment counts), triage
+  every post into NEW / RE-REVIEW (comment count went up) / SKIP,
+  deep-read the queued ones for the comment signal, classify by
+  JUDGMENT into searching / selling / locating / ambiguous, extract
+  part + year + generation, update seen.json + catalog.json + advance
+  rotation.json, write the cycle file, commit + push, notify.
 - Bash for browser + git. Your turn for reading + judgment.
   MCP for notification.
 - Read-only. No write verbs exist. No keyword filtering.

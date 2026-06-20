@@ -4,9 +4,11 @@ Agent code (playbook + Playwright wrapper + config) for the
 **ViperLegacy Facebook parts bot**, a read-only clawborrator
 worker_v1 agent.
 
-Every hour it visits each configured Dodge Viper Facebook group,
-reads recent posts **and** re-reads previously-seen posts whose
-comment count has changed, and identifies parts being:
+Every hour it visits a rotating handful of the configured Dodge
+Viper Facebook groups (round-robin, `scan_per_cycle` per cycle to
+keep the Facebook footprint light), reads recent posts **and**
+re-reads previously-seen posts whose comment count has changed, and
+identifies parts being:
 
 - **searched for** (someone wants a part/car),
 - **sold** (someone is offering one), or
@@ -38,9 +40,10 @@ Same split as the `worker_v1-example-viper-parts-scraper` pair.
 ```
 CLAUDE.md                     the agent playbook (read top to bottom)
 specialists/fb-groups.js      read-only Playwright wrapper (3 verbs)
-config/groups.json            which FB groups to scrape (operator-edited)
+config/groups.json            which FB groups to scrape + scan_per_cycle (operator-edited)
 config/generations.json       year/slug -> Viper generation (1-5) map
 data/state/seen.json          rolling dedup + comment-delta state
+data/state/rotation.json      round-robin cursor (which groups scan next)
 data/catalog.json             rolling findings index, by generation
 data/cycles/<ts>.json         per-cycle audit output
 data/screenshots/             per-navigation PNGs (audit)
