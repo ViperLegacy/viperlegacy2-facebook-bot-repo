@@ -1,5 +1,10 @@
 {
   "_note": "Round-robin cursor for which active groups to scan next. next_index is a 0-based offset into the CURRENT active-group list (groups.json order, active:true only). Each cycle scans scan_per_cycle groups starting here, then advances (wrapping). The agent rewrites this every cycle. Reset next_index to 0 to restart the rotation.",
-  "next_index": 0,
-  "last_cycle_scanned": []
+  "next_index": 4,
+  "last_cycle_scanned": [
+    "https://www.facebook.com/groups/1439929562963758/",
+    "https://www.facebook.com/groups/TheViperStore/",
+    "https://www.facebook.com/groups/1490844011152477/",
+    "https://www.facebook.com/groups/1406749243343144/"
+  ]
 }

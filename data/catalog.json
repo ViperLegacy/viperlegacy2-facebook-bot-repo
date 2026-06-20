@@ -1,12 +1,165 @@
 {
-  "_note": "Rolling consolidated findings index. The deliverable: parts being searched / sold / located across the Viper Facebook network, organized by generation (1-5) and, within each, by part. The agent merges new + re-reviewed findings into this file every cycle. 'unknown' holds findings whose generation could not be determined (rely on year + part_description there).",
-  "updated_at": null,
+  "updated_at": "2026-06-20T23:25:40Z",
   "by_generation": {
-    "1": { "name": "Gen 1 (1992-1995) RT/10", "findings": [] },
-    "2": { "name": "Gen 2 (1996-2002) RT/10 + GTS", "findings": [] },
-    "3": { "name": "Gen 3 (2003-2006) SRT-10 ZB I", "findings": [] },
-    "4": { "name": "Gen 4 (2008-2010) SRT-10 ZB II", "findings": [] },
-    "5": { "name": "Gen 5 (2013-2017) VX", "findings": [] },
-    "unknown": { "name": "Generation undetermined", "findings": [] }
+    "1": {
+      "findings": []
+    },
+    "2": {
+      "findings": []
+    },
+    "3": {
+      "findings": []
+    },
+    "4": {
+      "findings": []
+    },
+    "5": {
+      "findings": [
+        {
+          "post_url": "https://www.facebook.com/groups/1406749243343144/posts/1900553593962704/",
+          "post_id": "1900553593962704",
+          "group_url": "https://www.facebook.com/groups/1406749243343144/",
+          "author": "Steve Prescott",
+          "classification": "searching",
+          "summary": "Steve Prescott vouching for James J Spelock Jr as a serious Gen 5 Viper buyer — DM him directly",
+          "part_description": "Gen 5 Dodge Viper (whole car)",
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_count": null,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-20T23:25:40Z"
+        }
+      ]
+    },
+    "unknown": {
+      "findings": [
+        {
+          "post_url": "https://www.facebook.com/groups/1439929562963758/posts/3612613142362045/",
+          "post_id": "3612613142362045",
+          "group_url": "https://www.facebook.com/groups/1439929562963758/",
+          "author": "Jonathan Silva",
+          "classification": "searching",
+          "summary": "Jonathan Silva asking Bobby Archer if Viper fluid lines are sold separately; wants to source one",
+          "part_description": "fluid lines (sold separately)",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_count": null,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-20T23:25:40Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4148503358773018/",
+          "post_id": "4148503358773018",
+          "group_url": "https://www.facebook.com/groups/1439929562963758/",
+          "author": "Harry B",
+          "classification": "searching",
+          "summary": "Harry B asking if anyone has a Mamba airbag",
+          "part_description": "Mamba airbag",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_count": null,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-20T23:25:40Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4150317671924920/",
+          "post_id": "4150317671924920",
+          "group_url": "https://www.facebook.com/groups/1439929562963758/",
+          "author": "Cameron Webster",
+          "classification": "ambiguous",
+          "summary": "Cameron Webster offering to design and sell a 3D-printed part (specific part unknown from feed excerpt)",
+          "part_description": "3D-printed part (unspecified)",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_count": null,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-20T23:25:40Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/TheViperStore/posts/3346928932175218/",
+          "post_id": "3346928932175218",
+          "group_url": "https://www.facebook.com/groups/TheViperStore/",
+          "author": "Landon Kompelien",
+          "classification": "searching",
+          "summary": "Landon Kompelien looking for hood insert option; has brand-new OEM inserts in hand",
+          "part_description": "hood insert option / hood insert trim panel",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_count": null,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-20T23:25:40Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/TheViperStore/posts/3345495008985277/",
+          "post_id": "3345495008985277",
+          "group_url": "https://www.facebook.com/groups/TheViperStore/",
+          "author": "P1 Garage",
+          "classification": "ambiguous",
+          "summary": "P1 Garage replied 'We may have one' — vendor locating signal on an unspecified part",
+          "part_description": "unspecified (vendor response)",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_count": null,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-20T23:25:40Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4378315549071961/",
+          "post_id": "4378315549071961",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": "Bobby Archer",
+          "classification": "selling",
+          "summary": "Bobby Archer has Howe aluminum radiators in stock; also has fans",
+          "part_description": "Howe aluminum radiator (upgrade) + fan",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_count": null,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-20T23:25:40Z"
+        }
+      ]
+    }
   }
 }

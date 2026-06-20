@@ -1,4 +1,245 @@
 {
   "_note": "Rolling dedup + comment-delta state. Keyed by post_url. The agent loads this every cycle, compares each scraped post's comments_count against last_comments_count, then rewrites the file. A post is NEW (absent here), RE-REVIEW (present but comments_count went up), or SKIP (present, count unchanged or lower). Do not hand-edit unless resetting state.",
-  "posts": {}
+  "posts": {
+    "https://www.facebook.com/groups/1439929562963758/posts/4150317671924920/": {
+      "post_id": "4150317671924920",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "ambiguous"
+    },
+    "https://www.facebook.com/groups/1439929562963758/posts/4156038008019553/": {
+      "post_id": "4156038008019553",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1439929562963758/posts/4153925281564159/": {
+      "post_id": "4153925281564159",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1439929562963758/posts/4151754645114556/": {
+      "post_id": "4151754645114556",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1439929562963758/posts/4152706598352694/": {
+      "post_id": "4152706598352694",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1439929562963758/posts/4150220815267939/": {
+      "post_id": "4150220815267939",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1439929562963758/posts/3612613142362045/": {
+      "post_id": "3612613142362045",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "searching"
+    },
+    "https://www.facebook.com/groups/1439929562963758/posts/4148503358773018/": {
+      "post_id": "4148503358773018",
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "searching"
+    },
+    "https://www.facebook.com/groups/TheViperStore/posts/3351107228424055/": {
+      "post_id": "3351107228424055",
+      "group_url": "https://www.facebook.com/groups/TheViperStore/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/TheViperStore/posts/3110715485796565/": {
+      "post_id": "3110715485796565",
+      "group_url": "https://www.facebook.com/groups/TheViperStore/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/TheViperStore/posts/3341437759391002/": {
+      "post_id": "3341437759391002",
+      "group_url": "https://www.facebook.com/groups/TheViperStore/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/TheViperStore/posts/3343844549150323/": {
+      "post_id": "3343844549150323",
+      "group_url": "https://www.facebook.com/groups/TheViperStore/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/TheViperStore/posts/3346928932175218/": {
+      "post_id": "3346928932175218",
+      "group_url": "https://www.facebook.com/groups/TheViperStore/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "searching"
+    },
+    "https://www.facebook.com/groups/TheViperStore/posts/3345495008985277/": {
+      "post_id": "3345495008985277",
+      "group_url": "https://www.facebook.com/groups/TheViperStore/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "ambiguous"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4381488505421332/": {
+      "post_id": "4381488505421332",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4376611049242411/": {
+      "post_id": "4376611049242411",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4377662469137269/": {
+      "post_id": "4377662469137269",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4381064778797038/": {
+      "post_id": "4381064778797038",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4381043148799201/": {
+      "post_id": "4381043148799201",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4379208032316046/": {
+      "post_id": "4379208032316046",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4378121145758068/": {
+      "post_id": "4378121145758068",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4379492315620951/": {
+      "post_id": "4379492315620951",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4381061565464026/": {
+      "post_id": "4381061565464026",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4381116292125220/": {
+      "post_id": "4381116292125220",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4379541242282725/": {
+      "post_id": "4379541242282725",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1490844011152477/posts/4378315549071961/": {
+      "post_id": "4378315549071961",
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "selling"
+    },
+    "https://www.facebook.com/groups/1406749243343144/posts/1924353254916071/": {
+      "post_id": "1924353254916071",
+      "group_url": "https://www.facebook.com/groups/1406749243343144/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1406749243343144/posts/1911685382849525/": {
+      "post_id": "1911685382849525",
+      "group_url": "https://www.facebook.com/groups/1406749243343144/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    },
+    "https://www.facebook.com/groups/1406749243343144/posts/1900553593962704/": {
+      "post_id": "1900553593962704",
+      "group_url": "https://www.facebook.com/groups/1406749243343144/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "searching"
+    },
+    "https://www.facebook.com/groups/1406749243343144/posts/1887960855221978/": {
+      "post_id": "1887960855221978",
+      "group_url": "https://www.facebook.com/groups/1406749243343144/",
+      "first_seen": "2026-06-20T23:25:40Z",
+      "last_seen": "2026-06-20T23:25:40Z",
+      "last_comments_count": null,
+      "last_classification": "general"
+    }
+  }
 }
