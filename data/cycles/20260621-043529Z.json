@@ -1,0 +1,111 @@
+{
+  "ts": "2026-06-21T04:35:29.958Z",
+  "rotation": {
+    "start_index": 8,
+    "scanned": 4,
+    "active_total": 20,
+    "next_index": 12
+  },
+  "groups_scraped": [
+    {
+      "url": "https://www.facebook.com/groups/ViperTech/",
+      "name": "Viper Owners Tech Help/How to/Q&A",
+      "posts_extracted": 8,
+      "new": 2,
+      "rereviewed": 0,
+      "skipped": 6
+    },
+    {
+      "url": "https://www.facebook.com/groups/396856087036918/",
+      "name": "The Viper Garage.com",
+      "posts_extracted": 10,
+      "new": 1,
+      "rereviewed": 0,
+      "skipped": 9
+    },
+    {
+      "url": "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+      "name": "DODGE VIPER OWNERS AND ALL VIPER CLUBS MEMBER'S SITE",
+      "posts_extracted": 10,
+      "new": 0,
+      "rereviewed": 0,
+      "skipped": 10
+    },
+    {
+      "url": "https://www.facebook.com/groups/481789254000352/",
+      "name": "Dodge Viper Owners and Enthusiasts",
+      "posts_extracted": 3,
+      "new": 0,
+      "rereviewed": 0,
+      "skipped": 3
+    }
+  ],
+  "deep_reads_performed": 6,
+  "deep_read_limit": 10,
+  "findings": [
+    {
+      "post_id": "25641004548862057",
+      "action": "new",
+      "classification": "locating",
+      "generation": null,
+      "part": "Go-to Viper parts vendors (Brian Jones, Don Scharf Auto)"
+    },
+    {
+      "post_id": "26392824543680050",
+      "action": "new",
+      "classification": "searching",
+      "generation": 2,
+      "part": "1998 GTS driver side window regulator + motor"
+    },
+    {
+      "post_id": "25885910991038077",
+      "action": "new",
+      "classification": "selling",
+      "generation": 2,
+      "part": "Gen 2 Paxton Novi 2000 supercharger kit $5,000 (resolved/sold)"
+    },
+    {
+      "post_id": "26917519861210513",
+      "action": "new",
+      "classification": "locating",
+      "generation": 4,
+      "part": "Gen 3/4 window regulator sources (OEM part#s + Arizona rebuild)"
+    },
+    {
+      "post_id": "2907173139439748",
+      "action": "no_market",
+      "note": "2016 Viper window track tech question — no market signal"
+    },
+    {
+      "post_id": "26390311687264669",
+      "action": "no_market",
+      "note": "Shift Sector racing event post — no market signal"
+    }
+  ],
+  "deferred_deep_reads": [
+    {
+      "post_id": "2767468906743506",
+      "reason": "new but clearly tech tip (AC intake rain deflector) — no market signal, deferred"
+    },
+    {
+      "post_id": "3016767501813644",
+      "reason": "general, tech help comment — deferred to future cycle"
+    },
+    {
+      "post_id": "3002380346585693",
+      "reason": "general, tech help comment — deferred"
+    },
+    {
+      "post_id": "3338656662958058",
+      "reason": "general, community question — deferred"
+    },
+    {
+      "post_id": "3011968262293568",
+      "reason": "general, tech tip — deferred"
+    },
+    {
+      "post_id": "2444190869071313",
+      "reason": "general, tech question — deferred"
+    }
+  ]
+}

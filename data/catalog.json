@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T03:44:49.283Z",
+  "updated_at": "2026-06-21T04:35:29.958Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -169,7 +169,49 @@
       ]
     },
     "2": {
-      "findings": []
+      "findings": [
+        {
+          "post_url": "https://www.facebook.com/groups/396856087036918/posts/26392824543680050/",
+          "post_id": "26392824543680050",
+          "group_url": "https://www.facebook.com/groups/396856087036918/",
+          "author": null,
+          "classification": "searching",
+          "summary": "Looking for driver side door window regulator and motor for a 1998 GTS Viper — comment points to Arizona rebuild service",
+          "part_description": "1998 GTS Viper driver side door window regulator and motor",
+          "part_number": null,
+          "year": 1998,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T04:35:29.958Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/396856087036918/posts/25885910991038077/",
+          "post_id": "25885910991038077",
+          "group_url": "https://www.facebook.com/groups/396856087036918/",
+          "author": null,
+          "classification": "selling",
+          "summary": "Gen 2 Paxton Novi 2000 polished supercharger kit with Doug Levin HX/pump/tensioner, JMB filter, 2.75 GripTec pulley — $5,000 (sold)",
+          "part_description": "Gen 2 Paxton Novi 2000 supercharger kit — polished, Doug Levin heat exchanger/pump/tensioner, JMB custom filter, 2.75 GripTec pulley",
+          "part_number": null,
+          "year": null,
+          "generation": 2,
+          "price": "$5,000",
+          "location": null,
+          "signal_source": "post",
+          "resolved": true,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 8,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T04:35:29.958Z"
+        }
+      ]
     },
     "3": {
       "findings": [
@@ -302,6 +344,26 @@
           "comments_seen": 10,
           "first_seen": "2026-06-21T01:18:36.229Z",
           "last_updated": "2026-06-21T01:18:36.229Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/396856087036918/posts/26917519861210513/",
+          "post_id": "26917519861210513",
+          "group_url": "https://www.facebook.com/groups/396856087036918/",
+          "author": null,
+          "classification": "locating",
+          "summary": "Gen 3/4 window regulator sources: OEM new via moparpartsgiant.com (psgr 4865610AI ~$367, driver 4865611AI ~$770); rebuild via Arizona Power Window Repair (1-week turnaround)",
+          "part_description": "Gen 3/4 Viper window regulator — OEM new via moparpartsgiant.com or rebuild via Arizona Power Window Repair (AZ)",
+          "part_number": "4865610AI (passenger) / 4865611AI (driver)",
+          "year": null,
+          "generation": 4,
+          "price": "passenger ~$367 / driver ~$770 (new OEM)",
+          "location": "Arizona Power Window Repair (rebuild); moparpartsgiant.com (new OEM)",
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 12,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T04:35:29.958Z"
         }
       ]
     },
@@ -708,6 +770,26 @@
           "comments_seen": 10,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T03:44:49.283Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/396856087036918/posts/25641004548862057/",
+          "post_id": "25641004548862057",
+          "group_url": "https://www.facebook.com/groups/396856087036918/",
+          "author": null,
+          "classification": "locating",
+          "summary": "Community identifies Brian Jones and Todd at Don Scharf Automotive as go-to Viper parts vendors",
+          "part_description": "Viper parts (general) — verified go-to vendors: Brian Jones (has inventory) and Todd at Don Scharf Automotive",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": "Don Scharf Automotive (donscharfautomotive.com)",
+          "signal_source": "comments",
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 6,
+          "first_seen": "2026-06-21T04:35:29.958Z",
+          "last_updated": "2026-06-21T04:35:29.958Z"
         }
       ]
     }

@@ -615,34 +615,38 @@
       "post_id": "26917519861210513",
       "group_url": "https://www.facebook.com/groups/396856087036918/",
       "first_seen": "2026-06-21T00:54:14Z",
-      "last_seen": "2026-06-21T00:54:14Z",
+      "last_seen": "2026-06-21T04:35:29.958Z",
       "last_comments_count": null,
-      "last_classification": "general"
+      "last_classification": "locating",
+      "last_comments_seen": 12
     },
     "https://www.facebook.com/groups/396856087036918/posts/25885910991038077/": {
       "post_id": "25885910991038077",
       "group_url": "https://www.facebook.com/groups/396856087036918/",
       "first_seen": "2026-06-21T00:54:14Z",
-      "last_seen": "2026-06-21T00:54:14Z",
+      "last_seen": "2026-06-21T04:35:29.958Z",
       "last_comments_count": null,
-      "last_classification": "general"
+      "last_classification": "selling",
+      "last_comments_seen": 8
     },
     "https://www.facebook.com/groups/396856087036918/posts/26392824543680050/": {
       "post_id": "26392824543680050",
       "group_url": "https://www.facebook.com/groups/396856087036918/",
       "first_seen": "2026-06-21T00:54:14Z",
-      "last_seen": "2026-06-21T00:54:14Z",
+      "last_seen": "2026-06-21T04:35:29.958Z",
       "last_comments_count": null,
-      "last_classification": "ambiguous",
-      "resolved": false
+      "last_classification": "searching",
+      "resolved": false,
+      "last_comments_seen": 4
     },
     "https://www.facebook.com/groups/396856087036918/posts/26390311687264669/": {
       "post_id": "26390311687264669",
       "group_url": "https://www.facebook.com/groups/396856087036918/",
       "first_seen": "2026-06-21T00:54:14Z",
-      "last_seen": "2026-06-21T00:54:14Z",
+      "last_seen": "2026-06-21T04:35:29.958Z",
       "last_comments_count": null,
-      "last_classification": "general"
+      "last_classification": null,
+      "last_comments_seen": 6
     },
     "https://www.facebook.com/groups/396856087036918/posts/26382751331354038/": {
       "post_id": "26382751331354038",
@@ -1443,6 +1447,33 @@
       "group_url": "https://www.facebook.com/groups/335349806967085/",
       "first_seen": "2026-06-21T03:44:49.283Z",
       "last_seen": "2026-06-21T03:44:49.283Z",
+      "last_comments_seen": null,
+      "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/396856087036918/posts/25641004548862057/": {
+      "post_id": "25641004548862057",
+      "group_url": "https://www.facebook.com/groups/396856087036918/",
+      "first_seen": "2026-06-21T04:36:12.771Z",
+      "last_seen": "2026-06-21T04:36:12.771Z",
+      "last_comments_seen": 6,
+      "last_classification": "locating",
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/ViperTech/posts/2907173139439748/": {
+      "post_id": "2907173139439748",
+      "group_url": "https://www.facebook.com/groups/ViperTech/",
+      "first_seen": "2026-06-21T04:36:12.771Z",
+      "last_seen": "2026-06-21T04:36:12.771Z",
+      "last_comments_seen": 2,
+      "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/ViperTech/posts/2767468906743506/": {
+      "post_id": "2767468906743506",
+      "group_url": "https://www.facebook.com/groups/ViperTech/",
+      "first_seen": "2026-06-21T04:36:12.771Z",
+      "last_seen": "2026-06-21T04:36:12.771Z",
       "last_comments_seen": null,
       "last_classification": null,
       "resolved": false
