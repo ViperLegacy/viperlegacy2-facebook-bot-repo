@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T04:35:29.958Z",
+  "updated_at": "2026-06-21T05:38:50.540Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -298,6 +298,27 @@
           "comments_seen": 8,
           "first_seen": "2026-06-21T02:38:44.739Z",
           "last_updated": "2026-06-21T02:38:44.739Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/228838842192257/posts/1568889531520508/",
+          "post_id": "1568889531520508",
+          "group_url": "https://www.facebook.com/groups/228838842192257/",
+          "author": null,
+          "classification": "locating",
+          "summary": "Gen 3 owner searching for front bumper and driver side fender; Brian Jones and Mike Scherzberg each have both; Tony Whatley has brand-new OEM bumper on eBay",
+          "part_description": "Gen 3 front bumper and driver side fender — available from Brian Jones, Mike Scherzberg; new OEM bumper via Tony Whatley (eBay)",
+          "part_number": null,
+          "year": null,
+          "generation": 3,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 14,
+          "first_seen": "2026-06-21T05:27:47.302Z",
+          "last_updated": "2026-06-21T05:38:50.540Z"
         }
       ]
     },
@@ -431,6 +452,27 @@
           "comments_seen": 6,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T03:44:49.283Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3528344294007957/",
+          "post_id": "3528344294007957",
+          "group_url": "https://www.facebook.com/groups/BestViperClub/",
+          "author": null,
+          "classification": "searching",
+          "summary": "Dealer/intermediary searching for OEM-only Gen 5 TA1.0 carbon fiber front splitter and rear lip spoiler in near-mint condition for a collector client; no aftermarket considered",
+          "part_description": "OEM Gen 5 TA1.0 carbon fiber front splitter and rear lip spoiler (near-mint, OEM only)",
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 6,
+          "first_seen": "2026-06-21T05:27:47.302Z",
+          "last_updated": "2026-06-21T05:38:50.540Z"
         }
       ]
     },
@@ -584,27 +626,6 @@
           "comments_seen": 0,
           "first_seen": "2026-06-21T00:54:14Z",
           "last_updated": "2026-06-21T00:54:14Z"
-        },
-        {
-          "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/",
-          "post_id": "3527238127451907",
-          "group_url": "https://www.facebook.com/groups/BestViperClub/",
-          "author": null,
-          "classification": "searching",
-          "summary": "Buyer searching for a Gen 3-5 GTS Viper for a buddy in Denver CO; shipping OK, fair market price; two sellers responded in comments (TT G3, 2008 red Gen4)",
-          "part_description": "Gen 3-5 GTS coupe (full car)",
-          "part_number": null,
-          "year": null,
-          "generation": null,
-          "price": null,
-          "location": "Denver CO",
-          "signal_source": "post",
-          "resolved": false,
-          "photos": [],
-          "age_hours": null,
-          "comments_seen": 8,
-          "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T01:18:36.229Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",
@@ -790,6 +811,48 @@
           "comments_seen": 6,
           "first_seen": "2026-06-21T04:35:29.958Z",
           "last_updated": "2026-06-21T04:35:29.958Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/",
+          "post_id": "3527238127451907",
+          "group_url": "https://www.facebook.com/groups/BestViperClub/",
+          "author": null,
+          "classification": "locating",
+          "summary": "OP asking for Viper recommendations for a buddy; comments: Mike Scherzberg offers Twin Turbo Gen 3s (1100 RWHP, pump gas) for sale; Jeff Morton has Venom Red 2008 Gen 4 (19k miles)",
+          "part_description": "Gen 3 TT (1100 RWHP, Mike Scherzberg) and 2008 Gen 4 Venom Red (19k miles, Jeff Morton)",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 8,
+          "first_seen": "2026-06-21T01:18:01.591Z",
+          "last_updated": "2026-06-21T05:38:50.540Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3529077883934598/",
+          "post_id": "3529077883934598",
+          "group_url": "https://www.facebook.com/groups/BestViperClub/",
+          "author": null,
+          "classification": "selling",
+          "summary": "OP offering unidentified Viper parts for sale (photos only); commenters ask \"What are they?\" and \"Asking?\" — part type and generation not determinable from text alone",
+          "part_description": "Unspecified Viper parts (photos only); part type and generation unidentifiable from post text",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 10,
+          "first_seen": "2026-06-21T01:18:01.591Z",
+          "last_updated": "2026-06-21T05:38:50.540Z"
         }
       ]
     }

@@ -1046,17 +1046,17 @@
       "post_id": "3529077883934598",
       "group_url": "https://www.facebook.com/groups/BestViperClub/",
       "first_seen": "2026-06-21T01:18:01.591Z",
-      "last_seen": "2026-06-21T01:18:01.591Z",
-      "last_comments_seen": null,
-      "last_classification": "ambiguous"
+      "last_seen": "2026-06-21T05:38:50.540Z",
+      "last_comments_seen": 10,
+      "last_classification": "selling"
     },
     "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/": {
       "post_id": "3527238127451907",
       "group_url": "https://www.facebook.com/groups/BestViperClub/",
       "first_seen": "2026-06-21T01:18:01.591Z",
-      "last_seen": "2026-06-21T01:18:01.591Z",
+      "last_seen": "2026-06-21T05:38:50.540Z",
       "last_comments_seen": 8,
-      "last_classification": "searching"
+      "last_classification": "locating"
     },
     "https://www.facebook.com/groups/BestViperClub/posts/3528094837366236/": {
       "post_id": "3528094837366236",
@@ -1476,6 +1476,69 @@
       "last_seen": "2026-06-21T04:36:12.771Z",
       "last_comments_seen": null,
       "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/228838842192257/posts/1568889531520508/": {
+      "post_id": "1568889531520508",
+      "group_url": "https://www.facebook.com/groups/228838842192257/",
+      "first_seen": "2026-06-21T05:27:47.302Z",
+      "last_seen": "2026-06-21T05:38:50.540Z",
+      "last_comments_seen": 14,
+      "last_classification": "locating",
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/228838842192257/posts/1571611361248325/": {
+      "post_id": "1571611361248325",
+      "group_url": "https://www.facebook.com/groups/228838842192257/",
+      "first_seen": "2026-06-21T05:27:47.302Z",
+      "last_seen": "2026-06-21T05:38:50.540Z",
+      "last_comments_seen": 10,
+      "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/228838842192257/posts/1570390038037124/": {
+      "post_id": "1570390038037124",
+      "group_url": "https://www.facebook.com/groups/228838842192257/",
+      "first_seen": "2026-06-21T05:27:47.302Z",
+      "last_seen": "2026-06-21T05:38:50.540Z",
+      "last_comments_seen": 20,
+      "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/viperownersassociation/posts/1618811623160049/": {
+      "post_id": "1618811623160049",
+      "group_url": "https://www.facebook.com/groups/viperownersassociation/",
+      "first_seen": "2026-06-21T05:27:47.302Z",
+      "last_seen": "2026-06-21T05:27:47.302Z",
+      "last_comments_seen": null,
+      "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/viperownersassociation/posts/1619904303050781/": {
+      "post_id": "1619904303050781",
+      "group_url": "https://www.facebook.com/groups/viperownersassociation/",
+      "first_seen": "2026-06-21T05:27:47.302Z",
+      "last_seen": "2026-06-21T05:27:47.302Z",
+      "last_comments_seen": null,
+      "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/BestViperClub/posts/3529517833890603/": {
+      "post_id": "3529517833890603",
+      "group_url": "https://www.facebook.com/groups/BestViperClub/",
+      "first_seen": "2026-06-21T05:27:47.302Z",
+      "last_seen": "2026-06-21T05:27:47.302Z",
+      "last_comments_seen": null,
+      "last_classification": null,
+      "resolved": false
+    },
+    "https://www.facebook.com/groups/BestViperClub/posts/3528344294007957/": {
+      "post_id": "3528344294007957",
+      "group_url": "https://www.facebook.com/groups/BestViperClub/",
+      "first_seen": "2026-06-21T05:27:47.302Z",
+      "last_seen": "2026-06-21T05:38:50.540Z",
+      "last_comments_seen": 6,
+      "last_classification": "searching",
       "resolved": false
     }
   }

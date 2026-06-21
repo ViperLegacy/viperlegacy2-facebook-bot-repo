@@ -1,0 +1,88 @@
+{
+  "ts": "2026-06-21T05:38:50.540Z",
+  "rotation": {
+    "start_index": 12,
+    "scanned": [
+      "https://www.facebook.com/groups/1438361473048175/",
+      "https://www.facebook.com/groups/228838842192257/",
+      "https://www.facebook.com/groups/viperownersassociation/",
+      "https://www.facebook.com/groups/BestViperClub/"
+    ],
+    "active_total": 20,
+    "next_index": 16
+  },
+  "groups_scraped": [
+    {
+      "group_url": "https://www.facebook.com/groups/1438361473048175/",
+      "posts_returned": 0,
+      "note": "empty or inaccessible"
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/228838842192257/",
+      "posts_returned": 17
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/viperownersassociation/",
+      "posts_returned": 12
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/BestViperClub/",
+      "posts_returned": 10
+    }
+  ],
+  "posts_scraped_total": 39,
+  "new_posts": 7,
+  "existing_posts": 32,
+  "deep_reads_performed": 6,
+  "deep_read_limit": 10,
+  "findings": [
+    {
+      "post_id": "1568889531520508",
+      "post_url": "https://www.facebook.com/groups/228838842192257/posts/1568889531520508/",
+      "action": "new",
+      "classification": "locating",
+      "generation": 3,
+      "summary": "Gen 3 owner searching for front bumper and driver side fender; Brian Jones and Mike Scherzberg each have both; Tony Whatley has new OEM bumper on eBay"
+    },
+    {
+      "post_id": "3527238127451907",
+      "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/",
+      "action": "reclassified",
+      "classification": "locating",
+      "prev_classification": "searching",
+      "generation": null,
+      "summary": "OP asking for Viper recommendations for a buddy; Mike Scherzberg offers TT Gen 3s (1100 RWHP); Jeff Morton offers Venom Red 2008 Gen 4 (19k miles)"
+    },
+    {
+      "post_id": "3529077883934598",
+      "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3529077883934598/",
+      "action": "new",
+      "classification": "selling",
+      "generation": null,
+      "summary": "OP offering unidentified Viper parts (photos only); part type and generation not determinable from text"
+    },
+    {
+      "post_id": "3528344294007957",
+      "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3528344294007957/",
+      "action": "new",
+      "classification": "searching",
+      "generation": 5,
+      "summary": "Dealer searching for OEM-only Gen 5 TA1.0 CF front splitter and rear lip spoiler in near-mint condition; no aftermarket"
+    }
+  ],
+  "dropped_no_signal": [
+    {
+      "post_id": "1570390038037124",
+      "reason": "community install update thread (Belanger headers); Thomas Callarik vague locating pointer (no seller named)"
+    },
+    {
+      "post_id": "1571611361248325",
+      "reason": "tech help only — wrench size for PS pump fitting"
+    }
+  ],
+  "deferred_deep_reads": [
+    "https://www.facebook.com/groups/BestViperClub/posts/3529517833890603/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1618811623160049/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1619904303050781/"
+  ]
+}
