@@ -70,32 +70,7 @@ header{
 .tot .n{font-family:var(--disp);font-weight:700;font-size:24px;line-height:1}
 .tot .k{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-top:3px}
 .tot.s .n{color:var(--wanted)} .tot.l .n{color:var(--sale)} .tot.o .n{color:var(--found)} .tot.a .n{color:var(--amb)}
-
-.controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;padding:14px 0 16px}
-.seg{display:inline-flex;border:1px solid var(--line2);border-radius:4px;overflow:hidden;background:var(--bg2)}
-.seg button{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
-  background:transparent;color:var(--dim);border:0;border-right:1px solid var(--line);
-  padding:7px 12px;cursor:pointer;transition:.13s}
-.seg button:last-child{border-right:0}
-.seg button:hover{color:var(--ink);background:var(--panel)}
-.seg button.on{color:var(--bg);background:var(--ink)}
-#lanes button[data-l="searching"].on{background:var(--wanted);color:#1a1102}
-#lanes button[data-l="selling"].on{background:var(--sale);color:#03130a}
-#lanes button[data-l="locating"].on{background:var(--found);color:#022}
-#lanes button[data-l="ambiguous"].on{background:var(--amb);color:#0b0e12}
-.seg-lbl{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--mute);text-transform:uppercase}
-.field{display:flex;align-items:center;gap:8px;background:var(--bg2);border:1px solid var(--line2);
-  border-radius:4px;padding:6px 10px}
-.field input{background:transparent;border:0;color:var(--ink);font-family:var(--ui);font-size:13px;
-  outline:none;width:190px}
-.field input::placeholder{color:var(--mute)}
-.field .ic{color:var(--mute);font-family:var(--mono)}
-select{font-family:var(--mono);font-size:11px;letter-spacing:.05em;background:var(--bg2);color:var(--dim);
-  border:1px solid var(--line2);border-radius:4px;padding:7px 8px;cursor:pointer}
-.chk{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;
-  letter-spacing:.06em;color:var(--dim);text-transform:uppercase;cursor:pointer;user-select:none}
-.chk input{accent-color:var(--brand)}
-.ftoggle{display:none}
+.totals{margin-bottom:18px}
 
 /* ── sections + cards ───────────────────────────── */
 main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
@@ -176,13 +151,6 @@ main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
   .head{padding:13px 14px 0}
   .mark{font-size:26px}
   .stamp{flex-basis:100%;order:3;text-align:left;margin-top:4px}
-  .ftoggle{display:inline-flex;align-items:center;gap:6px;margin-left:auto;font-family:var(--mono);
-    font-size:11px;letter-spacing:.12em;text-transform:uppercase;background:var(--bg2);color:var(--dim);
-    border:1px solid var(--line2);border-radius:4px;padding:7px 12px;cursor:pointer}
-  .controls{display:none}
-  header.open .controls{display:flex;padding-top:12px}
-  .field input{width:100%}
-  .field{flex:1}
   main{padding:14px 14px 60px}
   .grid{grid-template-columns:1fr;gap:12px}
 }
@@ -196,20 +164,9 @@ main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
       <h1 class="mark">Viper <b>Parts</b> Network</h1>
       <div class="sub">parts searched · sold · located across the Viper FB group network</div>
       <div class="spacer"></div>
-      <button id="ftoggle" class="ftoggle" aria-expanded="false">Filters ▾</button>
       <div class="stamp" id="stamp"><span class="live">STANDBY</span></div>
     </div>
     <div class="totals" id="totals"></div>
-    <div class="controls">
-      <label class="field"><span class="ic">⌕</span>
-        <input id="q" type="search" placeholder="search part / author / location / gen" autocomplete="off">
-      </label>
-      <select id="sort" aria-label="sort">
-        <option value="newest">sort: newest</option>
-        <option value="gen">sort: by generation</option>
-      </select>
-      <label class="chk"><input type="checkbox" id="hideres"> hide resolved</label>
-    </div>
   </div>
 </header>
 
@@ -224,7 +181,7 @@ main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
 <script>
 const $ = (s,el=document)=>el.querySelector(s);
 const sections = $('#sections'), loader = $('#loader');
-let FINDS = [], GROUPS = {}, Q='', SORT='newest', HIDE_RES=false;
+let FINDS = [], GROUPS = {};
 
 const esc = s => (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
@@ -303,25 +260,10 @@ function render(){
     `<div class="tot l"><div class="n">${by.selling}</div><div class="k">selling</div></div>`+
     `<div class="tot o"><div class="n">${by.locating}</div><div class="k">locating</div></div>`;
 
-  // filter (search + hide-resolved only)
-  const q=Q.trim().toLowerCase();
-  let shown = live.filter(f=>{
-    if(HIDE_RES && f.resolved===true) return false;
-    if(q){
-      const genStr = GEN_META[f._gen] ? ('gen '+f._gen+' gen'+f._gen) : '';
-      const hay = [f.part_description,f.summary,f.author,f.location,f.part_number,groupName(f.group_url),genStr]
-        .filter(Boolean).join(' ').toLowerCase();
-      if(!hay.includes(q)) return false;
-    }
-    return true;
-  });
+  // newest-first within each lane group
+  const shown = live.slice().sort((a,b)=> tsOf(b)>tsOf(a)?1:tsOf(b)<tsOf(a)?-1:0);
 
-  shown.sort((a,b)=>{
-    if(SORT==='gen') return GEN_ORDER.indexOf(a._gen)-GEN_ORDER.indexOf(b._gen) || (tsOf(b)>tsOf(a)?1:-1);
-    return tsOf(b)>tsOf(a)?1:tsOf(b)<tsOf(a)?-1:0; // newest
-  });
-
-  if(!shown.length){ sections.innerHTML = `<p class="empty">// no finds match this search</p>`; return; }
+  if(!shown.length){ sections.innerHTML = `<p class="empty">// no parts findings yet</p>`; return; }
 
   // group by LANE in canonical order
   const groups = {};
@@ -373,11 +315,6 @@ function card(f){
 }
 
 // interactions
-$('#ftoggle').addEventListener('click', e=>{ const h=document.querySelector('header'); const o=h.classList.toggle('open');
-  e.currentTarget.setAttribute('aria-expanded',o); e.currentTarget.textContent='Filters '+(o?'▴':'▾'); });
-$('#q').addEventListener('input', e=>{ Q=e.target.value; render(); });
-$('#sort').addEventListener('change', e=>{ SORT=e.target.value; render(); });
-$('#hideres').addEventListener('change', e=>{ HIDE_RES=e.target.checked; render(); });
 sections.addEventListener('click', e=>{ const h=e.target.closest('.genhead'); if(!h) return;
   const sec=h.closest('.gensec'); const lk=sec.dataset.l;
   if(collapsed.has(lk)) collapsed.delete(lk); else collapsed.add(lk);
