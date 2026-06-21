@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T08:35:08.267Z",
+  "updated_at": "2026-06-21T10:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -207,6 +207,27 @@
           "comments_seen": 20,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T08:35:08.267Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163577707057955/",
+          "post_id": "10163577707057955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "searching",
+          "summary": "1994 Gen 1 Viper owner seeking power steering pump and pulley; Brian Jones confirmed has stock ready to ship; Kyle Bomar has eBay listing; Havik Performance also recommended",
+          "part_description": "1994 Gen 1 Viper power steering pump and pulley",
+          "part_number": null,
+          "year": 1994,
+          "generation": 1,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 20,
+          "first_seen": "2026-06-21T10:30:00Z",
+          "last_updated": "2026-06-21T10:30:00Z"
         }
       ]
     },
@@ -294,6 +315,27 @@
           "comments_seen": 20,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T08:35:08.267Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163583820737955/",
+          "post_id": "10163583820737955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "searching",
+          "summary": "Gen 2 Viper owner seeking rack and pinion (inner tie rod wear, wants to buy rebuilt unit); Bobby Archer has professionally rebuilt racks in stock (rack-dyno tested); viper-parts.com has inners and outers in stock",
+          "part_description": "Gen 2 Viper rack and pinion (steering rack) — rebuilt unit",
+          "part_number": null,
+          "year": null,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 20,
+          "first_seen": "2026-06-21T10:30:00Z",
+          "last_updated": "2026-06-21T10:30:00Z"
         }
       ]
     },
@@ -403,6 +445,27 @@
           "comments_seen": 14,
           "first_seen": "2026-06-21T05:27:47.302Z",
           "last_updated": "2026-06-21T05:38:50.540Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163578409517955/",
+          "post_id": "10163578409517955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "searching",
+          "summary": "New 2004 Gen 3 Viper owner seeking spoiler for sale, headers, and exhaust; Andrew Oswald has CF TA-style lip spoiler; Matt Terrico offers Belanger header/cats/exhaust kit at viper-parts.com; Nick Reid recommends M&M headers (usually in stock, ~1 month) or ARH (2+ month wait) at reidperformance.com; Bobby Archer also tagged by commenter",
+          "part_description": "2004 Gen 3 Viper spoiler, headers, and exhaust",
+          "part_number": null,
+          "year": 2004,
+          "generation": 3,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 20,
+          "first_seen": "2026-06-21T10:30:00Z",
+          "last_updated": "2026-06-21T10:30:00Z"
         }
       ]
     },

@@ -1,0 +1,65 @@
+{
+  "cycle_ts": "2026-06-21T10:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/viperownersassociation/",
+    "https://www.facebook.com/groups/BestViperClub/",
+    "https://www.facebook.com/groups/3552832571664906/",
+    "https://www.facebook.com/groups/4viperclub/"
+  ],
+  "group_names": [
+    "Viper Owners Association",
+    "Best Viper Club",
+    "Viper Owners (3552832571664906)",
+    "VCA (4viperclub)"
+  ],
+  "posts_seen": 44,
+  "new_posts": 7,
+  "deep_reads_performed": 5,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/4viperclub/posts/10163577707057955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163583820737955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163578409517955/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1618916653149546/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163569905277955/"
+  ],
+  "new_classifications": 3,
+  "new_catalog_findings": 3,
+  "updated_catalog_findings": 0,
+  "dropped_reads": [
+    "1618916653149546 (Gen 5 DTC/limp mode tech Q&A after battery failure; Brian Jones throttle body sync advice; no market signal)",
+    "10163569905277955 (show post: builder shares 35 'cheeseburger' Viper builds; social discussion about mods; no market signal)"
+  ],
+  "classified_reads": [
+    {
+      "post_id": "10163577707057955",
+      "group": "4viperclub",
+      "classification": "searching",
+      "generation": 1,
+      "year": 1994,
+      "summary": "1994 Gen 1 owner seeking power steering pump and pulley; Brian Jones confirmed stock ready to ship; Kyle Bomar has eBay listing (#05245813); Havik Performance also recommended"
+    },
+    {
+      "post_id": "10163583820737955",
+      "group": "4viperclub",
+      "classification": "searching",
+      "generation": 2,
+      "year": null,
+      "summary": "Gen 2 owner seeking rack and pinion (inner tie rod wear, wants rebuilt unit); Bobby Archer has professionally rebuilt racks (rack-dyno tested); viper-parts.com has inners and outers; Matt Terrico offers Gen 1/2 inner tie rods; Andrew Werdna recommends Doug Shelby steering upgrades"
+    },
+    {
+      "post_id": "10163578409517955",
+      "group": "4viperclub",
+      "classification": "searching",
+      "generation": 3,
+      "year": 2004,
+      "summary": "New 2004 Gen 3 owner (also has ZR1) seeking spoiler for sale + headers/exhaust recommendations; Andrew Oswald has CF TA-style lip spoiler; Matt Terrico offers Belanger system at viper-parts.com; Nick Reid recommends M&M (in stock ~1 month) or ARH (2+ month) headers at reidperformance.com"
+    }
+  ],
+  "notes": [
+    "VOA (group 12): 11 posts, all previously seen; no new market signals; 1618916653149546 clarified to null (Gen 5 tech Q&A)",
+    "BestViperClub (group 13): 12 posts, all previously seen; no comment delta changes",
+    "Viper Owners 3552832571664906 (group 14): 6 posts, all previously seen; 4396587847289370 Stryker Green GTS $299k still listed",
+    "VCA 4viperclub (group 15): 15 posts, 7 new; 3 classified searching, 4 social/opinion (null); feed card pattern confirmed on both 10163577707057955 and 10163583820737955 — surfaced commenter replies were vendors, not OP",
+    "Catalog after cycle 10: gen1:11, gen2:5, gen3:6, gen4:4, gen5:8, unknown:20 = 54 total"
+  ]
+}
