@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T18:44:00Z",
+  "updated_at": "2026-06-21T19:37:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -494,7 +494,7 @@
           "group_url": "https://www.facebook.com/groups/228838842192257/",
           "author": null,
           "classification": "searching",
-          "summary": "Gen 3 Viper owner searching for forged connecting rods at a good price; Rich Tatton has a full set, Prefix Motorsports sells them, Molnar discount available via Dalton Russell",
+          "summary": "Gen 3 Viper owner searching for forged connecting rods at a good price; Rich Tatton: \"I have a full set — DM me\" (selling); Adam Canales: full pistons/rods/pins/rings set, prefers to sell as package. Prefix Performance sells new+used Gen 3 rods. Rod quality hierarchy: Callies (lightest, best balanced) > Molnar (great, discount via Dalton Russell) > K1 (decent, China, less consistent) > Oliver. Antonio Calvo notes spec complexity: rod length, journal 2.100/2.125/2.124, length 6.250/6.200, pin diameter, power level all matter.",
           "part_description": "forged connecting rods for Gen 3 Viper",
           "part_number": null,
           "year": null,
@@ -505,9 +505,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 18,
+          "comments_seen": 19,
           "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T01:18:36.229Z"
+          "last_updated": "2026-06-21T19:37:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4148503358773018/",
@@ -721,6 +721,27 @@
           "comments_seen": 10,
           "first_seen": "2026-06-21T00:54:14Z",
           "last_updated": "2026-06-21T18:44:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/228838842192257/posts/1570341921375269/",
+          "post_id": "1570341921375269",
+          "group_url": "https://www.facebook.com/groups/228838842192257/posts/",
+          "author": "unknown (OP asks community to ID aero)",
+          "classification": "locating",
+          "summary": "OP asks \"Anyone know what front lip spoiler and canards these are\" — community IDs them as Gen 4 ACR aero. Sources: OEM Mopar ACR; Mark A Taylor (craftsman, highly recommended, makes replicas + side scallop vents, hinge covers, wing end plates); Kees Mets in Europe (1:1 OEM copy, also ACRX canards). Multiple commenters confirm Gen 4 ACR factory aero.",
+          "part_description": "Gen 4 ACR front lip spoiler and canards (ACR aero package)",
+          "part_number": null,
+          "year": null,
+          "generation": 4,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 11,
+          "first_seen": "2026-06-21T19:37:00Z",
+          "last_updated": "2026-06-21T19:37:00Z"
         }
       ]
     },
@@ -1053,8 +1074,8 @@
           "group_url": "https://www.facebook.com/groups/viperownersassociation/",
           "author": null,
           "classification": "selling",
-          "summary": "OP selling a Viper T-56 transmission (from D&D, no known issues, was behind SBC street car, never raced); Tobi Kelly asked about Gen 1/2 water pump rebuild kits in comments; Michael Kuchavik Jr. confirmed he sells rebuilt pumps only (no kits — too many cracked housings)",
-          "part_description": "Viper T-56 transmission (from D&D, good condition, behind SBC street car)",
+          "summary": "Injector Masters LLC (Michael Kuchavik Jr.) sells rebuilt Gen 1/2 Viper pumps; does NOT sell DIY rebuild kits (risk of cracking housing when DIY rebuilt). Tobi Kelly asked for rebuild kits but was directed to buy rebuilt units instead.",
+          "part_description": "Gen 1/2 pump (rebuilt units, no DIY kits)",
           "part_number": null,
           "year": null,
           "generation": null,
@@ -1064,9 +1085,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 10,
+          "comments_seen": 11,
           "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T15:30:00Z"
+          "last_updated": "2026-06-21T19:37:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/",
@@ -1237,8 +1258,8 @@
           "post_id": "3527238127451907",
           "group_url": "https://www.facebook.com/groups/BestViperClub/",
           "author": null,
-          "classification": "locating",
-          "summary": "OP asking for Viper recommendations for a buddy; comments: Mike Scherzberg offers Twin Turbo Gen 3s (1100 RWHP, pump gas) for sale; Jeff Morton has Venom Red 2008 Gen 4 (19k miles)",
+          "classification": "searching",
+          "summary": "OP seeking a Gen 3-5 GTS Viper for a buddy (45+ hotrod builder, Denver CO, fair market, ships OK, not low-mile). Offers in comments: Mike Scherzberg twin turbo Gen 3 at 1100 RWHP; Jeff Morton 2008 Venom Red 19k miles.",
           "part_description": "Gen 3 TT (1100 RWHP, Mike Scherzberg) and 2008 Gen 4 Venom Red (19k miles, Jeff Morton)",
           "part_number": null,
           "year": null,
@@ -1251,7 +1272,7 @@
           "age_hours": null,
           "comments_seen": 8,
           "first_seen": "2026-06-21T01:18:01.591Z",
-          "last_updated": "2026-06-21T05:38:50.540Z"
+          "last_updated": "2026-06-21T19:37:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3529077883934598/",
@@ -1270,9 +1291,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 10,
+          "comments_seen": 17,
           "first_seen": "2026-06-21T01:18:01.591Z",
-          "last_updated": "2026-06-21T05:38:50.540Z"
+          "last_updated": "2026-06-21T19:37:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4381061565464026/",

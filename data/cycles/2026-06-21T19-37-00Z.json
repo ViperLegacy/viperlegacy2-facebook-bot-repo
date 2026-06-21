@@ -1,0 +1,95 @@
+{
+  "cycle_ts": "2026-06-21T19:37:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1438361473048175/",
+    "https://www.facebook.com/groups/228838842192257/",
+    "https://www.facebook.com/groups/viperownersassociation/",
+    "https://www.facebook.com/groups/BestViperClub/"
+  ],
+  "group_names": [
+    "Dodge Viper RT 10 (1438361473048175)",
+    "Gen 3 & 4 Dodge Viper Owners (228838842192257)",
+    "Viper Owners Association (viperownersassociation)",
+    "Viper Owners Group (BestViperClub)"
+  ],
+  "posts_seen": 36,
+  "new_posts": 6,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",
+    "https://www.facebook.com/groups/228838842192257/posts/1570341921375269/",
+    "https://www.facebook.com/groups/228838842192257/posts/1569026524840142/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1617401826634362/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3528406150668438/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529077883934598/",
+    "https://www.facebook.com/groups/228838842192257/posts/1566517541757707/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 4,
+  "dropped_reads": [
+    "1617401826634362 (NO DELTA: 12=12 — selling maintained: 2009 Gen 4 convertible 80k miles 1200whp F1-X ProCharger Indiana, open to trades)",
+    "3528406150668438 (NO DELTA: 16=16 — searching maintained: 1994 Gen 1 dash paint source; no vendor identified yet)",
+    "3527371310771922 (NO DELTA: returns 7 < stored 10, keep 10 — selling maintained: Gen 1 clutch pedal travel reduction kit prototype complete, production early August)",
+    "3529282953914091 (NO DELTA: returns 7 < stored 12, keep 12 — locating maintained: Autoform still makes Viper aero kits)",
+    "1566517541757707 (NO DELTA: 10=10 — searching maintained: buyer in Switzerland seeking Gen 4 ACR private deal; Montreal and Tulsa leads noted)"
+  ],
+  "re_reviews": [
+    {
+      "post_id": "1569026524840142",
+      "group": "228838842192257",
+      "classification": "searching",
+      "delta": "+1 comment (18→19)",
+      "summary": "Antonio Calvo added technical rod spec guidance: K1 'sucks', need to specify rod length, journal size (2.100/2.125/2.124), length (6.250/6.200), pin diameter, power level. Rich Tatton still offering full set (DM); Adam Canales full set as package only."
+    },
+    {
+      "post_id": "1616954850012393",
+      "group": "viperownersassociation",
+      "classification": "selling",
+      "delta": "+1 comment (10→11)",
+      "summary": "Will Dlesk support comment added. Core info unchanged: Injector Masters LLC (Michael Kuchavik Jr.) sells rebuilt Gen 1/2 Viper pumps only, no DIY rebuild kits. Catalog entry corrected from wrong T-56 transmission summary."
+    },
+    {
+      "post_id": "3529077883934598",
+      "group": "BestViperClub",
+      "classification": "selling",
+      "delta": "+7 comments (10→17)",
+      "summary": "Agim Kodra posted 6 image comments showing interest; Keith Jean-Pierre Jr. asking price. Part identity still unconfirmed from text (photos only). Buyer interest confirmed."
+    }
+  ],
+  "new_findings": [
+    {
+      "post_id": "1570341921375269",
+      "group": "228838842192257",
+      "classification": "locating",
+      "summary": "OP asks 'Anyone know what front lip spoiler and canards these are' — community IDs as Gen 4 ACR aero. Sources: OEM Mopar; Mark A Taylor (craftsman, highly recommended, makes replicas + side scallop vents, hinge covers, wing end plates); Kees Mets in Europe (1:1 OEM copy + ACRX canards). Multiple commenters confirm Gen 4 ACR factory aero. lcs=11."
+    }
+  ],
+  "reclassifications": [
+    {
+      "post_id": "3527238127451907",
+      "group": "BestViperClub",
+      "old_classification": "locating",
+      "new_classification": "searching",
+      "reason": "OP text confirmed: seeking Gen 3-5 GTS for buddy (Denver CO, fair market, ships). Mike Scherzberg comment (twin turbo G3 1100 RWHP for sale) was what surfaced the feed card. Deep read reveals OP is the buyer."
+    }
+  ],
+  "general_new_posts": [
+    "1567205431688918 (G13, Stephane L: 'just ordered mine!' — general, surfaced comment)",
+    "1572292501180211 (G13, Brent Halverson: '1995ish' — general, photo caption)",
+    "1572249647851163 (G13, Chris Michalski: fitting transfer advice — general, surfaced comment)",
+    "1614676023573609 (G14, Chris J. Panagiotidis: 'Where did you go to get the service done?' — general)",
+    "3530062087169511 (G15, Will Dlesk: 'This is great! Would love more info and pics!!' — general)"
+  ],
+  "notes": [
+    "G12 (1438361473048175 Dodge Viper RT10): 0 posts — empty feed",
+    "G13 (228838842192257 Gen 3&4 Viper Owners): 15 posts; 5 NEW (4 general + 1570341921375269 NEW locating Gen4 ACR aero); 10 prev-seen; deep-reads: 1570341921375269 (new locating), 1569026524840142 (re-review +1), 1566517541757707 (no delta)",
+    "G14 (viperownersassociation VOA): 9 posts; 1 NEW general (1614676023573609); 8 prev-seen; deep-reads: 1616954850012393 (re-review +1, catalog corrected), 1617401826634362 (no delta)",
+    "G15 (BestViperClub Viper Owners Group): 12 posts; 1 NEW general (3530062087169511); 11 prev-seen; deep-reads: 3527238127451907 (reclassified locating→searching), 3528406150668438 (no delta), 3527371310771922 (no delta 7<10), 3529282953914091 (no delta 7<12), 3529077883934598 (re-review +7)",
+    "Rotation: next_index 12→16 (groups 16-19 next cycle, wraps at 20)",
+    "Catalog after cycle 20: gen1:13, gen2:9, gen3:6, gen4:7, gen5:10, unknown:20 = 65 total (1 new, 4 updated)"
+  ]
+}
