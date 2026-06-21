@@ -1,0 +1,104 @@
+{
+  "ts": "2026-06-21T01:19:06.236Z",
+  "rotation": {
+    "start_index": 12,
+    "scanned": 4,
+    "active_total": 20,
+    "next_index": 16
+  },
+  "groups_scraped": [
+    {
+      "url": "https://www.facebook.com/groups/1438361473048175/",
+      "name": "Dodge Viper RT 10",
+      "posts_extracted": 0,
+      "new_general": 0,
+      "new_keepers": 0,
+      "rereviewed": 0,
+      "skipped": 0,
+      "note": "soft fail: 0 posts returned"
+    },
+    {
+      "url": "https://www.facebook.com/groups/228838842192257/",
+      "name": "Gen 3 & 4 Dodge Viper Owners",
+      "posts_extracted": 16,
+      "new_keepers": 4,
+      "rereviewed": 0,
+      "skipped": 12
+    },
+    {
+      "url": "https://www.facebook.com/groups/viperownersassociation/",
+      "name": "Viper Owners Association (VOA)",
+      "posts_extracted": 11,
+      "new_keepers": 2,
+      "rereviewed": 0,
+      "skipped": 9
+    },
+    {
+      "url": "https://www.facebook.com/groups/BestViperClub/",
+      "name": "Viper Owners Group",
+      "posts_extracted": 10,
+      "new_keepers": 4,
+      "rereviewed": 0,
+      "skipped": 5,
+      "note": "1 deferred (Derrick King What are they?)"
+    }
+  ],
+  "findings": [
+    {
+      "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/",
+      "classification": "searching",
+      "summary": "Buyer searching for a Gen 3-5 GTS Viper for a buddy in Denver CO; two sellers responded in comments",
+      "generation": null
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",
+      "classification": "locating",
+      "summary": "Vendor Michael Kuchavik Jr. sells rebuilt Gen 1/2 pumps (no rebuild kits)",
+      "generation": null
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/228838842192257/posts/1570701701339291/",
+      "classification": "locating",
+      "summary": "RSI sells harmonic balancer pin kit for Gen 3 Vipers",
+      "generation": 3
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3528406150668438/",
+      "classification": "searching",
+      "summary": "1994 Viper owner searching for dash paint vendor",
+      "generation": 1
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/",
+      "classification": "locating",
+      "summary": "Autoform still sells Viper aero kits/front bumpers",
+      "generation": null
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/viperownersassociation/posts/1617401826634362/",
+      "classification": "selling",
+      "summary": "2009 Viper convertible 1200whp F1-X Procharger for sale in Indiana",
+      "generation": 4
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/228838842192257/posts/1566517541757707/",
+      "classification": "searching",
+      "summary": "Switzerland buyer searching Gen 4 ACR private deal; two located in comments",
+      "generation": 4
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/228838842192257/posts/1569026524840142/",
+      "classification": "searching",
+      "summary": "Gen 3 owner searching forged rods; multiple sellers/vendors in comments",
+      "generation": 3
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
+      "classification": "selling",
+      "summary": "Vendor announces Gen 1 clutch pedal travel reduction kit, production expected early August",
+      "generation": 1
+    }
+  ],
+  "deferred_deep_reads": 1,
+  "skip_reason": null
+}
