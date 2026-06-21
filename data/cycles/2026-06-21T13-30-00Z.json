@@ -1,0 +1,67 @@
+{
+  "cycle_ts": "2026-06-21T13:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/261218964862013/",
+    "https://www.facebook.com/groups/335349806967085/",
+    "https://www.facebook.com/groups/1012457883847298/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/"
+  ],
+  "group_names": [
+    "92-02 Classifieds (261218964862013)",
+    "Viper Gen 1-2 (335349806967085)",
+    "Gen V BST (1012457883847298)",
+    "ViperRelatedSellBuy"
+  ],
+  "posts_seen": 32,
+  "new_posts": 1,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/335349806967085/posts/2454377565064288/",
+    "https://www.facebook.com/groups/261218964862013/posts/1775577246759503/",
+    "https://www.facebook.com/groups/335349806967085/posts/2454562378379140/",
+    "https://www.facebook.com/groups/261218964862013/posts/1777050786612149/",
+    "https://www.facebook.com/groups/261218964862013/posts/1773116060338955/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772684247048803/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449862685515776/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1548378836921864/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772589947058233/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449834888851889/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 2,
+  "dropped_reads": [
+    "2454377565064288 (NEW: OP is community color photo request for RT/10s — Aaron Ramos surfaced comment about his own painting decision was the feed card; no parts market signal; dropped as general)",
+    "1775577246759503 (TRACKED selling 1994 RT/10 $29,500 OBO — comments_returned 10 = last_comments_seen 10, no delta)",
+    "2454562378379140 (TRACKED selling Mike Scherzberg original vinyl soft tops '92/'93 — comments_returned 14 = last_comments_seen 14, no delta)",
+    "1773116060338955 (TRACKED selling CarbonEnvy Gen 1/2 carbon diffuser — comments_returned 8 = last_comments_seen 8, no delta)",
+    "1772684247048803 (TRACKED locating Don Scharf Auto relay cap — comments_returned 10 = last_comments_seen 10, no delta)",
+    "2449862685515776 (TRACKED locating Dan Lesser ViperSpecialty PCM — comments_returned 10 = last_comments_seen 10, no delta)",
+    "1772589947058233 (TRACKED selling Gen 1 water pump $500 FIRM — comments_returned 6 = last_comments_seen 6, no delta)",
+    "2449834888851889 (TRACKED selling 1995 Viper Houston TX — comments_returned 18 < last_comments_seen 20, no delta, keeping max)"
+  ],
+  "re_reviews": [
+    {
+      "post_id": "1777050786612149",
+      "group": "261218964862013",
+      "classification": "locating",
+      "delta": "+2 comments (7→9)",
+      "summary": "Gen 1 owner searching for two manifold heat shields; Apollonius Salis and Tony Hanks both have them; Kurt Ó Cinnéide PMed both sellers (new: Kurt PM to Tony Hanks 4h ago)"
+    },
+    {
+      "post_id": "1548378836921864",
+      "group": "1012457883847298",
+      "classification": "selling",
+      "delta": "+9 comments (9→18)",
+      "summary": "AJ Mehta selling 2014 Gen 5 Viper SRT base; $120k offer rejected ('2 years too late'); Coltin Sherrell says his worth $180k; AJ confirms base shocks need lowering cups; market appreciating"
+    }
+  ],
+  "notes": [
+    "Group 4 (261218964862013): 6 posts, all prev seen; 1777050786612149 RE-REVIEW +2 (Kurt PMed Tony Hanks); others no delta",
+    "Group 5 (335349806967085): 9 posts, 1 new (2454377565064288 — OP community color question, dropped general); all tracked no delta",
+    "Group 6 (1012457883847298): 6 posts, all prev seen; 1548378836921864 RE-REVIEW +9 (2014 Gen5 for sale, market discussion growing)",
+    "Group 7 (ViperRelatedSellBuy): 11 posts, all prev seen; all general or no delta",
+    "Deferred deep reads (2 dropped from budget): 1544750113951403 (whole car value $400k discussion), 27048392398143635 (inflation lament comment)",
+    "Catalog after cycle 13: gen1:11, gen2:5, gen3:6, gen4:4, gen5:8, unknown:21 = 55 total (0 new, 2 updated)"
+  ]
+}
