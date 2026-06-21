@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T22:36:36Z",
+  "updated_at": "2026-06-21T23:14:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -525,6 +525,27 @@
           "comments_seen": 8,
           "first_seen": "2026-06-21T21:42:55Z",
           "last_updated": "2026-06-21T21:42:55Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/",
+          "post_id": "1368331015346167",
+          "group_url": "https://www.facebook.com/groups/481789254000352/",
+          "author": "OP (name not captured)",
+          "classification": "selling",
+          "summary": "2001 Viper RT/10 6-speed 15k miles, no issues, clean title, Briarwood Queens NY, asking $50k cash. Mike Scherzberg commented re headlight refurb at Walmart $40. lcs_baseline=2.",
+          "part_description": "2001 Viper RT/10 complete car",
+          "part_number": null,
+          "year": 2001,
+          "generation": 2,
+          "price": "$50,000",
+          "location": "Briarwood, Queens, NY",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 2,
+          "first_seen": "2026-06-21T00:54:14Z",
+          "last_updated": "2026-06-21T23:14:00Z"
         }
       ]
     },
@@ -1109,27 +1130,6 @@
           "last_updated": "2026-06-21T02:38:44.739Z",
           "resolved": false,
           "comments_seen": 2
-        },
-        {
-          "post_url": "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/",
-          "post_id": "1368331015346167",
-          "group_url": "https://www.facebook.com/groups/481789254000352/",
-          "author": "Mike Scherzberg",
-          "classification": "locating",
-          "summary": "Mike Scherzberg recommends Walmart for headlight refurbishment at $40",
-          "part_description": "headlights (refurbishment)",
-          "part_number": null,
-          "year": null,
-          "generation": null,
-          "price": "$40",
-          "location": "Walmart",
-          "signal_source": "post",
-          "resolved": false,
-          "photos": [],
-          "age_hours": null,
-          "comments_seen": 2,
-          "first_seen": "2026-06-21T00:54:14Z",
-          "last_updated": "2026-06-21T18:44:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",

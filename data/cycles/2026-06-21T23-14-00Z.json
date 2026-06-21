@@ -1,0 +1,64 @@
+{
+  "cycle_ts": "2026-06-21T23:14:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/ViperTech/",
+    "https://www.facebook.com/groups/396856087036918/",
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+    "https://www.facebook.com/groups/481789254000352/"
+  ],
+  "group_names": [
+    "Viper Owners Tech Help/Q&A (ViperTech)",
+    "The Viper Garage.com (396856087036918)",
+    "DODGE VIPER OWNERS AND ALL VIPER CLUBS (srtviperownerallclubmembers)",
+    "Dodge Viper Owners and Enthusiasts (481789254000352)"
+  ],
+  "posts_seen": 30,
+  "new_posts": 0,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/ViperTech/posts/2907173139439748/",
+    "https://www.facebook.com/groups/ViperTech/posts/3357698591053865/",
+    "https://www.facebook.com/groups/396856087036918/posts/26390311687264669/",
+    "https://www.facebook.com/groups/396856087036918/posts/25885910991038077/",
+    "https://www.facebook.com/groups/396856087036918/posts/26917519861210513/",
+    "https://www.facebook.com/groups/396856087036918/posts/26392824543680050/",
+    "https://www.facebook.com/groups/396856087036918/posts/25641004548862057/",
+    "https://www.facebook.com/groups/481789254000352/posts/1380509867461615/",
+    "https://www.facebook.com/groups/481789254000352/posts/1385056243673644/",
+    "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 1,
+  "new_findings": [],
+  "re_reviews": [],
+  "reclassifications": [
+    {
+      "post_id": "1368331015346167",
+      "group": "481789254000352",
+      "old_classification": "locating (unknown gen)",
+      "new_classification": "selling (gen2)",
+      "reason": "OP text: '2001 viper r/t10 6speed 15k miles No issues Clean title Located in briarwood, queens, ny Asking 50k cash'. Prior locating(unknown) label came from surfaced feed card showing Mike Scherzberg's comment about Walmart headlight refurb $40. Deep read confirms OP is a seller of a complete Gen 2 RT/10; entry moved from unknown to gen2 in catalog."
+    }
+  ],
+  "dropped_reads": [
+    "2907173139439748 (NO DELTA: 2=2 — GENERAL: 2016 Viper window track tech Q&A; 'Is this the window bosses?'; Brian Jones: 'Most likely the bosses'; cls updated null→general)",
+    "26390311687264669 (NO DELTA: 6=6 — GENERAL: Shift Sector racing event congrats; Ted Hlokoff tagging Joel Fortin re performance milestone; cls updated null→general)",
+    "25885910991038077 (NO DELTA: 8=8 — selling Gen2 Paxton Novi 2000 maintained; Arthur Ward 'Sold' noted; $5,000)",
+    "26917519861210513 (NO DELTA: 12=12 — locating Gen4 window regulator sources maintained; Arizona Power Window Repair confirmed)",
+    "26392824543680050 (NO DELTA: 4=4 — searching Gen2 1998 GTS window regulator maintained; Michael Kuchavik Jr. pointing to Power Window Repair AZ)",
+    "3357698591053865 (NO DELTA: 4=4 — locating Gen2 1997 GTS water pump rebuild maintained; Havik Performance confirmed)",
+    "25641004548862057 (NO DELTA: 6=6 — locating unknown Viper parts dealers maintained; Brian Jones, Dwayne Badillo, Todd at Don Scharf Automotive)",
+    "1380509867461615 (NO DELTA: 12=12 — searching Gen2 coilovers/sway bars maintained; Kevin James offering KW V2 to sell)",
+    "1385056243673644 (NO DELTA: 10=10 — locating Gen4 ACR fender vents maintained; VIPER Carbon source confirmed)"
+  ],
+  "notes": [
+    "G8 (ViperTech): 7 posts; all prev-seen; 0 tracked catalog entries; 2 deep reads — 2907173139439748 (general tech Q&A), 3357698591053865 (no delta 4=4 locating Gen2 water pump)",
+    "G9 (396856087036918): 10 posts; all prev-seen; 5 deep reads — 26390311687264669 (general Shift Sector event), 25885910991038077 (no delta 8=8), 26917519861210513 (no delta 12=12), 26392824543680050 (no delta 4=4), 25641004548862057 (no delta 6=6)",
+    "G10 (srtviperownerallclubmembers): 10 posts; all prev-seen; 0 catalog entries in G10; no deep reads needed",
+    "G11 (481789254000352): 3 posts; all prev-seen; 3 deep reads — 1380509867461615 (no delta 12=12), 1385056243673644 (no delta 10=10), 1368331015346167 (RECLASSIFIED locating→selling gen2, 2001 RT/10 $50k Queens NY)",
+    "seen.json: 233 total unchanged; 33 G8-G11 last_seen updated; 2 cls updated (null→general: 2907173139439748, 26390311687264669); 1 cls updated (locating→selling: 1368331015346167)",
+    "Rotation: next_index 8→12 (groups 12-15 next cycle)",
+    "Catalog after cycle 24: gen1:14, gen2:12, gen3:6, gen4:7, gen5:10, unknown:19 = 68 total (0 new, 1 reclassified locating→selling)"
+  ]
+}
