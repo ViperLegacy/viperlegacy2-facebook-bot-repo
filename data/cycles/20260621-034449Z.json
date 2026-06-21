@@ -1,0 +1,119 @@
+{
+  "ts": "2026-06-21T03:44:49.283Z",
+  "rotation": {
+    "start_index": 4,
+    "scanned": 4,
+    "active_total": 20,
+    "next_index": 8
+  },
+  "groups_scraped": [
+    {
+      "url": "https://www.facebook.com/groups/261218964862013/",
+      "name": "Dodge Viper Originals 92-02 Classifieds - Cars & Parts",
+      "posts_extracted": 7,
+      "new": 0,
+      "rereviewed": 4,
+      "skipped": 3
+    },
+    {
+      "url": "https://www.facebook.com/groups/335349806967085/",
+      "name": "Dodge Viper Originals 92-02 Sneaky Pete",
+      "posts_extracted": 11,
+      "new": 1,
+      "rereviewed": 2,
+      "skipped": 8
+    },
+    {
+      "url": "https://www.facebook.com/groups/1012457883847298/",
+      "name": "Gen V Dodge Vipers Buy/Sell/Trade/Chat",
+      "posts_extracted": 3,
+      "new": 0,
+      "rereviewed": 1,
+      "skipped": 2
+    },
+    {
+      "url": "https://www.facebook.com/groups/ViperRelatedSellBuy/",
+      "name": "VIPER related Help-Sell-Buy",
+      "posts_extracted": 7,
+      "new": 1,
+      "rereviewed": 1,
+      "skipped": 5
+    }
+  ],
+  "deep_reads_performed": 9,
+  "deep_read_limit": 10,
+  "findings": [
+    {
+      "post_id": "1777050786612149",
+      "action": "new",
+      "classification": "locating",
+      "generation": 1,
+      "part": "Gen 1 manifold heat shields"
+    },
+    {
+      "post_id": "1775577246759503",
+      "action": "new",
+      "classification": "selling",
+      "generation": 1,
+      "part": "1994 Gen 1 Viper RT/10 complete car"
+    },
+    {
+      "post_id": "1773116060338955",
+      "action": "updated",
+      "classification": "selling",
+      "generation": 1,
+      "part": "Gen 1/2 CarbonEnvy carbon diffuser",
+      "note": "reclassified from searching (gen3 misidentification)"
+    },
+    {
+      "post_id": "1772684247048803",
+      "action": "updated",
+      "classification": "locating",
+      "generation": null,
+      "part": "Relay protective cap (Don Scharf Auto)"
+    },
+    {
+      "post_id": "2454562378379140",
+      "action": "updated",
+      "classification": "selling",
+      "generation": 1,
+      "part": "Gen 1 OEM vinyl soft tops (Mike Scherzberg)",
+      "note": "updated author/description from deep read"
+    },
+    {
+      "post_id": "2450248968810481",
+      "action": "updated",
+      "classification": "locating",
+      "generation": null,
+      "part": "Havik/Mishimoto radiator hoses"
+    },
+    {
+      "post_id": "1515574226868992",
+      "action": "new",
+      "classification": "locating",
+      "generation": 5,
+      "part": "Gen V Viper complete car (Charlie Kall)"
+    },
+    {
+      "post_id": "27019684554347753",
+      "action": "updated",
+      "classification": "locating",
+      "generation": null,
+      "part": "RT10 hardtop front latch (Mike Scherzberg)",
+      "note": "reclassified from selling to locating"
+    },
+    {
+      "post_id": "27048392398143635",
+      "action": "new",
+      "classification": "selling",
+      "generation": 1,
+      "part": "1994 Gen 1 Viper RT/10 complete car (Mesa AZ dealer)"
+    }
+  ],
+  "deferred_deep_reads": [
+    {
+      "post_id": "2445964099238968",
+      "reason": "seen in feed, added to seen.json, no deep read performed"
+    }
+  ]
+}
