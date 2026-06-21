@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T10:30:00Z",
+  "updated_at": "2026-06-21T12:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -1147,6 +1147,27 @@
           "comments_seen": 10,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T08:35:08.267Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4366014253635424/",
+          "post_id": "4366014253635424",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": "Kyle Bomar",
+          "classification": "selling",
+          "summary": "Kyle Bomar announcing thousands of OE/NOS mostly-standard Viper engine bearings to be listed; community confirms main and rod bearings requested; gen2 main+rod interest noted; Tony Sawyer confirms seller is Kyle Bomar; high demand with multiple interested buyers",
+          "part_description": "OE/NOS standard Viper engine bearings (main and rod) — thousands available, to be listed by Kyle Bomar",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 20,
+          "first_seen": "2026-06-21T12:30:00Z",
+          "last_updated": "2026-06-21T12:30:00Z"
         }
       ]
     }

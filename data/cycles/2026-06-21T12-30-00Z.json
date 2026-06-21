@@ -1,0 +1,45 @@
+{
+  "cycle_ts": "2026-06-21T12:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1439929562963758/",
+    "https://www.facebook.com/groups/TheViperStore/",
+    "https://www.facebook.com/groups/1490844011152477/",
+    "https://www.facebook.com/groups/1406749243343144/"
+  ],
+  "group_names": [
+    "Viper Parts/Tech (1439929562963758)",
+    "The Viper Store",
+    "Viper Owners (1490844011152477)",
+    "Gen5 BST (1406749243343144)"
+  ],
+  "posts_seen": 33,
+  "new_posts": 1,
+  "deep_reads_performed": 2,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/1490844011152477/posts/4366014253635424/",
+    "https://www.facebook.com/groups/TheViperStore/posts/3346928932175218/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 0,
+  "dropped_reads": [
+    "3346928932175218 (TheViperStore OEM hood post — existing catalog entry confirmed accurate; Landon Kompelien OEM inserts detail already recorded; Bobby Archer comment added buying signal but no new catalog entry needed; comments now 4 vs 8 previously)"
+  ],
+  "classified_reads": [
+    {
+      "post_id": "4366014253635424",
+      "group": "1490844011152477",
+      "classification": "selling",
+      "generation": null,
+      "year": null,
+      "summary": "Kyle Bomar (confirmed by Tony Sawyer tag) announcing thousands of OE/NOS mostly-standard Viper engine bearings to be listed; Brock Fossati asked about main bearings; Edit Esquenazi-Styve specifically requested gen2 main+rod; multiple 'interested' and 'PM sent' responses; Mike Scherzberg joked '$1 per set'"
+    }
+  ],
+  "notes": [
+    "Group 0 (1439929562963758): 8 posts all prev seen; 3612613142362045 surfacing new Jonathan Silva comment asking Bobby Archer about fluid lines — existing selling classification unchanged",
+    "Group 1 (TheViperStore): 6 posts all prev seen; 3346928932175218 surfaced Landon Kompelien insert comment — already in catalog; confirmed Bobby Archer buying an OEM hood",
+    "Group 2 (1490844011152477): 15 posts, 1 new (4366014253635424 — Kyle Bomar NOS bearings); 4377662469137269 (Brian Jones door panel advice) unchanged general",
+    "Group 3 (1406749243343144): 4 posts all prev seen; 1900553593962704 (Gen5 buyer Spelock) still resolved",
+    "Catalog after cycle 12: gen1:11, gen2:5, gen3:6, gen4:4, gen5:8, unknown:21 = 55 total"
+  ]
+}
