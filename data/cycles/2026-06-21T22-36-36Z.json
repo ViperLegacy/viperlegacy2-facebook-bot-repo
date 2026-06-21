@@ -1,0 +1,66 @@
+{
+  "cycle_ts": "2026-06-21T22:36:36Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/261218964862013/",
+    "https://www.facebook.com/groups/335349806967085/",
+    "https://www.facebook.com/groups/1012457883847298/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/"
+  ],
+  "group_names": [
+    "Viper Parts & Cars (261218964862013)",
+    "Dodge Viper Buy/Sell/Trade (335349806967085)",
+    "Viper Owners Marketplace (1012457883847298)",
+    "Viper Related Sell/Buy (ViperRelatedSellBuy)"
+  ],
+  "posts_seen": 37,
+  "new_posts": 0,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/261218964862013/posts/1775577246759503/",
+    "https://www.facebook.com/groups/261218964862013/posts/1777050786612149/",
+    "https://www.facebook.com/groups/335349806967085/posts/2454562378379140/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27118951791087695/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27096949176621290/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1548378836921864/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/25339227989060093/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1544750113951403/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772589947058233/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1516173610142387/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 1,
+  "new_findings": [],
+  "re_reviews": [
+    {
+      "post_id": "1775577246759503",
+      "group": "261218964862013",
+      "classification": "selling",
+      "delta": "+1 comment (10→11)",
+      "summary": "Bogdan Minda confirmed price reduction: 1994 Viper RT/10 now $29,500 OBO (was higher). Additional detail: cognac carpet left side only, left door panel, black carpets installed, right headlight cracked with vinyl tint. lcs updated 10→11."
+    }
+  ],
+  "reclassifications": [],
+  "dropped_reads": [
+    "1777050786612149 (NO DELTA: 9=9 — locating Gen1 manifold heat shields maintained; Apollonius Salis + Tony Hanks confirmed availability)",
+    "2454562378379140 (NO DELTA: 14=14 — selling Gen1 soft tops maintained; Scherzberg has 92 vinyl + 93 rear-antenna top)",
+    "1548378836921864 (NO DELTA: 18=18 — selling Gen5 base maintained; AJ Mehta 2014 SRT; $120k offer rejected; Coltin Sherrell offered $180k)",
+    "25339227989060093 (NO DELTA: 2=2 — searching Gen2 GTS project maintained)",
+    "1544750113951403 (NO DELTA: 4=4 — selling Gen5 maintained; 'For Sale! Dm'; Kumho tire question)",
+    "1772589947058233 (NO DELTA: 6=6 — selling Gen1 parts maintained; water pump $500, fog lights $150, side markers $75, tentatively sold)",
+    "1516173610142387 (NO DELTA: 6=6 — selling Gen5 wheels maintained; HRE ACR 19x13/19x11 central CA)"
+  ],
+  "general_posts_confirmed": [
+    "27118951791087695 (G7 NEW general: OP 'Playing with that newfangled AI technology again. Kinda like the carbon fiber pattern stripes.' — AI car CF render, not a sale; cluster of 3 related AI render cards)",
+    "27096949176621290 (G7 NEW general: 2016 ACR rear diff grinding — friction modifier / slip additive tech help, not a parts transaction)"
+  ],
+  "notes": [
+    "G4 (261218964862013): 6 posts; all prev-seen; 1 RE-REVIEW (1775577246759503 +1, price reduced to $29,500); 1 no-delta (1777050786612149 9=9); 1 no-delta (1772589947058233 6=6)",
+    "G5 (335349806967085): 9 posts; all prev-seen; 1 no-delta (2454562378379140 14=14)",
+    "G6 (1012457883847298): 9 posts; all prev-seen; 3 no-delta (1548378836921864 18=18, 1544750113951403 4=4, 1516173610142387 6=6)",
+    "G7 (ViperRelatedSellBuy): 13 posts; all prev-seen; 1 no-delta (25339227989060093 2=2); 2 new general confirmed (27118951791087695 AI render, 27096949176621290 tech help)",
+    "seen.json: 233 total unchanged (all 37 posts were previously encountered from prior G4-G7 scan cycles; 40 last_seen timestamps updated)",
+    "Rotation: next_index 4→8 (groups 8-11 next cycle)",
+    "Catalog after cycle 23: gen1:14, gen2:11, gen3:6, gen4:7, gen5:10, unknown:20 = 68 total (0 new, 1 updated)"
+  ]
+}
