@@ -1,0 +1,89 @@
+{
+  "ts": "2026-06-21T01:44:17.365Z",
+  "rotation": {
+    "start_index": 16,
+    "scanned": 4,
+    "active_total": 20,
+    "next_index": 0
+  },
+  "groups_scraped": [
+    {
+      "url": "https://www.facebook.com/groups/3552832571664906/",
+      "name": "Viper Owners",
+      "posts_extracted": 6,
+      "new": 6,
+      "rereviewed": 0,
+      "skipped": 0
+    },
+    {
+      "url": "https://www.facebook.com/groups/4viperclub/",
+      "name": "Viper Club of America",
+      "posts_extracted": 17,
+      "new": 17,
+      "rereviewed": 0,
+      "skipped": 0
+    },
+    {
+      "url": "https://www.facebook.com/groups/646530975516107/",
+      "name": "Viper Club Of Ontario",
+      "posts_extracted": 6,
+      "new": 6,
+      "rereviewed": 0,
+      "skipped": 0
+    },
+    {
+      "url": "https://www.facebook.com/groups/2574946562765549/",
+      "name": "Chicagoland Viper Owners",
+      "posts_extracted": 14,
+      "new": 14,
+      "rereviewed": 0,
+      "skipped": 0
+    }
+  ],
+  "findings": [
+    {
+      "post_url": "https://www.facebook.com/groups/3552832571664906/posts/4396587847289370/",
+      "post_id": "4396587847289370",
+      "group_url": "https://www.facebook.com/groups/3552832571664906/",
+      "author": null,
+      "classification": "selling",
+      "summary": "Stryker Green 2014 Dodge Viper GTS with 202 miles listed for sale at $299k, pending sale",
+      "part_description": "2014 Dodge Viper GTS (whole car)",
+      "part_number": null,
+      "year": 2014,
+      "generation": 5,
+      "price": "$299k",
+      "location": null,
+      "signal_source": "post",
+      "resolved": false,
+      "photos": [],
+      "age_hours": null,
+      "comments_seen": 8,
+      "first_seen": "2026-06-21T01:44:17.365Z",
+      "last_updated": "2026-06-21T01:44:17.365Z"
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/646530975516107/posts/3531317660370743/",
+      "post_id": "3531317660370743",
+      "group_url": "https://www.facebook.com/groups/646530975516107/",
+      "author": null,
+      "classification": "selling",
+      "summary": "Gen 1 1994 RT/10 part-out: hardtop, rocker panels, and bumpers available; rockers priced at $3,000",
+      "part_description": "Gen 1 RT/10 part-out: hardtop, rocker panels, bumpers",
+      "part_number": null,
+      "year": 1994,
+      "generation": 1,
+      "price": "$3,000 (rockers)",
+      "location": null,
+      "signal_source": "post",
+      "resolved": false,
+      "photos": [],
+      "age_hours": null,
+      "comments_seen": 3,
+      "first_seen": "2026-06-21T01:44:17.365Z",
+      "last_updated": "2026-06-21T01:44:17.365Z"
+    }
+  ],
+  "deferred_deep_reads": 0,
+  "skip_reason": null
+}
