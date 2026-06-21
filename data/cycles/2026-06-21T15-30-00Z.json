@@ -1,0 +1,88 @@
+{
+  "cycle_ts": "2026-06-21T15:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/viperownersassociation/",
+    "https://www.facebook.com/groups/BestViperClub/",
+    "https://www.facebook.com/groups/3552832571664906/",
+    "https://www.facebook.com/groups/4viperclub/"
+  ],
+  "group_names": [
+    "Viper Owners Association (viperownersassociation)",
+    "Best Viper Club (BestViperClub)",
+    "Viper Gen3/4/5 BST (3552832571664906)",
+    "4viperclub (4viperclub)"
+  ],
+  "posts_seen": 37,
+  "new_posts": 6,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/4viperclub/posts/10163584183157955/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1617401826634362/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529077883934598/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3528406150668438/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529517833890603/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3528344294007957/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 4,
+  "dropped_reads": [
+    "1616954850012393 (NO DELTA: 10=10 — but corrected locating→selling; OP is selling Viper T-56, pump locating was from comments only)",
+    "3527238127451907 (NO DELTA: 8=8 — locating maintained: buddy in Denver searching Gen 3-5 GTS, Mike Scherzberg TT G3s + Jeff Morton Gen 4 Venom Red located)",
+    "3529077883934598 (NO DELTA: 10=10 — selling maintained: photos-only post, parts unidentifiable)",
+    "3527371310771922 (NO DELTA: 10=10 — selling maintained: Gen 1 clutch pedal travel reduction kit, production August)",
+    "3529517833890603 (RE-REVIEW +4: 8→12 — confirmed general: new owner celebration 'Finally joining the Viper club', no parts signal)",
+    "3528344294007957 (NO DELTA: 6=6 — searching maintained: OEM TA1.0 CF splitters + rear lip for Gen 5 customer)"
+  ],
+  "re_reviews": [
+    {
+      "post_id": "1617401826634362",
+      "group": "viperownersassociation",
+      "classification": "selling",
+      "delta": "+6 comments (6→12)",
+      "summary": "2009 Gen 4 Viper convertible, 1200whp F1-X Procharger, Indiana; Andy Kreuziger wants F1-X if parted out; Tony Blackburn-Knoy requesting info"
+    },
+    {
+      "post_id": "3528406150668438",
+      "group": "BestViperClub",
+      "classification": "searching",
+      "delta": "+3 comments (13→16)",
+      "summary": "1994 Gen 1 Viper dash paint searching; Tracy Burkhart recommends Honda Pro Cleaner / The Original spray polish"
+    },
+    {
+      "post_id": "3529282953914091",
+      "group": "BestViperClub",
+      "classification": "locating",
+      "delta": "+2 comments (10→12)",
+      "summary": "Autoform aero still manufactured per Stephen Perkins; 2 new social comments (Nic Spruill, Marco Hsu) — no new market signal"
+    }
+  ],
+  "new_findings": [
+    {
+      "post_id": "10163584183157955",
+      "group": "4viperclub",
+      "classification": "selling",
+      "summary": "OP offering unidentified Viper parts for sale (photos only); Andrew Sizer interested in buying — part type and generation unidentifiable"
+    }
+  ],
+  "corrections": [
+    {
+      "post_id": "1616954850012393",
+      "group": "viperownersassociation",
+      "old_classification": "locating",
+      "new_classification": "selling",
+      "note": "OP is selling a Viper T-56 transmission (from D&D, good condition). Previous catalog entry was classified from pump locating in comments only. Full OP text confirms selling primary signal."
+    }
+  ],
+  "notes": [
+    "G12 (viperownersassociation): 8 posts, all prev seen; 1617401826634362 RE-REVIEW +6 (Andy Kreuziger wants F1-X parted, Tony Blackburn-Knoy wants info); 1616954850012393 corrected locating→selling (T-56 OP primary)",
+    "G13 (BestViperClub): 13 posts, 2 new general (3528980497277670, 3523768187798901); 4 deep reads: 3528406150668438 RE-REVIEW +3 (Burkhart Honda Pro Cleaner rec), 3529282953914091 RE-REVIEW +2 (no new market signal), 3529517833890603 RE-REVIEW +4 (confirmed general — new owner celebration), 3528344294007957 no delta 6=6",
+    "G14 (3552832571664906): 5 posts, all prev seen general; no deep reads",
+    "G15 (4viperclub): 11 posts, 4 new (3 general: 10163587925212955, 10163587800237955, 10163586325337955; 1 selling: 10163584183157955 photos-only); 10163584183157955 deep-read — NEW selling finding added",
+    "Catalog after cycle 15: gen1:11, gen2:6, gen3:6, gen4:4, gen5:8, unknown:22 = 57 total (1 new, 4 updated)"
+  ]
+}

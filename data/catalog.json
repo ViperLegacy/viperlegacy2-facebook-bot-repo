@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T14:30:00Z",
+  "updated_at": "2026-06-21T15:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -9,7 +9,7 @@
           "group_url": "https://www.facebook.com/groups/BestViperClub/",
           "author": "Hoordad Ghandehari",
           "classification": "searching",
-          "summary": "1994 Viper (Gen 1) owner searching for dash paint vendor or recommendations to fix scratches and misalignments",
+          "summary": "1994 Viper (Gen 1) owner searching for dash paint vendor or recommendations to fix scratches and misalignments; Tracy Burkhart recommends 'Honda Pro Cleaner' / 'The Original' spray polish as a care solution",
           "part_description": "dash paint / dash refinishing service",
           "part_number": null,
           "year": 1994,
@@ -20,9 +20,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 13,
+          "comments_seen": 16,
           "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T01:18:36.229Z"
+          "last_updated": "2026-06-21T15:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
@@ -498,7 +498,7 @@
           "group_url": "https://www.facebook.com/groups/viperownersassociation/",
           "author": null,
           "classification": "selling",
-          "summary": "2009 Dodge Viper convertible (Gen 4), 80k miles, 1200whp F1-X Procharger build for sale in Indiana; open to trade for stock Gen 4 or Gen 5",
+          "summary": "2009 Dodge Viper convertible (Gen 4), 80k miles, 1200whp F1-X Procharger build for sale in Indiana; open to trade for stock Gen 4 or Gen 5; Andy Kreuziger wants to be contacted if F1-X is parted out; Tony Blackburn-Knoy requesting more info",
           "part_description": "2009 Viper convertible (fully built, F1-X Procharger)",
           "part_number": null,
           "year": 2009,
@@ -509,9 +509,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 6,
+          "comments_seen": 12,
           "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T01:18:36.229Z"
+          "last_updated": "2026-06-21T15:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/228838842192257/posts/1566517541757707/",
@@ -905,21 +905,21 @@
           "post_id": "1616954850012393",
           "group_url": "https://www.facebook.com/groups/viperownersassociation/",
           "author": null,
-          "classification": "locating",
-          "summary": "Vendor Michael Kuchavik Jr. sells rebuilt Gen 1/2 Viper pumps (no rebuild kits sold — too many cracked housings); located via comment exchange",
-          "part_description": "rebuilt Gen 1/2 water pumps",
+          "classification": "selling",
+          "summary": "OP selling a Viper T-56 transmission (from D&D, no known issues, was behind SBC street car, never raced); Tobi Kelly asked about Gen 1/2 water pump rebuild kits in comments; Michael Kuchavik Jr. confirmed he sells rebuilt pumps only (no kits — too many cracked housings)",
+          "part_description": "Viper T-56 transmission (from D&D, good condition, behind SBC street car)",
           "part_number": null,
           "year": null,
           "generation": null,
           "price": null,
           "location": null,
-          "signal_source": "comments",
+          "signal_source": "post",
           "resolved": false,
           "photos": [],
           "age_hours": null,
           "comments_seen": 10,
           "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T01:18:36.229Z"
+          "last_updated": "2026-06-21T15:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/",
@@ -938,9 +938,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 10,
+          "comments_seen": 12,
           "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T01:18:36.229Z"
+          "last_updated": "2026-06-21T15:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4150317671924920/",
@@ -1189,6 +1189,27 @@
           "comments_seen": 20,
           "first_seen": "2026-06-21T12:30:00Z",
           "last_updated": "2026-06-21T12:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163584183157955/",
+          "post_id": "10163584183157955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "selling",
+          "summary": "OP offering unidentified Viper parts for sale (photos only, no text description); Andrew Sizer asks if they are for sale and expresses buying interest — part type and generation unidentifiable from post text",
+          "part_description": "Unspecified Viper parts (photos only); part type and generation unidentifiable from post text",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 2,
+          "first_seen": "2026-06-21T15:30:00Z",
+          "last_updated": "2026-06-21T15:30:00Z"
         }
       ]
     }
