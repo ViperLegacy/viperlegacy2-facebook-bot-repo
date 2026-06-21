@@ -1,0 +1,79 @@
+{
+  "cycle_ts": "2026-06-21T08:35:34.651Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/261218964862013/",
+    "https://www.facebook.com/groups/335349806967085/",
+    "https://www.facebook.com/groups/1012457883847298/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/"
+  ],
+  "group_names": [
+    "Viper Originals 92-02 Classifieds",
+    "Sneaky Pete",
+    "Gen V BST",
+    "ViperRelatedSellBuy"
+  ],
+  "posts_seen": 36,
+  "new_posts": 0,
+  "deep_reads_performed": 8,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/1012457883847298/posts/1548378836921864/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1544750113951403/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1546288013797613/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772589947058233/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449862685515776/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449834888851889/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1516173610142387/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27118951811087693/"
+  ],
+  "new_classifications": 7,
+  "dropped_reads": [
+    "1546288013797613 (DSC coilover tuning question, no parts trade)"
+  ],
+  "findings_added": 7,
+  "catalog_total": 51,
+  "findings_summary": [
+    {
+      "post_id": "1772589947058233",
+      "classification": "selling",
+      "gen": 1,
+      "summary": "Gen 1 water pump 00 FIRM"
+    },
+    {
+      "post_id": "2449834888851889",
+      "classification": "selling",
+      "gen": 1,
+      "summary": "1995 Gen 1 RT/10, 39,928mi, Houston TX, Roe Racing SC"
+    },
+    {
+      "post_id": "27118951811087693",
+      "classification": "selling",
+      "gen": 2,
+      "resolved": true,
+      "summary": "2000 Gen 2 parts lot (keys, gaskets) — sold"
+    },
+    {
+      "post_id": "1548378836921864",
+      "classification": "selling",
+      "gen": 5,
+      "summary": "2014 Gen 5 SRT base for sale, ~20-130k market"
+    },
+    {
+      "post_id": "1544750113951403",
+      "classification": "selling",
+      "gen": 5,
+      "summary": "Gen 5 for sale, OEM Kumhos, community questions 00k ask"
+    },
+    {
+      "post_id": "1516173610142387",
+      "classification": "selling",
+      "gen": 5,
+      "summary": "HRE ACR-spec wheels 19x13/19x11, central CA"
+    },
+    {
+      "post_id": "2449862685515776",
+      "classification": "locating",
+      "gen": "unknown",
+      "summary": "Dan Lesser (ViperSpecialty) has Roe Racing CPUs in stock"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T07:29:55.412Z",
+  "updated_at": "2026-06-21T08:35:08.267Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -165,6 +165,48 @@
           "comments_seen": 4,
           "first_seen": "2026-06-21T03:44:49.283Z",
           "last_updated": "2026-06-21T03:44:49.283Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/261218964862013/posts/1772589947058233/",
+          "post_id": "1772589947058233",
+          "group_url": "https://www.facebook.com/groups/261218964862013/",
+          "author": null,
+          "classification": "selling",
+          "summary": "Gen 1 water pump listed for $500 FIRM in 92-02 Classifieds; commenter notes new price is $370",
+          "part_description": "Gen 1 Dodge Viper water pump — $500 FIRM",
+          "part_number": null,
+          "year": null,
+          "generation": 1,
+          "price": "$500 FIRM",
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 6,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T08:35:08.267Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/335349806967085/posts/2449834888851889/",
+          "post_id": "2449834888851889",
+          "group_url": "https://www.facebook.com/groups/335349806967085/",
+          "author": null,
+          "classification": "selling",
+          "summary": "1995 Gen 1 Viper RT/10 for sale in Houston TX, 39,928 miles, garage kept, Roe Racing supercharger; community estimates $35k-$40k",
+          "part_description": "1995 Dodge Viper RT/10 (whole car) — 39,928 miles, garage kept, Roe Racing SC, Houston TX",
+          "part_number": null,
+          "year": 1995,
+          "generation": 1,
+          "price": null,
+          "location": "Houston, TX",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 20,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T08:35:08.267Z"
         }
       ]
     },
@@ -231,6 +273,27 @@
           "comments_seen": 4,
           "first_seen": "2026-06-21T03:44:49.283Z",
           "last_updated": "2026-06-21T06:30:32.149Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27118951811087693/",
+          "post_id": "27118951811087693",
+          "group_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/",
+          "author": null,
+          "classification": "selling",
+          "summary": "2000 Gen 2 Viper parts lot found (keys, oil pan gasket, valve cover gaskets, etc.) — posted as sold in comments",
+          "part_description": "2000 Viper (Gen 2) parts lot: keys, oil pan gasket, valve cover gaskets and more — sold",
+          "part_number": null,
+          "year": 2000,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": true,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 20,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T08:35:08.267Z"
         }
       ]
     },
@@ -536,6 +599,69 @@
           "comments_seen": 14,
           "first_seen": "2026-06-20T23:25:40Z",
           "last_updated": "2026-06-21T07:29:55.412Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1548378836921864/",
+          "post_id": "1548378836921864",
+          "group_url": "https://www.facebook.com/groups/1012457883847298/",
+          "author": null,
+          "classification": "selling",
+          "summary": "2014 Gen 5 Viper SRT-10 base for sale in Gen V BST group; buyer offered $120k, Coltin Sherrell says his is worth $180k; market in $120k-$130k range for lower-miles cars",
+          "part_description": "2014 Dodge Viper SRT-10 base (whole car)",
+          "part_number": null,
+          "year": 2014,
+          "generation": 5,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 9,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T08:35:08.267Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1544750113951403/",
+          "post_id": "1544750113951403",
+          "group_url": "https://www.facebook.com/groups/1012457883847298/",
+          "author": null,
+          "classification": "selling",
+          "summary": "Gen 5 Viper listed for sale (\"For Sale! Dm for info\") with original Kumho tires; commenter disputes $400k asking price, suggests $200k",
+          "part_description": "Gen 5 Dodge Viper (whole car) — original Kumho tires; no model/year specified",
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T08:35:08.267Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1516173610142387/",
+          "post_id": "1516173610142387",
+          "group_url": "https://www.facebook.com/groups/1012457883847298/",
+          "author": null,
+          "classification": "selling",
+          "summary": "HRE ACR-spec wheels for sale in central CA: 19x13 rear and 19x11 front; multiple interested buyers",
+          "part_description": "HRE wheels, ACR spec, 19x13 and 19x11 (Gen 5 ACR fitment) — central California",
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": null,
+          "location": "central California",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 6,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T08:35:08.267Z"
         }
       ]
     },
@@ -937,6 +1063,27 @@
           "comments_seen": 6,
           "first_seen": "2026-06-20T23:25:40Z",
           "last_updated": "2026-06-21T07:29:55.412Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/335349806967085/posts/2449862685515776/",
+          "post_id": "2449862685515776",
+          "group_url": "https://www.facebook.com/groups/335349806967085/",
+          "author": null,
+          "classification": "locating",
+          "summary": "OP has PCM/CPU communication failure; Dan Lesser (ViperSpecialty@gmail.com) offers diagnosis and has Roe Racing CPU units in stock",
+          "part_description": "Roe Racing CPU/PCM — Dan Lesser at ViperSpecialty@gmail.com has units in stock",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 10,
+          "first_seen": "2026-06-21T00:22:12Z",
+          "last_updated": "2026-06-21T08:35:08.267Z"
         }
       ]
     }
