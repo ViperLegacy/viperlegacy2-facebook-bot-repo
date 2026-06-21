@@ -1,0 +1,69 @@
+{
+  "cycle_ts": "2026-06-21T17:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1439929562963758/",
+    "https://www.facebook.com/groups/TheViperStore/",
+    "https://www.facebook.com/groups/1490844011152477/",
+    "https://www.facebook.com/groups/1406749243343144/"
+  ],
+  "group_names": [
+    "Dodge Viper Parts BST (1439929562963758)",
+    "The Viper Store (TheViperStore)",
+    "Dodge Viper Buy & Sale (1490844011152477)",
+    "Dodge Viper For Sale (1406749243343144)"
+  ],
+  "posts_seen": 22,
+  "new_posts": 3,
+  "deep_reads_performed": 8,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/1439929562963758/posts/4156781601278527/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4381449655425217/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4150317671924920/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4156038008019553/",
+    "https://www.facebook.com/groups/TheViperStore/posts/3346928932175218/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4379938158909700/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4366014253635424/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4378121145758068/"
+  ],
+  "new_classifications": 2,
+  "new_catalog_findings": 2,
+  "updated_catalog_findings": 1,
+  "dropped_reads": [
+    "4150317671924920 (NO DELTA: 4=4 — searching maintained: underhood relay cap, Cameron Webster offers 3D printed design)",
+    "4156038008019553 (NO DELTA: 4=4 — locating maintained: Gen 4+ air intake box, James Tierney has a few, Brian Jones tagged)",
+    "4379938158909700 (NO DELTA: returns 6 < stored 8, keep 8 — selling maintained: 2004 Gen 3 SRT-10 78k miles $41k; Hayden England asked about stock wheels)",
+    "4366014253635424 (NO DELTA: 20=20 — selling maintained: Kyle Bomar thousands of OE/NOS STD engine bearings, multiple buyers interested)",
+    "4378121145758068 (NO DELTA: 20=20 — null class maintained: Gen 3 coupe price discussion, market data only; range $42k-$105k across comments)"
+  ],
+  "re_reviews": [
+    {
+      "post_id": "3346928932175218",
+      "group": "TheViperStore",
+      "classification": "selling",
+      "delta": "+4 comments (4→8)",
+      "summary": "Andy Kreuziger OEM hoods ($3,500 WI pickup or $3,700+LTL): Bobby Archer confirmed 'I will buy one!!'; Andy Kreuziger texted him. Landon Kompelien still has brand-new OEM inserts in boxes to sell separately to a purist"
+    }
+  ],
+  "new_findings": [
+    {
+      "post_id": "4156781601278527",
+      "group": "1439929562963758",
+      "classification": "searching",
+      "summary": "OP searching for passenger-side Gen 1 Viper rocker panel / side sill (any color, imperfect ok); Brian Jones replied 'I have a few'; Mike Scherzberg tagged as additional potential source"
+    },
+    {
+      "post_id": "4381449655425217",
+      "group": "1490844011152477",
+      "classification": "selling",
+      "summary": "1994 Gen 1 Viper RT/10, 32,532 miles, $48,999; Lemke hardtop noted by commenter Scott Chambers; financing/trades/nationwide shipping; contact Josiah via messenger. Likely cross-post of Mesa AZ listing (ViperRelatedSellBuy/27048392398143635)"
+    }
+  ],
+  "notes": [
+    "G0 (1439929562963758): 5 posts; 2 prev-seen ACTIVE tracked (4150317671924920 relay cap no delta, 4156038008019553 air intake no delta); 1 NEW searching (4156781601278527 Gen 1 rocker panel — Brian Jones has a few); 2 prev-seen general",
+    "G1 (TheViperStore): 5 posts; 3346928932175218 RE-REVIEW +4 (Bobby Archer buying confirmed); 4 prev-seen general",
+    "G2 (1490844011152477): 10 posts; 2 NEW (4381518722084977 general 'Headed to Florida', 4381449655425217 NEW selling 1994 RT/10 $48,999 Lemke top); 4379938158909700 no delta keep 8; 4366014253635424 no delta 20=20; 4378121145758068 no delta 20=20 null class maintained (Gen 3 coupe price discussion); 3 prev-seen general",
+    "G3 (1406749243343144): 2 posts, both prev-seen general — no deep reads, no new posts",
+    "Rotation: next_index 0→4 (groups 4-7 next cycle)",
+    "Catalog after cycle 17: gen1:13, gen2:7, gen3:6, gen4:4, gen5:9, unknown:22 = 61 total (2 new, 1 updated)"
+  ]
+}

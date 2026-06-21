@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T16:30:00Z",
+  "updated_at": "2026-06-21T17:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -228,6 +228,48 @@
           "comments_seen": 20,
           "first_seen": "2026-06-21T10:30:00Z",
           "last_updated": "2026-06-21T10:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4156781601278527/",
+          "post_id": "4156781601278527",
+          "group_url": "https://www.facebook.com/groups/1439929562963758/",
+          "author": null,
+          "classification": "searching",
+          "summary": "OP searching for passenger-side Gen 1 Viper rocker panel / side sill (any color, imperfect ok); Brian Jones replied \"I have a few\"; Mike Scherzberg also tagged by commenter as potential source",
+          "part_description": "Gen 1 Viper passenger-side rocker panel / side sill — Brian Jones has several in stock; Mike Scherzberg tagged",
+          "part_number": null,
+          "year": null,
+          "generation": 1,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-21T17:30:00Z",
+          "last_updated": "2026-06-21T17:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4381449655425217/",
+          "post_id": "4381449655425217",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": "Josiah",
+          "classification": "selling",
+          "summary": "1994 Dodge Viper RT/10, 8.0L V10, 6-speed manual, 32,532 miles, $48,999; commenter Scott Chambers notes it has a Lemke hardtop; financing and trades accepted; nationwide shipping available; contact Josiah via messenger. Likely cross-post of Mesa AZ listing (ViperRelatedSellBuy/27048392398143635)",
+          "part_description": "1994 Dodge Viper RT/10 (complete car) — 32,532 miles, Lemke hardtop noted; dealer listing",
+          "part_number": null,
+          "year": 1994,
+          "generation": 1,
+          "price": "$48,999",
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 2,
+          "first_seen": "2026-06-21T17:30:00Z",
+          "last_updated": "2026-06-21T17:30:00Z"
         }
       ]
     },
@@ -841,7 +883,7 @@
           "group_url": "https://www.facebook.com/groups/TheViperStore/",
           "author": "Andy Kreuziger",
           "classification": "selling",
-          "summary": "Andy Kreuziger selling new OEM Viper hoods in original Mopar packaging, no inserts; $3,500 pickup in Wisconsin or $3,700 + LTL freight shipping; Landon Kompelien also has brand-new OEM hood inserts to sell separately",
+          "summary": "Andy Kreuziger selling new OEM Viper hoods in original Mopar packaging, no inserts; $3,500 pickup in Wisconsin or $3,700 + LTL freight shipping; Bobby Archer confirmed purchasing one (Kreuziger texted him); Landon Kompelien has brand-new OEM hood inserts (in original boxes) to sell separately to a purist",
           "part_description": "OEM Viper hood (new, in Mopar packaging, no inserts/vents); LTL freight from Wisconsin",
           "part_number": null,
           "year": null,
@@ -853,7 +895,7 @@
           "age_hours": null,
           "comments_count": null,
           "first_seen": "2026-06-21T02:38:44.739Z",
-          "last_updated": "2026-06-21T02:38:44.739Z",
+          "last_updated": "2026-06-21T17:30:00Z",
           "resolved": false,
           "comments_seen": 8
         },
