@@ -1,0 +1,46 @@
+{
+  "cycle_ts": "2026-06-21T14:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+    "https://www.facebook.com/groups/481789254000352/",
+    "https://www.facebook.com/groups/1438361473048175/",
+    "https://www.facebook.com/groups/228838842192257/"
+  ],
+  "group_names": [
+    "SRT Viper Owner All Club (srtviperownerallclubmembers)",
+    "Viper G2 (481789254000352)",
+    "Gen 3/4 BST (1438361473048175)",
+    "Viper Gen3 BST (228838842192257)"
+  ],
+  "posts_seen": 22,
+  "new_posts": 0,
+  "deep_reads_performed": 3,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/481789254000352/posts/1380509867461615/",
+    "https://www.facebook.com/groups/228838842192257/posts/1566517541757707/",
+    "https://www.facebook.com/groups/228838842192257/posts/1569026524840142/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 0,
+  "dropped_reads": [
+    "1566517541757707 (TRACKED searching Gen 4 ACR Switzerland — comments_returned 10 = last_comments_seen 10, no delta)",
+    "1569026524840142 (TRACKED searching Gen 3 forged rods — comments_returned 18 = last_comments_seen 18, no delta)"
+  ],
+  "re_reviews": [],
+  "new_findings": [
+    {
+      "post_id": "1380509867461615",
+      "group": "481789254000352",
+      "classification": "searching",
+      "summary": "New 2000 GTS owner Dan searching for Gen 2 coilover and sway bar recommendations; Kevin James has KW V2 coilovers (needs rebuild, might sell); BC Racing via viper-parts.com; Nick Reid at reidperformance.com; MCS also mentioned"
+    }
+  ],
+  "notes": [
+    "Group 8 (srtviperownerallclubmembers): 9 posts, all prev seen/general (surfaced comment cards — Gen 3/4 driving discussion, paint codes, color opinions); no comments_seen stored, no market signals",
+    "Group 9 (481789254000352): 3 posts, all prev seen; 1380509867461615 reclassified general→searching (OP asking Gen 2 suspension, Kevin James KW V2 conditional sell); 1385056243673644 and 1368331015346167 last_seen updated only",
+    "Group 10 (1438361473048175): 0 posts returned — Facebook showed nothing this cycle",
+    "Group 11 (228838842192257): 10 posts, all prev seen; 1566517541757707 (ACR Switzerland) no delta 10=10; 1569026524840142 (Gen 3 rods) no delta 18=18; remainder general comment cards, last_seen updated",
+    "Catalog after cycle 14: gen1:11, gen2:6, gen3:6, gen4:4, gen5:8, unknown:21 = 56 total (1 new, 0 updated)"
+  ]
+}

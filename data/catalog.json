@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T13:30:00Z",
+  "updated_at": "2026-06-21T14:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -336,6 +336,27 @@
           "comments_seen": 20,
           "first_seen": "2026-06-21T10:30:00Z",
           "last_updated": "2026-06-21T10:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/481789254000352/posts/1380509867461615/",
+          "post_id": "1380509867461615",
+          "group_url": "https://www.facebook.com/groups/481789254000352/",
+          "author": null,
+          "classification": "searching",
+          "summary": "New 2000 GTS owner Dan searching for Gen 2 coilover and sway bar recommendations; Kevin James has KW V2 coilovers (needs rebuild, might sell); BC Racing via viper-parts.com (Matt Terrico); MCS (Phil Oppedisano); Nick Reid (reidperformance.com) notes BC most popular for Gen 2, Nitron good value, KW only offers V2",
+          "part_description": "Gen 2 Viper coilovers and sway bars; Kevin James has KW V2 coilovers available (needs rebuild)",
+          "part_number": null,
+          "year": 2000,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 12,
+          "first_seen": "2026-06-21T14:30:00Z",
+          "last_updated": "2026-06-21T14:30:00Z"
         }
       ]
     },
