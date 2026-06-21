@@ -247,6 +247,21 @@ If `read-post` fails for a queued post, fall back to the feed-text
 classification for a NEW post (no comment baseline — it'll get one
 next time its group rotates), or leave a TRACKED finding unchanged.
 
+**The feed text may be a COMMENT, not the original post.** Facebook
+injects "X replied to a post" / surfaced-comment cards into group
+feeds, so read-group sometimes captures a reply (e.g. a vendor's
+"We may have one", "I have one", "DM me") as if it were the post.
+That reply tells you the LANE (a vendor locating/offering) but NOT
+what the part is. So once you deep-read, take **read-post's `post`
+(the OP body) as the authoritative source of WHICH PART** — the OP
+is the original ask/offer that names it (e.g. OP = "looking for the
+protective cap for the underhood relays" → part_description =
+"underhood relay protective cap"; the "we may have one" reply is the
+locating lead). Only leave `part_description` null if the part is
+genuinely unidentifiable even from the OP (e.g. a photo-only post
+with no text). "unspecified" is a signal you classified off a reply
+without resolving the OP — deep-read and fix it.
+
 #### 5b. Classify each post you're keeping
 
 Use your reading comprehension on the post text + photos + (when
