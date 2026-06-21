@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T06:30:32.149Z",
+  "updated_at": "2026-06-21T07:29:55.412Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -406,6 +406,27 @@
           "comments_seen": 12,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T04:35:29.958Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4156038008019553/",
+          "post_id": "4156038008019553",
+          "group_url": "https://www.facebook.com/groups/1439929562963758/",
+          "author": null,
+          "classification": "locating",
+          "summary": "OP searching for Gen 4+ air intake box with filter; James Tierney has several; Brian Jones also likely has one",
+          "part_description": "Gen 4+ air intake box with filter — James Tierney has several; Brian Jones also has one",
+          "part_number": null,
+          "year": null,
+          "generation": 4,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-21T07:29:55.412Z"
         }
       ]
     },
@@ -494,6 +515,27 @@
           "comments_seen": 6,
           "first_seen": "2026-06-21T05:27:47.302Z",
           "last_updated": "2026-06-21T05:38:50.540Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4152706598352694/",
+          "post_id": "4152706598352694",
+          "group_url": "https://www.facebook.com/groups/1439929562963758/",
+          "author": null,
+          "classification": "locating",
+          "summary": "OP ISO Gen 5 bellhousing; Brian Jones has several in stock; Andy Kreuziger has sold some; Mike Scherzberg notes Gen 4 bellhousing should be same",
+          "part_description": "Gen 5 bellhousing — Brian Jones has several; Andy Kreuziger has sold some (Gen 4 also compatible per Mike Scherzberg)",
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 14,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-21T07:29:55.412Z"
         }
       ]
     },
@@ -874,6 +916,27 @@
           "comments_seen": 10,
           "first_seen": "2026-06-21T01:18:01.591Z",
           "last_updated": "2026-06-21T05:38:50.540Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4381061565464026/",
+          "post_id": "4381061565464026",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": null,
+          "classification": "selling",
+          "summary": "Viper listed in excellent condition with photos; comments ask about trades and Corsa exhaust; year/model not stated in post text",
+          "part_description": "Viper (complete car, excellent condition) — year/generation unspecified; Corsa exhaust mentioned by commenter",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 6,
+          "first_seen": "2026-06-20T23:25:40Z",
+          "last_updated": "2026-06-21T07:29:55.412Z"
         }
       ]
     }

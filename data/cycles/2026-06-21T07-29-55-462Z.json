@@ -1,0 +1,71 @@
+{
+  "ts": "2026-06-21T07:29:55.462Z",
+  "rotation": {
+    "start_index": 0,
+    "scanned": [
+      "https://www.facebook.com/groups/1439929562963758/",
+      "https://www.facebook.com/groups/TheViperStore/",
+      "https://www.facebook.com/groups/1490844011152477/",
+      "https://www.facebook.com/groups/1406749243343144/"
+    ],
+    "active_total": 20,
+    "next_index": 4
+  },
+  "groups_scraped": [
+    {
+      "group_url": "https://www.facebook.com/groups/1439929562963758/",
+      "posts_returned": 8
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/TheViperStore/",
+      "posts_returned": 6
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/1490844011152477/",
+      "posts_returned": 14
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/1406749243343144/",
+      "posts_returned": 4
+    }
+  ],
+  "posts_scraped_total": 32,
+  "new_posts": 0,
+  "existing_posts": 32,
+  "deep_reads_performed": 4,
+  "deep_read_limit": 10,
+  "notes": "Zero new posts across all 4 groups. All surfaced comment cards from existing threads. 4 deep reads on general-classified backlog posts.",
+  "findings": [
+    {
+      "post_id": "4152706598352694",
+      "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4152706598352694/",
+      "action": "new",
+      "classification": "locating",
+      "generation": 5,
+      "summary": "Gen 5 bellhousing — Brian Jones has several; Andy Kreuziger has sold some"
+    },
+    {
+      "post_id": "4156038008019553",
+      "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4156038008019553/",
+      "action": "new",
+      "classification": "locating",
+      "generation": 4,
+      "summary": "Gen 4+ air intake box with filter — James Tierney has several; Brian Jones likely has one"
+    },
+    {
+      "post_id": "4381061565464026",
+      "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4381061565464026/",
+      "action": "new",
+      "classification": "selling",
+      "generation": null,
+      "summary": "Viper in excellent condition listed for sale; year/model unspecified in post text"
+    }
+  ],
+  "dropped_no_signal": [
+    {
+      "post_id": "4378121145758068",
+      "reason": "Gen 3 coupe price discussion thread — market inquiry only, no active buyer/seller"
+    }
+  ],
+  "deferred_deep_reads": []
+}
