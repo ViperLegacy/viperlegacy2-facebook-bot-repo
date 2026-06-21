@@ -107,21 +107,24 @@ If `{ok:false}` with `error: "not logged in"` / `"cookies missing"`:
 cd /workspace/repo
 jq -c '.groups[] | select(.active != false)' config/groups.json   # active groups (ordered)
 jq '.scan_per_cycle // 4' config/groups.json                      # round-robin batch size
+jq '.deep_read_per_cycle // 10' config/groups.json                # read-post budget per cycle
 cat config/generations.json                                       # year -> gen map
 cat data/state/seen.json                                          # dedup + comment-delta state
 cat data/state/rotation.json                                      # round-robin cursor
 ```
 
 - `config/groups.json` — which groups to scrape, plus
-  `scan_per_cycle` (default 4). Operator edits out of band; you
-  just read it.
+  `scan_per_cycle` (default 4) and `deep_read_per_cycle` (default
+  10, the per-cycle read-post budget). Operator edits out of band;
+  you just read it.
 - `config/generations.json` — the year/slug → generation map. Use
   it to assign `generation` (1-5) to every finding.
 - `data/state/seen.json` — the rolling dedup + comment-delta state,
   keyed by `post_url`: `{ post_id, group_url, first_seen, last_seen,
-  last_comments_count, last_classification }`. Load it into your
-  turn; you will compare against it in step 4 and rewrite it in
-  step 7.
+  last_comments_seen, last_classification, resolved }`.
+  `last_comments_seen` is the comment count from the LAST read-post
+  of this post (not the feed). Load it into your turn; you compare
+  against it in steps 4-5 and rewrite it in step 7.
 - `data/state/rotation.json` — the round-robin cursor:
   `{ next_index }`, a 0-based offset into the ACTIVE-group list.
   You use it in step 3 to pick which groups to scan this cycle and
@@ -155,6 +158,14 @@ Returns `{ok, group_url, posts:[{post_id, post_url, author, text,
 age_text, age_hours, comments_count, shares_count, reactions_count,
 photos}], ...}`.
 
+**Important: ignore `comments_count` from read-group.** Facebook does
+NOT render an aggregate comment count on group feed cards (verified
+live), so the feed `comments_count` is almost always null and is NOT
+the delta source. The authoritative comment count comes from
+`read-post` (step 5a), which returns `comments_returned` = the number
+of comments it actually loaded on the permalink. That is the signal
+the delta is built on.
+
 Sleep 30-60s BETWEEN groups (Facebook flags rapid sequential group
 visits):
 
@@ -162,39 +173,48 @@ visits):
 sleep $((30 + RANDOM % 30))
 ```
 
-Note: comment-delta RE-REVIEW (step 4) only fires for posts in the
-groups scanned THIS cycle. A thread in a group that's not in this
-cycle's batch is re-checked when its group next comes up in the
-rotation — that latency is the accepted cost of the lighter
-footprint.
+Note: comment-delta RE-REVIEW only fires for posts in the groups
+scanned THIS cycle. A thread in a group that's not in this cycle's
+batch is re-checked when its group next comes up in the rotation —
+that latency is the accepted cost of the lighter footprint.
 
 ### Step 4. Triage every post against seen-state (your turn)
 
-For each post across all groups, decide its lane using `seen.json`:
+Because the feed gives no comment count, the comment-delta is
+detected by RE-OPENING a post's permalink (read-post) and comparing
+how many comments it loads now versus the count stored from last
+time. So triage decides which posts to deep-read this cycle, within
+the `deep_read_per_cycle` budget (default 10).
 
-- **NEW** — `post_url` not in `seen.json`. Read its feed text and
-  classify (step 5). If the post looks transactional but its real
-  signal might be in the comments (it has comments and the feed
-  text alone is ambiguous), queue it for a deep read in step 5a.
-- **RE-REVIEW** — `post_url` in `seen.json` AND the freshly scraped
-  `comments_count` is GREATER than `last_comments_count`. New
-  comments arrived; the transaction signal (someone answering a
-  WTB with "I have one", a WTS getting "sold" / "still available",
-  a part located in-thread) often lives there. Queue it for a deep
-  read in step 5a.
-- **SKIP** — `post_url` in `seen.json` AND `comments_count` is
-  unchanged or lower (or null on both sides). Nothing new; drop it.
-  Do not re-process. This is the whole point of the state file:
-  the operator never sees a finding twice unless the thread
-  actually moved.
+For each scraped post, by `post_url`:
 
-Cap deep reads at ~12 posts per cycle (the highest comment-delta
-RE-REVIEW posts first, then ambiguous NEW posts). If more qualify,
-they'll surface next cycle. Log how many you deferred.
+- **NEW** — `post_url` not in `seen.json`. Classify from the feed
+  text (step 5b). If it's a KEEPER (searching / selling / locating /
+  ambiguous — i.e. not `general`), QUEUE it for a deep read: that
+  both reads the comments (where the real signal often is) and
+  records the baseline comment count. A NEW post you judge `general`
+  from the feed text alone is recorded as general in `seen.json`
+  and NOT deep-read.
+- **TRACKED / ACTIVE** — `post_url` in `seen.json`, its
+  `last_classification` is a keeper (not `general`), and it's still
+  ACTIVE: `first_seen` within the last `ACTIVE_DAYS` (default 5) and
+  not already marked `resolved`. QUEUE it for a deep read to check
+  whether comments grew. (Parts deals close fast; findings older
+  than ACTIVE_DAYS stop being re-checked — they stay in the catalog
+  but you no longer spend a deep read on them.)
+- **SKIP** — everything else: posts whose `last_classification` is
+  `general`, or tracked findings past ACTIVE_DAYS, or already
+  `resolved`. Just bump `last_seen`; do not deep-read, do not
+  re-record.
+
+Budget: queue at most `deep_read_per_cycle` deep reads. Priority
+order: NEW keepers first, then ACTIVE tracked findings most-recently
+active. Defer the rest to a later cycle and log how many you
+deferred.
 
 ### Step 5. Classify + extract (your turn, judgment only)
 
-#### 5a. Deep-read queued posts (bash)
+#### 5a. Deep-read queued posts (bash) + compute the delta
 
 For each queued post:
 
@@ -203,9 +223,29 @@ xvfb-run -a node specialists/fb-groups.js read-post \
   --url '<post_url>' --max-comments 40
 ```
 
-Returns `{ok, post:{author,text,photos}, comments:[{author,text}]}`.
-Sleep 15-30s between deep reads. Read the OP body AND the comments
-together to decide the finding.
+Returns `{ok, post:{author,text,photos}, comments:[{author,text,...}],
+comments_returned: <int>}`. Sleep 15-30s between deep reads. Read the
+OP body AND the comments together.
+
+`comments_returned` is the comment count — use it as the delta signal:
+
+- **NEW keeper** → classify (5b) from OP + comments, extract fields
+  (5c), and in `seen.json` set `last_comments_seen = comments_returned`
+  (the baseline).
+- **TRACKED / ACTIVE** → compare `comments_returned` to the stored
+  `last_comments_seen`:
+  - If GREATER → this is a RE-REVIEW: re-classify with the new
+    comments (a WTB answered "I have one" may flip searching→located;
+    a WTS may show "sold" → mark the finding `resolved`; a part may
+    get located in-thread). UPDATE the catalog finding in place and
+    set `last_comments_seen = max(old, comments_returned)`.
+  - If NOT greater → no new signal; just bump `last_seen`. (Store the
+    MAX ever seen so a flaky low re-read doesn't cause a false delta
+    next time.)
+
+If `read-post` fails for a queued post, fall back to the feed-text
+classification for a NEW post (no comment baseline — it'll get one
+next time its group rotates), or leave a TRACKED finding unchanged.
 
 #### 5b. Classify each post you're keeping
 
@@ -250,13 +290,19 @@ For each kept post, build a finding record:
   "price": "$4500" | null,
   "location": "Phoenix AZ" | null,
   "signal_source": "post" | "comments",
+  "resolved": false,
   "photos": ["..."],
   "age_hours": 3,
-  "comments_count": 14,
+  "comments_seen": 14,
   "first_seen": "<iso>",
   "last_updated": "<iso>"
 }
 ```
+
+`comments_seen` is the read-post comment count at last review;
+`resolved` flips true when the comments show the deal closed (e.g.
+"sold"). `signal_source` is `"comments"` when the finding or its
+update came from the comment thread.
 
 - `generation`: map from an explicit year via `generations.json`
   first; else infer from a chassis slug (GTS, ZB1, VX, ...); else
@@ -272,10 +318,13 @@ run steps 6 and 7.
 ### Step 6. Update the rolling indexes (your turn)
 
 1. **`data/state/seen.json`** — for every post you scraped in
-   step 3 (kept or dropped), upsert its entry: set `last_seen`,
-   `last_comments_count` (the fresh count), and `last_classification`.
-   Set `first_seen` only when adding. This is what makes next cycle's
-   triage correct.
+   step 3 (kept or dropped), upsert its entry: set `last_seen` and
+   `last_classification`, and `first_seen` only when adding. For
+   posts you DEEP-READ this cycle, also set `last_comments_seen` to
+   the `max` of the old value and this read's `comments_returned`,
+   and set `resolved:true` if the comments showed the deal closed.
+   Posts not deep-read keep their existing `last_comments_seen`.
+   This is what makes next cycle's triage + delta correct.
 2. **`data/catalog.json`** — merge each kept finding into
    `by_generation["<gen or 'unknown'>"].findings`. If a finding for
    the same `post_url` already exists (a RE-REVIEW), UPDATE it in
@@ -424,9 +473,14 @@ Every "skip cycle" path still runs step 7 (commit) and step 8 (notify).
   heavier Facebook footprint; set it `>=` the active count to scan
   every group every cycle. To restart the rotation, set
   `next_index` to 0 in `data/state/rotation.json`.
+- Deep-read budget: edit `deep_read_per_cycle` in `config/groups.json`
+  (default 10) — the per-cycle read-post cap. Higher = more comment
+  review + faster delta detection but heavier footprint; `0` disables
+  deep reads (feed-text classification only, no comment review/delta).
+- Active window: the playbook's `ACTIVE_DAYS` (default 5) is how long
+  a finding keeps getting re-checked for new comments before it ages
+  out of delta tracking.
 - Generations: edit `config/generations.json` and push.
-- Deep-read budget: adjust the per-cycle cap in step 4 if cost or
-  coverage needs tuning.
 
 ---
 
@@ -435,12 +489,15 @@ Every "skip cycle" path still runs step 7 (commit) and step 8 (notify).
 - Boot: install cron `0 * * * *`, run one warmup cycle, return.
 - Each fire: auth-check, load config + seen-state + rotation cursor,
   pick this cycle's round-robin batch (scan_per_cycle active groups,
-  default 4), read those group feeds (with comment counts), triage
-  every post into NEW / RE-REVIEW (comment count went up) / SKIP,
-  deep-read the queued ones for the comment signal, classify by
-  JUDGMENT into searching / selling / locating / ambiguous, extract
-  part + year + generation, update seen.json + catalog.json + advance
-  rotation.json, write the cycle file, commit + push, notify.
+  default 4), read those group feeds to find posts (the feed has NO
+  comment count), triage by post_url into NEW keepers + ACTIVE
+  tracked findings to deep-read (budget deep_read_per_cycle) vs SKIP,
+  read-post the queued ones (its comments_returned is the comment
+  count = the delta signal), classify by JUDGMENT into searching /
+  selling / locating / ambiguous, extract part + year + generation,
+  RE-REVIEW a tracked finding when its comment count grew, update
+  seen.json + catalog.json + advance rotation.json, write the cycle
+  file, commit + push, notify.
 - Bash for browser + git. Your turn for reading + judgment.
   MCP for notification.
 - Read-only. No write verbs exist. No keyword filtering.

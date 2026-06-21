@@ -2,6 +2,8 @@
   "_note": "Operator-edited. Each entry: {name, url, active}. The agent reads this file every cycle, so edits land on the next cron fire (no restart needed). Set active:false to disable a group temporarily. Populated 2026-06-16 from the operator's joined Facebook groups (facebook.com/groups/joins). All Viper groups active; 'Crystal Lake Cars and Caffeine' (a general local car-meet group, not Viper-specific) is included but active:false. Order: parts/classifieds first, then owner/club groups.",
   "scan_per_cycle": 4,
   "_scan_per_cycle_note": "Round-robin: the bot scans only this many active groups per hourly cycle, advancing a cursor (data/state/rotation.json) so every active group is covered over a full rotation. With N active groups and K per cycle, each group is scanned about every ceil(N/K) hours. Lower = lighter Facebook footprint (less ban risk), slower coverage / re-review latency. Set to a number >= the active count to scan all every cycle.",
+  "deep_read_per_cycle": 10,
+  "_deep_read_per_cycle_note": "Max read-post (open-permalink) calls per cycle. The bot deep-reads NEW keeper posts (to read comments + set a baseline comment count) and ACTIVE tracked findings (to detect new comments = the re-review delta). Higher = more re-review coverage but a heavier Facebook footprint; lower = lighter but some changed threads wait for a later cycle. Set 0 to disable deep reads entirely (classify from feed text only, no comment review / no delta).",
   "groups": [
     {
       "name": "Dodge Viper Parts - Buy/Sell/Trade",
