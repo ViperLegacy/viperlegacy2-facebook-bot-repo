@@ -1,0 +1,89 @@
+{
+  "cycle_ts": "2026-06-21T18:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/261218964862013/",
+    "https://www.facebook.com/groups/335349806967085/",
+    "https://www.facebook.com/groups/1012457883847298/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/"
+  ],
+  "group_names": [
+    "Viper 92-02 Classifieds (261218964862013)",
+    "Gen 1/2 Vipers (335349806967085)",
+    "Viper Gen 4/5 (1012457883847298)",
+    "ViperRelatedSellBuy"
+  ],
+  "posts_seen": 37,
+  "new_posts": 1,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/261218964862013/posts/1775577246759503/",
+    "https://www.facebook.com/groups/261218964862013/posts/1777050786612149/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772589947058233/",
+    "https://www.facebook.com/groups/335349806967085/posts/2454951498340228/",
+    "https://www.facebook.com/groups/335349806967085/posts/2454562378379140/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1500586725034409/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1535235378236210/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27048392398143635/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/25339227989060093/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27096949176621290/"
+  ],
+  "new_classifications": 3,
+  "new_catalog_findings": 3,
+  "updated_catalog_findings": 1,
+  "dropped_reads": [
+    "1775577246759503 (NO DELTA: 10=10 — selling maintained: 1994 Gen 1 RT/10, 18k miles, Canada, $29,500 OBO, price now confirmed reduced by OP)",
+    "1777050786612149 (NO DELTA: 9=9 — locating maintained: Gen 1 manifold heat shields sought; Apollonius Salis + Tony Hanks both have them)",
+    "1772589947058233 (NO DELTA: 6=6 — selling maintained: Gen 1 parts; catalog updated to full list: water pump $500, fog lights $150, side markers $75 tentatively sold)",
+    "2454951498340228 (NEW/GENERAL: sagging bumper 1999 GTS — Brian Jones push-pin fix advice, no parts transaction)",
+    "2454562378379140 (NO DELTA: 14=14 — selling maintained: Mike Scherzberg Gen 1 vinyl soft tops, 1992 + rear-antenna 1993)",
+    "27048392398143635 (NO DELTA: 4=4 — selling maintained: Mesa AZ 1994 RT/10 $48,999, contact David; 32k miles)",
+    "27096949176621290 (NEW/GENERAL: 2016 ACR rear diff grinding noise on turns — community diagnoses friction modifier; no parts transaction)"
+  ],
+  "re_reviews": [],
+  "new_findings": [
+    {
+      "post_id": "1500586725034409",
+      "group": "1012457883847298",
+      "classification": "selling",
+      "resolved": true,
+      "summary": "2008 Gen 4 Viper (Joseph Kappel), 8,500 miles, Midwest, $110k — sold to private buyer; mods: exhaust/coilovers/carbon/shift knob; all stock parts retained"
+    },
+    {
+      "post_id": "1535235378236210",
+      "group": "1012457883847298",
+      "classification": "selling",
+      "resolved": true,
+      "summary": "2014 Gen V Viper SRT (Joseph Kappel), 2,500 miles, Michigan, $149,998 — sold to private buyer; red/white striping, brown interior"
+    },
+    {
+      "post_id": "25339227989060093",
+      "group": "ViperRelatedSellBuy",
+      "classification": "searching",
+      "resolved": false,
+      "summary": "OP searching for Gen 2 GTS for a project; Matthew Larkson asked about budget"
+    }
+  ],
+  "reclassifications": [
+    {
+      "post_id": "1535235378236210",
+      "old_classification": "general",
+      "new_classification": "selling",
+      "note": "Previous cycle classified from feed text as general; deep read reveals 2014 Gen V SRT $149,998 Michigan listing (Joseph Kappel, SOLD)"
+    },
+    {
+      "post_id": "25339227989060093",
+      "old_classification": "general",
+      "new_classification": "searching",
+      "note": "Previous cycle classified from feed text as general; deep read reveals Gen 2 GTS project car search"
+    }
+  ],
+  "notes": [
+    "G4 (261218964862013): 6 posts; PA/PB/PC all NO DELTA; CarbonEnvy + relay cap tracked no deep read; 0 new posts",
+    "G5 (335349806967085): 11 posts; PE (soft tops) NO DELTA; PD (sagging bumper) confirmed GENERAL; remaining tracked no deep read; 0 new posts",
+    "G6 (1012457883847298): 8 posts; PF (2008 Gen 4 Joseph Kappel) NEW selling SOLD $110k Midwest; PG (2014 Gen V SRT Joseph Kappel) reclassified from general to selling SOLD $149,998 MI; 1 new post (1500586725034409)",
+    "G7 (ViperRelatedSellBuy): 12 posts; PH (Mesa AZ 1994) NO DELTA; PI (Gen 2 GTS search) reclassified from general to searching; PJ (2016 ACR diff noise) confirmed GENERAL; 0 new posts",
+    "Cross-post note: Both 1500586725034409 and 1535235378236210 involve Joseph Kappel (Viper Gen 4/5 group) — separate posts, separate cars, both SOLD",
+    "Rotation: next_index 4→8 (groups 8-11 next cycle)",
+    "Catalog after cycle 18: gen1:13, gen2:8, gen3:6, gen4:5, gen5:10, unknown:22 = 64 total (3 new, 1 updated)"
+  ]
+}

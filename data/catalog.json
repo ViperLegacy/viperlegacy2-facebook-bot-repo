@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T17:30:00Z",
+  "updated_at": "2026-06-21T18:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -172,8 +172,8 @@
           "group_url": "https://www.facebook.com/groups/261218964862013/",
           "author": null,
           "classification": "selling",
-          "summary": "Gen 1 water pump listed for $500 FIRM in 92-02 Classifieds; commenter notes new price is $370",
-          "part_description": "Gen 1 Dodge Viper water pump — $500 FIRM",
+          "summary": "Gen 1 parts for sale: water pump $500 FIRM, fog lights $150 FIRM each (one left), Gen 1/2 side markers $75 FIRM each (tentatively sold as of last check)",
+          "part_description": "Gen 1 water pump ($500 FIRM); Gen 1 fog lights ($150 FIRM each, one left); Gen 1/2 side markers ($75 FIRM each, tentatively sold)",
           "part_number": null,
           "year": null,
           "generation": 1,
@@ -185,7 +185,7 @@
           "age_hours": null,
           "comments_seen": 6,
           "first_seen": "2026-06-21T00:22:12Z",
-          "last_updated": "2026-06-21T08:35:08.267Z"
+          "last_updated": "2026-06-21T18:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/335349806967085/posts/2449834888851889/",
@@ -420,6 +420,27 @@
           "comments_seen": 4,
           "first_seen": "2026-06-21T16:30:00Z",
           "last_updated": "2026-06-21T16:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/25339227989060093/",
+          "post_id": "25339227989060093",
+          "group_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/",
+          "author": null,
+          "classification": "searching",
+          "summary": "OP searching for Gen 2 GTS for a project; Matthew Larkson asked about budget",
+          "part_description": "Gen 2 Viper GTS (complete car) for project",
+          "part_number": null,
+          "year": null,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 2,
+          "first_seen": "2026-06-21T18:30:00Z",
+          "last_updated": "2026-06-21T18:30:00Z"
         }
       ]
     },
@@ -637,6 +658,27 @@
           "comments_seen": 4,
           "first_seen": "2026-06-20T23:25:40Z",
           "last_updated": "2026-06-21T07:29:55.412Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1500586725034409/",
+          "post_id": "1500586725034409",
+          "group_url": "https://www.facebook.com/groups/1012457883847298/",
+          "author": "Joseph Kappel",
+          "classification": "selling",
+          "summary": "2008 Gen 4 Viper, 8,500 miles, Midwest, $110k asking — sold to a private buyer; mods: exhaust, coilovers, carbon trim, shift knob; all OEM stock parts retained",
+          "part_description": "2008 Dodge Viper Gen 4 (complete car) — 8,500 miles, Midwest, $110k; sold to private buyer (stock parts retained)",
+          "part_number": null,
+          "year": 2008,
+          "generation": 4,
+          "price": "$110k",
+          "location": "Midwest",
+          "signal_source": "post",
+          "resolved": true,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 9,
+          "first_seen": "2026-06-21T18:30:00Z",
+          "last_updated": "2026-06-21T18:30:00Z"
         }
       ]
     },
@@ -830,6 +872,27 @@
           "comments_seen": 10,
           "first_seen": "2026-06-21T16:30:00Z",
           "last_updated": "2026-06-21T16:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1535235378236210/",
+          "post_id": "1535235378236210",
+          "group_url": "https://www.facebook.com/groups/1012457883847298/",
+          "author": "Joseph Kappel",
+          "classification": "selling",
+          "summary": "2014 Gen V Viper SRT, 2,500 miles, red/white striping, brown interior, 6-spd, $149,998, Michigan — sold to a private buyer (Joseph Kappel, DM)",
+          "part_description": "2014 Dodge Viper Gen V SRT (complete car) — 2,500 miles, Michigan, $149,998; sold to private buyer",
+          "part_number": null,
+          "year": 2014,
+          "generation": 5,
+          "price": "$149,998",
+          "location": "Michigan",
+          "signal_source": "post",
+          "resolved": true,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 12,
+          "first_seen": "2026-06-21T18:30:00Z",
+          "last_updated": "2026-06-21T18:30:00Z"
         }
       ]
     },
