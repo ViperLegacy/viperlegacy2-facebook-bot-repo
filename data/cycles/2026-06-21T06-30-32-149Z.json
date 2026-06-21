@@ -1,0 +1,67 @@
+{
+  "ts": "2026-06-21T06:30:32.149Z",
+  "rotation": {
+    "start_index": 16,
+    "scanned": [
+      "https://www.facebook.com/groups/3552832571664906/",
+      "https://www.facebook.com/groups/4viperclub/",
+      "https://www.facebook.com/groups/646530975516107/",
+      "https://www.facebook.com/groups/2574946562765549/"
+    ],
+    "active_total": 20,
+    "next_index": 0
+  },
+  "groups_scraped": [
+    {
+      "group_url": "https://www.facebook.com/groups/3552832571664906/",
+      "posts_returned": 6
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/4viperclub/",
+      "posts_returned": 14
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/646530975516107/",
+      "posts_returned": 7
+    },
+    {
+      "group_url": "https://www.facebook.com/groups/2574946562765549/",
+      "posts_returned": 13
+    }
+  ],
+  "posts_scraped_total": 40,
+  "new_posts": 8,
+  "existing_posts": 32,
+  "deep_reads_performed": 5,
+  "deep_read_limit": 10,
+  "notes": "All 8 new posts (VCA) were community commentary — no market signal from any current-cycle group. 5 deep reads consumed on deferred null-classification posts from prior cycles.",
+  "findings": [
+    {
+      "post_id": "2445964099238968",
+      "post_url": "https://www.facebook.com/groups/335349806967085/posts/2445964099238968/",
+      "action": "new",
+      "classification": "selling",
+      "generation": 2,
+      "summary": "1998 Viper RT/10, branded title (front clip replaced), asking price noted as high by commenters"
+    }
+  ],
+  "dropped_no_signal": [
+    {
+      "post_id": "3529517833890603",
+      "reason": "new-owner celebration post"
+    },
+    {
+      "post_id": "1618811623160049",
+      "reason": "NVE7 event ticket logistics question"
+    },
+    {
+      "post_id": "1619904303050781",
+      "reason": "historical Viper naming trivia discussion"
+    },
+    {
+      "post_id": "26390311687264669",
+      "reason": "Shift Sector racing event results/celebration"
+    }
+  ],
+  "deferred_deep_reads": []
+}

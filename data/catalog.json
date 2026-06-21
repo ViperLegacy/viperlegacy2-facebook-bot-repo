@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T05:38:50.540Z",
+  "updated_at": "2026-06-21T06:30:32.149Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -210,6 +210,27 @@
           "comments_seen": 8,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T04:35:29.958Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/335349806967085/posts/2445964099238968/",
+          "post_id": "2445964099238968",
+          "group_url": "https://www.facebook.com/groups/335349806967085/",
+          "author": null,
+          "classification": "selling",
+          "summary": "1998 Viper RT/10 listed for sale with photos; branded title (front clip replaced); commenters note asking price seems high for a branded-title car",
+          "part_description": "1998 Viper RT/10 (complete car) — branded/salvage title, front clip replaced",
+          "part_number": null,
+          "year": 1998,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-21T03:44:49.283Z",
+          "last_updated": "2026-06-21T06:30:32.149Z"
         }
       ]
     },
