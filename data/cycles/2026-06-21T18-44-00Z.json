@@ -1,0 +1,74 @@
+{
+  "cycle_ts": "2026-06-21T18:44:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/ViperTech/",
+    "https://www.facebook.com/groups/396856087036918/",
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+    "https://www.facebook.com/groups/481789254000352/"
+  ],
+  "group_names": [
+    "ViperTech (ViperTech)",
+    "The Viper Garage.com (396856087036918)",
+    "DODGE VIPER OWNERS ALL CLUBS (srtviperownerallclubmembers)",
+    "Dodge Viper Owners and Enthusiasts (481789254000352)"
+  ],
+  "posts_seen": 32,
+  "new_posts": 0,
+  "deep_reads_performed": 8,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/396856087036918/posts/25885910991038077/",
+    "https://www.facebook.com/groups/396856087036918/posts/26392824543680050/",
+    "https://www.facebook.com/groups/396856087036918/posts/26917519861210513/",
+    "https://www.facebook.com/groups/481789254000352/posts/1380509867461615/",
+    "https://www.facebook.com/groups/481789254000352/posts/1385056243673644/",
+    "https://www.facebook.com/groups/396856087036918/posts/25641004548862057/",
+    "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/",
+    "https://www.facebook.com/groups/ViperTech/posts/3357698591053865/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 3,
+  "dropped_reads": [
+    "25885910991038077 (NO DELTA: 8=8 — selling maintained: Gen 2 Paxton SC $5k, already resolved/SOLD)",
+    "26392824543680050 (NO DELTA: 4=4 — searching maintained: 1998 GTS window regulator, AZ rebuild service already captured)",
+    "26917519861210513 (NO DELTA: 12=12 — locating maintained: Gen 3/4 window regulator, moparpartsgiant.com part numbers and AZ Power Window Repair already captured)",
+    "1380509867461615 (NO DELTA: 12=12 — searching maintained: Gen 2 coilovers, KW V2/BC/MCS/Nick Reid at reidperformance.com already captured)",
+    "25641004548862057 (NO DELTA: returns 3 < stored 6, keep 6 — locating maintained: community go-to vendors, Brian Jones and Todd at donscharfautomotive.com already captured)"
+  ],
+  "re_reviews": [],
+  "new_findings": [],
+  "updated_findings": [
+    {
+      "post_id": "1385056243673644",
+      "group": "481789254000352",
+      "prior_classification": "searching",
+      "new_classification": "locating",
+      "delta": "first deep read (baseline lcs=10); OP identity resolved",
+      "summary": "OP completed 'another set of fender vents on a 2009 ACR'; VIPER Carbon identified as vendor/source; Nick Estes asking 'Where can those be bought from?'; part updated from unidentifiable to Gen 4 ACR fender vents; moved catalog entry unknown→gen4"
+    },
+    {
+      "post_id": "3357698591053865",
+      "group": "ViperTech",
+      "prior_classification": "locating",
+      "new_classification": "locating",
+      "delta": "first deep read (baseline lcs=4); OP and part identified",
+      "summary": "Pete Mansolillo's 1997 GTS (Gen 2) water pump leaking; Josh Haskell identifies Havik Performance as rebuilder; part updated from null to Gen 2 water pump; moved catalog entry unknown→gen2"
+    },
+    {
+      "post_id": "1368331015346167",
+      "group": "481789254000352",
+      "prior_classification": "locating",
+      "new_classification": "locating",
+      "delta": "first deep read (baseline lcs=2); OP confirmed show post",
+      "summary": "OP posted '2001 viper r/t10' (Gen 2 show post); Mike Scherzberg tips Walmart headlight restoration service at ~$40; catalog entry confirmed correct"
+    }
+  ],
+  "notes": [
+    "G8 (ViperTech): 8 posts; 1 deep-read candidate (3357698591053865 water pump locating — Havik Performance); 7 general; 0 new",
+    "G9 (396856087036918): 10 posts; 4 deep-read candidates (25885910991038077 no delta, 26392824543680050 no delta, 26917519861210513 no delta, 25641004548862057 no delta keep 6); 6 general; 0 new",
+    "G10 (srtviperownerallclubmembers): 11 posts; 0 deep-read candidates; 11 general; 0 new",
+    "G11 (481789254000352): 3 posts; 3 deep-read candidates (1380509867461615 no delta, 1385056243673644 first baseline reclassified locating, 1368331015346167 first baseline); 0 general; 0 new",
+    "Rotation: next_index 8→12 (groups 12-15 next cycle)",
+    "Catalog after cycle 19: gen1:13, gen2:9, gen3:6, gen4:6, gen5:10, unknown:20 = 64 total (0 new, 3 updated)"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T18:30:00Z",
+  "updated_at": "2026-06-21T18:44:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -441,6 +441,27 @@
           "comments_seen": 2,
           "first_seen": "2026-06-21T18:30:00Z",
           "last_updated": "2026-06-21T18:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/ViperTech/posts/3357698591053865/",
+          "post_id": "3357698591053865",
+          "group_url": "https://www.facebook.com/groups/ViperTech/",
+          "author": "Pete Mansolillo",
+          "classification": "locating",
+          "summary": "Pete Mansolillo reports 1997 GTS (Gen 2) water pump leaking; part described as \"unobtanium\"; Josh Haskell identifies Havik Performance as a rebuilder",
+          "part_description": "Gen 2 water pump (1997 GTS)",
+          "part_number": null,
+          "year": 1997,
+          "generation": 2,
+          "price": null,
+          "location": "Havik Performance (rebuilder)",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-21T00:54:14Z",
+          "last_updated": "2026-06-21T18:44:00Z"
         }
       ]
     },
@@ -679,6 +700,27 @@
           "comments_seen": 9,
           "first_seen": "2026-06-21T18:30:00Z",
           "last_updated": "2026-06-21T18:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/481789254000352/posts/1385056243673644/",
+          "post_id": "1385056243673644",
+          "group_url": "https://www.facebook.com/groups/481789254000352/",
+          "author": "unknown (OP shows completed work)",
+          "classification": "locating",
+          "summary": "OP completed \"another set of fender vents on a 2009 ACR\" (👌); VIPER Carbon identified as vendor/source; Nick Estes asking \"Where can those be bought from?\"; Mike Scherzberg asked about stock 17 ACR vents and pricing",
+          "part_description": "Gen 4 ACR fender vents (2009 ACR)",
+          "part_number": null,
+          "year": 2009,
+          "generation": 4,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 10,
+          "first_seen": "2026-06-21T00:54:14Z",
+          "last_updated": "2026-06-21T18:44:00Z"
         }
       ]
     },
@@ -985,48 +1027,6 @@
           "comments_seen": 2
         },
         {
-          "post_url": "https://www.facebook.com/groups/ViperTech/posts/3357698591053865/",
-          "post_id": "3357698591053865",
-          "group_url": "https://www.facebook.com/groups/ViperTech/",
-          "author": "Josh Haskell",
-          "classification": "locating",
-          "summary": "Josh Haskell names Havik Performance as a rebuilder for an unspecified Viper part",
-          "part_description": null,
-          "part_number": null,
-          "year": null,
-          "generation": null,
-          "price": null,
-          "location": null,
-          "signal_source": "post",
-          "resolved": false,
-          "photos": [],
-          "age_hours": null,
-          "comments_seen": 0,
-          "first_seen": "2026-06-21T00:54:14Z",
-          "last_updated": "2026-06-21T00:54:14Z"
-        },
-        {
-          "post_url": "https://www.facebook.com/groups/481789254000352/posts/1385056243673644/",
-          "post_id": "1385056243673644",
-          "group_url": "https://www.facebook.com/groups/481789254000352/",
-          "author": "Nick Estes",
-          "classification": "searching",
-          "summary": "Nick Estes asks where a Viper part can be bought from (part unidentifiable from reply alone)",
-          "part_description": null,
-          "part_number": null,
-          "year": null,
-          "generation": null,
-          "price": null,
-          "location": null,
-          "signal_source": "post",
-          "resolved": false,
-          "photos": [],
-          "age_hours": null,
-          "comments_seen": 0,
-          "first_seen": "2026-06-21T00:54:14Z",
-          "last_updated": "2026-06-21T00:54:14Z"
-        },
-        {
           "post_url": "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/",
           "post_id": "1368331015346167",
           "group_url": "https://www.facebook.com/groups/481789254000352/",
@@ -1043,9 +1043,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 0,
+          "comments_seen": 2,
           "first_seen": "2026-06-21T00:54:14Z",
-          "last_updated": "2026-06-21T00:54:14Z"
+          "last_updated": "2026-06-21T18:44:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",
