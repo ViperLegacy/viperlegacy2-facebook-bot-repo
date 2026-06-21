@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viper Parts Network</title>
+<meta name="description" content="Parts searched, sold, and located across the Dodge Viper Facebook group network.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0c0e; --bg2:#121316;
+  --panel:#16181c; --panel2:#1b1e23; --panel-h:#1f232a;
+  --line:#26292f; --line2:#33373f;
+  --ink:#eef0f3; --dim:#9aa1ac; --mute:#5b626d;
+  --brand:#e4002b; --brand-dim:rgba(228,0,43,.14);
+  --wanted:#ffb02e; --wanted-dim:rgba(255,176,46,.13);
+  --sale:#2fd073;   --sale-dim:rgba(47,208,115,.13);
+  --found:#28cfd4;  --found-dim:rgba(40,207,212,.13);
+  --amb:#8b929e;    --amb-dim:rgba(139,146,158,.13);
+  --grid:rgba(255,255,255,.018);
+  --disp:'Oswald',system-ui,sans-serif;
+  --ui:'Barlow',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font-family:var(--ui); color:var(--ink); background:var(--bg);
+  background-image:
+    radial-gradient(1200px 600px at 82% -15%, rgba(228,0,43,.10), transparent 60%),
+    radial-gradient(900px 520px at -5% 0%, rgba(40,207,212,.05), transparent 60%),
+    repeating-linear-gradient(135deg, var(--grid) 0 1px, transparent 1px 9px);
+  background-attachment:fixed;
+  -webkit-font-smoothing:antialiased;
+}
+body::after{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:200; opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:inherit;text-decoration:none}
+
+/* ── masthead ───────────────────────────────────── */
+header{
+  position:sticky; top:0; z-index:50;
+  background:linear-gradient(180deg, rgba(11,12,14,.97), rgba(11,12,14,.88));
+  backdrop-filter:blur(10px) saturate(118%);
+  border-bottom:1px solid var(--line);
+}
+.stripe{height:3px;background:linear-gradient(90deg,var(--brand) 0 22%,transparent 22% 26%,var(--ink) 26% 30%,transparent 30%)}
+.head{max-width:1480px;margin:0 auto;padding:16px 24px 0}
+.brandrow{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.mark{font-family:var(--disp);font-weight:700;font-size:clamp(24px,3.6vw,38px);letter-spacing:.02em;
+  text-transform:uppercase;line-height:1;color:var(--ink);margin:0}
+.mark b{color:var(--brand)}
+.sub{font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:.05em}
+.spacer{flex:1}
+.stamp{font-family:var(--mono);font-size:11px;color:var(--mute);white-space:nowrap}
+.stamp .live{color:var(--sale)}
+.stamp .live::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;
+  background:var(--sale);margin-right:6px;box-shadow:0 0 8px var(--sale);
+  animation:pulse 1.9s ease-in-out infinite;vertical-align:middle}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+.totals{display:flex;gap:0;flex-wrap:wrap;margin:14px 0 0;border:1px solid var(--line);
+  border-radius:5px;overflow:hidden;background:var(--bg2)}
+.tot{flex:1;min-width:96px;padding:10px 14px;border-right:1px solid var(--line)}
+.tot:last-child{border-right:0}
+.tot .n{font-family:var(--disp);font-weight:700;font-size:24px;line-height:1}
+.tot .k{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-top:3px}
+.tot.s .n{color:var(--wanted)} .tot.l .n{color:var(--sale)} .tot.o .n{color:var(--found)} .tot.a .n{color:var(--amb)}
+
+.controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;padding:14px 0 16px}
+.seg{display:inline-flex;border:1px solid var(--line2);border-radius:4px;overflow:hidden;background:var(--bg2)}
+.seg button{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  background:transparent;color:var(--dim);border:0;border-right:1px solid var(--line);
+  padding:7px 12px;cursor:pointer;transition:.13s}
+.seg button:last-child{border-right:0}
+.seg button:hover{color:var(--ink);background:var(--panel)}
+.seg button.on{color:var(--bg);background:var(--ink)}
+#lanes button[data-l="searching"].on{background:var(--wanted);color:#1a1102}
+#lanes button[data-l="selling"].on{background:var(--sale);color:#03130a}
+#lanes button[data-l="locating"].on{background:var(--found);color:#022}
+#lanes button[data-l="ambiguous"].on{background:var(--amb);color:#0b0e12}
+.seg-lbl{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--mute);text-transform:uppercase}
+.field{display:flex;align-items:center;gap:8px;background:var(--bg2);border:1px solid var(--line2);
+  border-radius:4px;padding:6px 10px}
+.field input{background:transparent;border:0;color:var(--ink);font-family:var(--ui);font-size:13px;
+  outline:none;width:190px}
+.field input::placeholder{color:var(--mute)}
+.field .ic{color:var(--mute);font-family:var(--mono)}
+select{font-family:var(--mono);font-size:11px;letter-spacing:.05em;background:var(--bg2);color:var(--dim);
+  border:1px solid var(--line2);border-radius:4px;padding:7px 8px;cursor:pointer}
+.chk{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;
+  letter-spacing:.06em;color:var(--dim);text-transform:uppercase;cursor:pointer;user-select:none}
+.chk input{accent-color:var(--brand)}
+.ftoggle{display:none}
+
+/* ── sections + cards ───────────────────────────── */
+main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
+.gensec{margin:0 0 26px}
+.genhead{display:flex;align-items:center;gap:14px;cursor:pointer;padding:6px 2px;
+  border-bottom:1px solid var(--line);margin-bottom:16px;user-select:none}
+.genhead .rule{flex:1;height:1px;background:repeating-linear-gradient(90deg,var(--line) 0 6px,transparent 6px 12px)}
+.genhead .gn{font-family:var(--disp);font-weight:600;font-size:19px;letter-spacing:.04em;text-transform:uppercase}
+.genhead .gs{font-family:var(--mono);font-size:11px;color:var(--mute);letter-spacing:.05em}
+.genhead .gc{font-family:var(--mono);font-size:11px;color:var(--dim);background:var(--bg2);
+  border:1px solid var(--line);border-radius:3px;padding:3px 9px;white-space:nowrap}
+.genhead .caret{font-family:var(--mono);color:var(--mute);transition:.15s}
+.gensec.collapsed .grid{display:none}
+.gensec.collapsed .caret{transform:rotate(-90deg)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+.card{position:relative;background:linear-gradient(180deg,var(--panel),var(--bg2));
+  border:1px solid var(--line);border-left:3px solid var(--amb);border-radius:5px;
+  padding:14px 15px 13px;display:flex;flex-direction:column;gap:9px;
+  animation:rise .45s cubic-bezier(.2,.7,.2,1) backwards;transition:border-color .15s,transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 14px 38px -22px rgba(0,0,0,.85)}
+.card.searching{border-left-color:var(--wanted)}
+.card.selling{border-left-color:var(--sale)}
+.card.locating{border-left-color:var(--found)}
+.card.ambiguous{border-left-color:var(--amb)}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.card.resolved{opacity:.55}
+.card.resolved .title{text-decoration:line-through;text-decoration-color:var(--mute)}
+
+.crow{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.badge{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  padding:3px 8px;border-radius:3px;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.badge::before{content:"";width:6px;height:6px;border-radius:1px;display:inline-block}
+.b-searching{color:var(--wanted);background:var(--wanted-dim)} .b-searching::before{background:var(--wanted)}
+.b-selling{color:var(--sale);background:var(--sale-dim)} .b-selling::before{background:var(--sale)}
+.b-locating{color:var(--found);background:var(--found-dim)} .b-locating::before{background:var(--found)}
+.b-ambiguous{color:var(--amb);background:var(--amb-dim)} .b-ambiguous::before{background:var(--amb)}
+.tag-res{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);
+  border:1px solid var(--line2);border-radius:3px;padding:2px 6px}
+
+.title{font-family:var(--disp);font-weight:600;font-size:17px;line-height:1.12;letter-spacing:.01em}
+.pnum{font-family:var(--mono);font-size:11px;color:var(--found);margin-top:-2px}
+.summary{font-size:13px;line-height:1.45;color:#cfd3da}
+.lead{font-size:12.5px;line-height:1.4;color:var(--found);border-left:2px solid var(--line2);padding-left:9px}
+.card.searching .lead{color:var(--found)}
+.chips{display:flex;gap:7px;flex-wrap:wrap}
+.chip{font-family:var(--mono);font-size:11px;color:var(--ink);background:var(--bg2);
+  border:1px solid var(--line);border-radius:3px;padding:3px 8px}
+.chip.price{color:var(--sale);border-color:rgba(47,208,115,.35)}
+.chip.loc::before{content:"⌖ ";color:var(--mute)}
+
+.foot{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  border-top:1px solid var(--line);padding-top:10px;margin-top:2px}
+.meta{font-family:var(--mono);font-size:11px;color:var(--mute);line-height:1.5;min-width:0}
+.meta b{color:var(--dim);font-weight:500}
+.open{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--brand);white-space:nowrap}
+.open:hover{text-decoration:underline}
+
+/* ── loader / empty ─────────────────────────────── */
+#loader{margin:110px auto;text-align:center;color:var(--dim);max-width:480px}
+.scan{width:170px;height:3px;margin:0 auto 18px;background:var(--line);border-radius:2px;overflow:hidden;position:relative}
+.scan::before{content:"";position:absolute;inset:0;width:40%;border-radius:2px;
+  background:linear-gradient(90deg,transparent,var(--brand),transparent);animation:scan 1.1s ease-in-out infinite}
+@keyframes scan{0%{transform:translateX(-120%)}100%{transform:translateX(330%)}}
+#loadstatus{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--dim)}
+.hidden{display:none}
+.empty{font-family:var(--mono);color:var(--mute);padding:30px 4px;letter-spacing:.04em}
+
+/* ── mobile ─────────────────────────────────────── */
+@media (max-width:760px){
+  .head{padding:13px 14px 0}
+  .mark{font-size:26px}
+  .stamp{flex-basis:100%;order:3;text-align:left;margin-top:4px}
+  .ftoggle{display:inline-flex;align-items:center;gap:6px;margin-left:auto;font-family:var(--mono);
+    font-size:11px;letter-spacing:.12em;text-transform:uppercase;background:var(--bg2);color:var(--dim);
+    border:1px solid var(--line2);border-radius:4px;padding:7px 12px;cursor:pointer}
+  .controls{display:none}
+  header.open .controls{display:flex;padding-top:12px}
+  .field input{width:100%}
+  .field{flex:1}
+  main{padding:14px 14px 60px}
+  .grid{grid-template-columns:1fr;gap:12px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="stripe"></div>
+  <div class="head">
+    <div class="brandrow">
+      <h1 class="mark">Viper <b>Parts</b> Network</h1>
+      <div class="sub">parts searched · sold · located across the Viper FB group network</div>
+      <div class="spacer"></div>
+      <button id="ftoggle" class="ftoggle" aria-expanded="false">Filters ▾</button>
+      <div class="stamp" id="stamp"><span class="live">STANDBY</span></div>
+    </div>
+    <div class="totals" id="totals"></div>
+    <div class="controls">
+      <span class="seg-lbl">Lane</span>
+      <div class="seg" id="lanes">
+        <button data-l="all" class="on">All</button>
+        <button data-l="searching">Searching</button>
+        <button data-l="selling">Selling</button>
+        <button data-l="locating">Locating</button>
+        <button data-l="ambiguous">Ambiguous</button>
+      </div>
+      <span class="seg-lbl">Gen</span>
+      <div class="seg" id="gens">
+        <button data-g="all" class="on">All</button>
+        <button data-g="1">G1</button>
+        <button data-g="2">G2</button>
+        <button data-g="3">G3</button>
+        <button data-g="4">G4</button>
+        <button data-g="5">G5</button>
+        <button data-g="unknown">?</button>
+      </div>
+      <label class="field"><span class="ic">⌕</span>
+        <input id="q" type="search" placeholder="search part / author / location" autocomplete="off">
+      </label>
+      <select id="sort" aria-label="sort">
+        <option value="newest">sort: newest</option>
+        <option value="gen">sort: generation</option>
+        <option value="lane">sort: lane</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="hideres"> hide resolved</label>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="loader">
+    <div class="scan"></div>
+    <p id="loadstatus">Loading the parts catalog…</p>
+  </div>
+  <div id="sections"></div>
+</main>
+
+<script>
+const $ = (s,el=document)=>el.querySelector(s);
+const sections = $('#sections'), loader = $('#loader');
+let FINDS = [], GROUPS = {}, LANE='all', GEN='all', Q='', SORT='newest', HIDE_RES=false;
+
+const esc = s => (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const GEN_META = {
+  '1':{name:'Gen 1', sub:'1992–1995 · RT/10'},
+  '2':{name:'Gen 2', sub:'1996–2002 · RT/10 + GTS'},
+  '3':{name:'Gen 3', sub:'2003–2006 · SRT-10 ZB I'},
+  '4':{name:'Gen 4', sub:'2008–2010 · SRT-10 ZB II'},
+  '5':{name:'Gen 5', sub:'2013–2017 · VX'},
+  'unknown':{name:'Unknown gen', sub:'year / generation not stated'},
+};
+const GEN_ORDER = ['1','2','3','4','5','unknown'];
+const collapsed = new Set();
+
+const commentsOf = f => (f.comments_seen ?? f.comments_count ?? null);
+const tsOf = f => f.last_updated || f.first_seen || '';
+const laneOf = f => (String(f.classification||'').toLowerCase().match(/searching|selling|locating|ambiguous/)||['ambiguous'])[0];
+
+function shortGroup(url){ const m=(url||'').match(/\/groups\/([^/?#]+)/); return m?('group '+m[1].slice(0,14)):'unknown group'; }
+function groupName(url){ const k=(url||'').replace(/\/+$/,'')+'/'; return GROUPS[k] || GROUPS[(url||'').replace(/\/+$/,'')] || shortGroup(url); }
+
+function relTime(iso){
+  if(!iso) return '';
+  const t = Date.parse(iso); if(isNaN(t)) return '';
+  const s = Math.max(0,(Date.now()-t)/1000);
+  if(s<3600) return Math.round(s/60)+'m ago';
+  if(s<86400) return Math.round(s/3600)+'h ago';
+  if(s<2592000) return Math.round(s/86400)+'d ago';
+  return Math.round(s/2592000)+'mo ago';
+}
+
+async function load(){
+  const status = t=>{ const el=$('#loadstatus'); if(el) el.textContent=t; };
+  status('Scanning the parts catalog…');
+  let catalog=null;
+  try{
+    const [cat,grp] = await Promise.all([
+      fetch('data/catalog.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('config/groups.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),
+    ]);
+    catalog=cat;
+    if(grp && Array.isArray(grp.groups)){ for(const g of grp.groups){ if(g.url) GROUPS[g.url.replace(/\/+$/,'')+'/']=g.name; } }
+  }catch(_){}
+  if(!catalog || !catalog.by_generation){
+    const sp=$('.scan'); if(sp) sp.style.display='none';
+    status(location.protocol==='file:'
+      ? 'Open this page over http (GitHub Pages) to load the catalog.'
+      : 'No catalog yet — findings appear here after the bot’s first cycles.');
+    return;
+  }
+  const out=[];
+  for(const [gk,bucket] of Object.entries(catalog.by_generation)){
+    for(const f of (bucket.findings||[])) out.push({...f, _gen: GEN_META[gk]?gk:'unknown'});
+  }
+  FINDS=out;
+  $('#stamp').innerHTML = `<span class="live">LIVE</span> &nbsp; updated ${esc((catalog.updated_at||'').replace('T',' ').replace(/\.\d+Z$/,'Z'))||'—'}`;
+  render();
+}
+
+function render(){
+  loader.classList.add('hidden');
+  // header totals (whole dataset)
+  const by = {searching:0,selling:0,locating:0,ambiguous:0};
+  FINDS.forEach(f=>by[laneOf(f)]++);
+  $('#totals').innerHTML =
+    `<div class="tot"><div class="n">${FINDS.length}</div><div class="k">finds</div></div>`+
+    `<div class="tot s"><div class="n">${by.searching}</div><div class="k">searching</div></div>`+
+    `<div class="tot l"><div class="n">${by.selling}</div><div class="k">selling</div></div>`+
+    `<div class="tot o"><div class="n">${by.locating}</div><div class="k">locating</div></div>`+
+    `<div class="tot a"><div class="n">${by.ambiguous}</div><div class="k">ambiguous</div></div>`;
+
+  // filter
+  const q=Q.trim().toLowerCase();
+  let shown = FINDS.filter(f=>{
+    if(LANE!=='all' && laneOf(f)!==LANE) return false;
+    if(GEN!=='all' && f._gen!==GEN) return false;
+    if(HIDE_RES && f.resolved===true) return false;
+    if(q){
+      const hay = [f.part_description,f.summary,f.author,f.location,f.part_number,groupName(f.group_url)]
+        .filter(Boolean).join(' ').toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const laneRank={searching:0,selling:1,locating:2,ambiguous:3};
+  shown.sort((a,b)=>{
+    if(SORT==='gen') return GEN_ORDER.indexOf(a._gen)-GEN_ORDER.indexOf(b._gen) || (tsOf(b)>tsOf(a)?1:-1);
+    if(SORT==='lane') return laneRank[laneOf(a)]-laneRank[laneOf(b)] || (tsOf(b)>tsOf(a)?1:-1);
+    return tsOf(b)>tsOf(a)?1:tsOf(b)<tsOf(a)?-1:0; // newest
+  });
+
+  if(!shown.length){ sections.innerHTML = `<p class="empty">// no finds match these filters</p>`; return; }
+
+  // group by generation in canonical order
+  const groups = {};
+  for(const f of shown){ (groups[f._gen] ||= []).push(f); }
+  let html='';
+  for(const gk of GEN_ORDER){
+    const list = groups[gk]; if(!list || !list.length) continue;
+    const m = GEN_META[gk];
+    const isCol = collapsed.has(gk);
+    html += `<section class="gensec${isCol?' collapsed':''}" data-g="${gk}">
+      <div class="genhead">
+        <span class="caret">▾</span>
+        <span class="gn">${esc(m.name)}</span>
+        <span class="gs">${esc(m.sub)}</span>
+        <span class="rule"></span>
+        <span class="gc">${list.length} find${list.length===1?'':'s'}</span>
+      </div>
+      <div class="grid">${list.map(card).join('')}</div>
+    </section>`;
+  }
+  sections.innerHTML = html;
+}
+
+function card(f){
+  const lane = laneOf(f);
+  const title = esc(f.part_description || f.summary || '(unspecified part)');
+  const showSummary = f.summary && f.part_description && f.summary!==f.part_description;
+  const pnum = f.part_number ? `<div class="pnum"># ${esc(f.part_number)}</div>` : '';
+  const summary = showSummary ? `<div class="summary">${esc(f.summary)}</div>` : '';
+  const lead = (f.signal_source==='comments' && f.summary && !showSummary) ? '' : '';
+  const cc = commentsOf(f);
+  const chips = [];
+  if(f.price) chips.push(`<span class="chip price">${esc(f.price)}</span>`);
+  if(f.location) chips.push(`<span class="chip loc">${esc(f.location)}</span>`);
+  if(f.year) chips.push(`<span class="chip">${esc(f.year)}</span>`);
+  const chipsHtml = chips.length?`<div class="chips">${chips.join('')}</div>`:'';
+  const age = relTime(tsOf(f));
+  const meta = `<span class="meta"><b>${esc(f.author||'—')}</b> · ${esc(groupName(f.group_url))}`
+    + (age?` · ${age}`:'') + (cc!=null?` · ${cc} comment${cc===1?'':'s'}`:'') + `</span>`;
+  const open = f.post_url?`<a class="open" href="${esc(f.post_url)}" target="_blank" rel="noopener">open post →</a>`:'<span></span>';
+  const res = f.resolved===true ? `<span class="tag-res">resolved</span>` : '';
+  return `<article class="card ${lane}${f.resolved?' resolved':''}">
+    <div class="crow"><span class="badge b-${lane}">${esc(lane)}</span>${res}</div>
+    <div class="title">${title}</div>${pnum}${summary}${chipsHtml}
+    <div class="foot">${meta}${open}</div>
+  </article>`;
+}
+
+// interactions
+$('#ftoggle').addEventListener('click', e=>{ const h=document.querySelector('header'); const o=h.classList.toggle('open');
+  e.currentTarget.setAttribute('aria-expanded',o); e.currentTarget.textContent='Filters '+(o?'▴':'▾'); });
+$('#lanes').addEventListener('click', e=>{ const b=e.target.closest('button[data-l]'); if(!b) return;
+  LANE=b.dataset.l; [...$('#lanes').querySelectorAll('button')].forEach(x=>x.classList.toggle('on',x===b)); render(); });
+$('#gens').addEventListener('click', e=>{ const b=e.target.closest('button[data-g]'); if(!b) return;
+  GEN=b.dataset.g; [...$('#gens').querySelectorAll('button')].forEach(x=>x.classList.toggle('on',x===b)); render(); });
+$('#q').addEventListener('input', e=>{ Q=e.target.value; render(); });
+$('#sort').addEventListener('change', e=>{ SORT=e.target.value; render(); });
+$('#hideres').addEventListener('change', e=>{ HIDE_RES=e.target.checked; render(); });
+sections.addEventListener('click', e=>{ const h=e.target.closest('.genhead'); if(!h) return;
+  const sec=h.closest('.gensec'); const gk=sec.dataset.g;
+  if(collapsed.has(gk)) collapsed.delete(gk); else collapsed.add(gk);
+  sec.classList.toggle('collapsed'); });
+
+load();
+</script>
+</body>
+</html>
