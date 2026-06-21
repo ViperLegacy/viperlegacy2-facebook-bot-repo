@@ -611,7 +611,11 @@ async function cmdReadPost(args) {
   try {
     await gotoWithRetry(page, postUrl);
     await page.waitForSelector('div[role="banner"], nav', { timeout: 10_000, state: 'attached' }).catch(() => {});
-    await page.waitForTimeout(2_500);
+    await page.waitForTimeout(3_500);
+    // Best-effort: let comments hydrate before we extract. Comment/reply
+    // articles carry aria-label "Comment by …" / "Reply by …". Harmless
+    // timeout on a zero-comment post.
+    await page.waitForSelector('div[role="article"][aria-label*="omment by" i], div[role="article"][aria-label*="eply by" i]', { timeout: 6_000, state: 'attached' }).catch(() => {});
     screenshots.push(await snapshotNav(page, 'read-post', 'post-goto'));
 
     const finalUrl = page.url();
@@ -662,44 +666,68 @@ async function cmdReadPost(args) {
         /^(All comments|Most relevant|Newest|View|Hide)\b/i.test(line) ||
         /^Write a (public )?comment/i.test(line);
 
-      const articles = Array.from(document.querySelectorAll('div[role="article"]'));
-      // The OP post is the outermost (non-nested) article; comments
-      // are the nested ones.
-      let topArticle = null;
-      const nested = [];
-      for (const a of articles) {
-        let p = a.parentElement, isNested = false;
-        while (p) { if (p.matches && p.matches('div[role="article"]')) { isNested = true; break; } p = p.parentElement; }
-        if (isNested) nested.push(a);
-        else if (!topArticle) topArticle = a;
-      }
+      const isCommentAL = (al) => /^(comment|reply) by /i.test(al || '');
+      const allArticles = Array.from(document.querySelectorAll('div[role="article"]'));
 
-      function parseEntity(article) {
-        const lines = cleanLines(article.innerText || '');
-        const meaningful = lines.filter((l) => !isNoiseLine(l));
-        const author = meaningful[0] || null;
-        const body = meaningful.slice(1).join(' ').replace(/\s+/g, ' ').trim();
-        return { author, body };
-      }
-
-      let post = null;
-      if (topArticle) {
-        const { author, body } = parseEntity(topArticle);
-        const photos = Array.from(topArticle.querySelectorAll('img[src*="scontent"]'))
-          .slice(0, 8).map((i) => i.getAttribute('src')).filter(Boolean);
-        post = { author, text: (body || '').slice(0, 4000), photos };
-      }
-
+      // COMMENTS. On a permalink, comments + replies are TOP-LEVEL
+      // role="article" elements tagged with aria-label
+      // "Comment by <name> …" / "Reply by <name> to <name>" — they are
+      // NOT nested inside the post article (the old nested-article
+      // assumption is what made read-post return empty). Author comes
+      // from the aria-label; body from the cleaned innerText.
       const comments = [];
-      for (const c of nested) {
-        const { author, body } = parseEntity(c);
-        if (!body) continue;
-        comments.push({ author: author || null, text: body.slice(0, 1000) });
+      for (const a of allArticles) {
+        const al = a.getAttribute('aria-label') || '';
+        if (!isCommentAL(al)) continue;
+        const author = (al.match(/^(?:comment|reply) by (.+?)(?: \d| to | in |$)/i) || [])[1] || null;
+        let lines = cleanLines(a.innerText || '').filter((l) => !isNoiseLine(l));
+        if (author && lines[0] === author) lines = lines.slice(1);
+        const body = lines.join(' ').replace(/\s+/g, ' ').replace(/^[·•·\s]+/, '').trim();
+        if (body) comments.push({ author: author || null, text: body.slice(0, 1000) });
       }
+
+      // OP BODY. The original post text is NOT inside a role="article"
+      // on the permalink (Facebook renders it in the main story region,
+      // and og:description/title meta come back null). Strategy: take
+      // the largest dir="auto" text block that is NOT inside a comment
+      // article, and reconcile against the document.title middle segment
+      // ("<group> | <post text> | Facebook"), which reliably carries the
+      // OP's opening (where the part is usually named). Prefer the DOM
+      // block only when it confirms the title text — otherwise trust the
+      // title, so we don't accidentally grab sidebar / About-group text.
+      let domBest = '';
+      for (const b of document.querySelectorAll('div[dir="auto"]')) {
+        const art = b.closest('div[role="article"]');
+        if (art && isCommentAL(art.getAttribute('aria-label') || '')) continue;
+        const t = (b.innerText || '').replace(/\s+/g, ' ').trim();
+        if (t.length > domBest.length && t.length < 4000) domBest = t;
+      }
+      const titleParts = (document.title || '').split('|').map((s) => s.trim()).filter(Boolean);
+      const titleMid = titleParts.filter((p) => !/^facebook$/i.test(p)).slice(1).join(' ').trim();
+      const key = titleMid ? titleMid.slice(0, 25).toLowerCase() : '';
+      let opText = '';
+      if (titleMid && domBest && domBest.toLowerCase().includes(key)) {
+        opText = domBest.length >= titleMid.length ? domBest : titleMid;
+      } else if (titleMid) {
+        opText = titleMid;
+      } else {
+        opText = domBest;
+      }
+
+      // OP AUTHOR. First non-comment article's first meaningful line.
+      let opAuthor = null;
+      const opArt = allArticles.find((a) => !isCommentAL(a.getAttribute('aria-label') || '') && (a.innerText || '').trim().length > 0);
+      if (opArt) {
+        const l = cleanLines(opArt.innerText).filter((x) => !isNoiseLine(x));
+        opAuthor = l[0] || null;
+      }
+
+      const photos = Array.from(document.querySelectorAll('img[src*="scontent"]')).slice(0, 8)
+        .map((i) => i.getAttribute('src')).filter(Boolean);
 
       return {
         post_id: extractPostId(location.href),
-        post,
+        post: { author: opAuthor, text: (opText || '').slice(0, 4000), photos },
         comments,
       };
     });
