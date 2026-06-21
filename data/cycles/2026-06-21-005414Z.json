@@ -1,0 +1,131 @@
+{
+  "ts": "2026-06-21T00:54:14Z",
+  "rotation": {
+    "start_index": 8,
+    "scanned": 4,
+    "active_total": 20,
+    "next_index": 12
+  },
+  "groups_scraped": [
+    {
+      "url": "https://www.facebook.com/groups/ViperTech/",
+      "name": "Viper Owners Tech Help/How to/Q&A",
+      "posts_extracted": 6,
+      "new": 2,
+      "rereviewed": 0,
+      "skipped": 4
+    },
+    {
+      "url": "https://www.facebook.com/groups/396856087036918/",
+      "name": "The Viper Garage.com",
+      "posts_extracted": 9,
+      "new": 1,
+      "rereviewed": 0,
+      "skipped": 8
+    },
+    {
+      "url": "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+      "name": "DODGE VIPER OWNERS AND ALL VIPER CLUBS MEMBER'S SITE",
+      "posts_extracted": 10,
+      "new": 0,
+      "rereviewed": 0,
+      "skipped": 10
+    },
+    {
+      "url": "https://www.facebook.com/groups/481789254000352/",
+      "name": "Dodge Viper Owners and Enthusiasts",
+      "posts_extracted": 3,
+      "new": 2,
+      "rereviewed": 0,
+      "skipped": 1
+    }
+  ],
+  "findings": [
+    {
+      "post_url": "https://www.facebook.com/groups/ViperTech/posts/3357698591053865/",
+      "post_id": "3357698591053865",
+      "group_url": "https://www.facebook.com/groups/ViperTech/",
+      "author": "Josh Haskell",
+      "classification": "locating",
+      "summary": "Josh Haskell names Havik Performance as a rebuilder for an unspecified Viper part",
+      "part_description": null,
+      "part_number": null,
+      "year": null,
+      "generation": null,
+      "price": null,
+      "location": null,
+      "signal_source": "post",
+      "resolved": false,
+      "photos": [],
+      "age_hours": null,
+      "comments_seen": 0,
+      "first_seen": "2026-06-21T00:54:14Z",
+      "last_updated": "2026-06-21T00:54:14Z"
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/396856087036918/posts/26392824543680050/",
+      "post_id": "26392824543680050",
+      "group_url": "https://www.facebook.com/groups/396856087036918/",
+      "author": "Ted Hlokoff",
+      "classification": "ambiguous",
+      "summary": "Ted Hlokoff asks if OP is referring to a door window regulator and motor (part identification/search context)",
+      "part_description": "door window regulator and motor",
+      "part_number": null,
+      "year": null,
+      "generation": null,
+      "price": null,
+      "location": null,
+      "signal_source": "post",
+      "resolved": false,
+      "photos": [],
+      "age_hours": null,
+      "comments_seen": 0,
+      "first_seen": "2026-06-21T00:54:14Z",
+      "last_updated": "2026-06-21T00:54:14Z"
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/481789254000352/posts/1385056243673644/",
+      "post_id": "1385056243673644",
+      "group_url": "https://www.facebook.com/groups/481789254000352/",
+      "author": "Nick Estes",
+      "classification": "searching",
+      "summary": "Nick Estes asks where a Viper part can be bought from (part unidentifiable from reply alone)",
+      "part_description": null,
+      "part_number": null,
+      "year": null,
+      "generation": null,
+      "price": null,
+      "location": null,
+      "signal_source": "post",
+      "resolved": false,
+      "photos": [],
+      "age_hours": null,
+      "comments_seen": 0,
+      "first_seen": "2026-06-21T00:54:14Z",
+      "last_updated": "2026-06-21T00:54:14Z"
+    },
+    {
+      "post_url": "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/",
+      "post_id": "1368331015346167",
+      "group_url": "https://www.facebook.com/groups/481789254000352/",
+      "author": "Mike Scherzberg",
+      "classification": "locating",
+      "summary": "Mike Scherzberg recommends Walmart for headlight refurbishment at $40",
+      "part_description": "headlights (refurbishment)",
+      "part_number": null,
+      "year": null,
+      "generation": null,
+      "price": "$40",
+      "location": "Walmart",
+      "signal_source": "post",
+      "resolved": false,
+      "photos": [],
+      "age_hours": null,
+      "comments_seen": 0,
+      "first_seen": "2026-06-21T00:54:14Z",
+      "last_updated": "2026-06-21T00:54:14Z"
+    }
+  ],
+  "deferred_deep_reads": 3,
+  "skip_reason": null
+}
