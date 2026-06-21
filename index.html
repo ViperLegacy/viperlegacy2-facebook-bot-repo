@@ -135,6 +135,13 @@ main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
 .b-ambiguous{color:var(--amb);background:var(--amb-dim)} .b-ambiguous::before{background:var(--amb)}
 .tag-res{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);
   border:1px solid var(--line2);border-radius:3px;padding:2px 6px}
+.crow-r{display:flex;gap:7px;align-items:center}
+.gentag{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink);background:var(--brand-dim);border:1px solid rgba(228,0,43,.42);border-radius:3px;
+  padding:2px 7px;white-space:nowrap}
+.genhead.l-searching .gn{color:var(--wanted)}
+.genhead.l-selling .gn{color:var(--sale)}
+.genhead.l-locating .gn{color:var(--found)}
 
 .title{font-family:var(--disp);font-weight:600;font-size:17px;line-height:1.12;letter-spacing:.01em}
 .pnum{font-family:var(--mono);font-size:11px;color:var(--found);margin-top:-2px}
@@ -194,31 +201,12 @@ main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
     </div>
     <div class="totals" id="totals"></div>
     <div class="controls">
-      <span class="seg-lbl">Lane</span>
-      <div class="seg" id="lanes">
-        <button data-l="all" class="on">All</button>
-        <button data-l="searching">Searching</button>
-        <button data-l="selling">Selling</button>
-        <button data-l="locating">Locating</button>
-        <button data-l="ambiguous">Ambiguous</button>
-      </div>
-      <span class="seg-lbl">Gen</span>
-      <div class="seg" id="gens">
-        <button data-g="all" class="on">All</button>
-        <button data-g="1">G1</button>
-        <button data-g="2">G2</button>
-        <button data-g="3">G3</button>
-        <button data-g="4">G4</button>
-        <button data-g="5">G5</button>
-        <button data-g="unknown">?</button>
-      </div>
       <label class="field"><span class="ic">⌕</span>
-        <input id="q" type="search" placeholder="search part / author / location" autocomplete="off">
+        <input id="q" type="search" placeholder="search part / author / location / gen" autocomplete="off">
       </label>
       <select id="sort" aria-label="sort">
         <option value="newest">sort: newest</option>
-        <option value="gen">sort: generation</option>
-        <option value="lane">sort: lane</option>
+        <option value="gen">sort: by generation</option>
       </select>
       <label class="chk"><input type="checkbox" id="hideres"> hide resolved</label>
     </div>
@@ -236,7 +224,7 @@ main{max-width:1480px;margin:0 auto;padding:18px 24px 80px}
 <script>
 const $ = (s,el=document)=>el.querySelector(s);
 const sections = $('#sections'), loader = $('#loader');
-let FINDS = [], GROUPS = {}, LANE='all', GEN='all', Q='', SORT='newest', HIDE_RES=false;
+let FINDS = [], GROUPS = {}, Q='', SORT='newest', HIDE_RES=false;
 
 const esc = s => (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
@@ -246,9 +234,15 @@ const GEN_META = {
   '3':{name:'Gen 3', sub:'2003–2006 · SRT-10 ZB I'},
   '4':{name:'Gen 4', sub:'2008–2010 · SRT-10 ZB II'},
   '5':{name:'Gen 5', sub:'2013–2017 · VX'},
-  'unknown':{name:'Unknown gen', sub:'year / generation not stated'},
 };
 const GEN_ORDER = ['1','2','3','4','5','unknown'];
+// Findings are grouped by LANE. Ambiguous is excluded from the view.
+const LANE_META = {
+  searching:{name:'Searching', sub:'wanted — someone is looking for it'},
+  selling:  {name:'Selling',   sub:'for sale — someone is offering it'},
+  locating: {name:'Locating',  sub:'leads — where a part can be had'},
+};
+const LANE_ORDER = ['searching','selling','locating'];
 const collapsed = new Set();
 
 const commentsOf = f => (f.comments_seen ?? f.comments_count ?? null);
@@ -298,49 +292,47 @@ async function load(){
 
 function render(){
   loader.classList.add('hidden');
-  // header totals (whole dataset)
-  const by = {searching:0,selling:0,locating:0,ambiguous:0};
-  FINDS.forEach(f=>by[laneOf(f)]++);
+  // Ambiguous is excluded from the dashboard entirely.
+  const live = FINDS.filter(f=>laneOf(f)!=='ambiguous');
+  // header totals
+  const by = {searching:0,selling:0,locating:0};
+  live.forEach(f=>by[laneOf(f)]++);
   $('#totals').innerHTML =
-    `<div class="tot"><div class="n">${FINDS.length}</div><div class="k">finds</div></div>`+
+    `<div class="tot"><div class="n">${live.length}</div><div class="k">finds</div></div>`+
     `<div class="tot s"><div class="n">${by.searching}</div><div class="k">searching</div></div>`+
     `<div class="tot l"><div class="n">${by.selling}</div><div class="k">selling</div></div>`+
-    `<div class="tot o"><div class="n">${by.locating}</div><div class="k">locating</div></div>`+
-    `<div class="tot a"><div class="n">${by.ambiguous}</div><div class="k">ambiguous</div></div>`;
+    `<div class="tot o"><div class="n">${by.locating}</div><div class="k">locating</div></div>`;
 
-  // filter
+  // filter (search + hide-resolved only)
   const q=Q.trim().toLowerCase();
-  let shown = FINDS.filter(f=>{
-    if(LANE!=='all' && laneOf(f)!==LANE) return false;
-    if(GEN!=='all' && f._gen!==GEN) return false;
+  let shown = live.filter(f=>{
     if(HIDE_RES && f.resolved===true) return false;
     if(q){
-      const hay = [f.part_description,f.summary,f.author,f.location,f.part_number,groupName(f.group_url)]
+      const genStr = GEN_META[f._gen] ? ('gen '+f._gen+' gen'+f._gen) : '';
+      const hay = [f.part_description,f.summary,f.author,f.location,f.part_number,groupName(f.group_url),genStr]
         .filter(Boolean).join(' ').toLowerCase();
       if(!hay.includes(q)) return false;
     }
     return true;
   });
 
-  const laneRank={searching:0,selling:1,locating:2,ambiguous:3};
   shown.sort((a,b)=>{
     if(SORT==='gen') return GEN_ORDER.indexOf(a._gen)-GEN_ORDER.indexOf(b._gen) || (tsOf(b)>tsOf(a)?1:-1);
-    if(SORT==='lane') return laneRank[laneOf(a)]-laneRank[laneOf(b)] || (tsOf(b)>tsOf(a)?1:-1);
     return tsOf(b)>tsOf(a)?1:tsOf(b)<tsOf(a)?-1:0; // newest
   });
 
-  if(!shown.length){ sections.innerHTML = `<p class="empty">// no finds match these filters</p>`; return; }
+  if(!shown.length){ sections.innerHTML = `<p class="empty">// no finds match this search</p>`; return; }
 
-  // group by generation in canonical order
+  // group by LANE in canonical order
   const groups = {};
-  for(const f of shown){ (groups[f._gen] ||= []).push(f); }
+  for(const f of shown){ (groups[laneOf(f)] ||= []).push(f); }
   let html='';
-  for(const gk of GEN_ORDER){
-    const list = groups[gk]; if(!list || !list.length) continue;
-    const m = GEN_META[gk];
-    const isCol = collapsed.has(gk);
-    html += `<section class="gensec${isCol?' collapsed':''}" data-g="${gk}">
-      <div class="genhead">
+  for(const lk of LANE_ORDER){
+    const list = groups[lk]; if(!list || !list.length) continue;
+    const m = LANE_META[lk];
+    const isCol = collapsed.has(lk);
+    html += `<section class="gensec${isCol?' collapsed':''}" data-l="${lk}">
+      <div class="genhead l-${lk}">
         <span class="caret">▾</span>
         <span class="gn">${esc(m.name)}</span>
         <span class="gs">${esc(m.sub)}</span>
@@ -371,8 +363,10 @@ function card(f){
     + (age?` · ${age}`:'') + (cc!=null?` · ${cc} comment${cc===1?'':'s'}`:'') + `</span>`;
   const open = f.post_url?`<a class="open" href="${esc(f.post_url)}" target="_blank" rel="noopener">open post →</a>`:'<span></span>';
   const res = f.resolved===true ? `<span class="tag-res">resolved</span>` : '';
+  const gentag = GEN_META[f._gen] ? `<span class="gentag">Gen ${esc(f._gen)}</span>` : '';
   return `<article class="card ${lane}${f.resolved?' resolved':''}">
-    <div class="crow"><span class="badge b-${lane}">${esc(lane)}</span>${res}</div>
+    <div class="crow"><span class="badge b-${lane}">${esc(lane)}</span>
+      <span class="crow-r">${gentag}${res}</span></div>
     <div class="title">${title}</div>${pnum}${summary}${chipsHtml}
     <div class="foot">${meta}${open}</div>
   </article>`;
@@ -381,16 +375,12 @@ function card(f){
 // interactions
 $('#ftoggle').addEventListener('click', e=>{ const h=document.querySelector('header'); const o=h.classList.toggle('open');
   e.currentTarget.setAttribute('aria-expanded',o); e.currentTarget.textContent='Filters '+(o?'▴':'▾'); });
-$('#lanes').addEventListener('click', e=>{ const b=e.target.closest('button[data-l]'); if(!b) return;
-  LANE=b.dataset.l; [...$('#lanes').querySelectorAll('button')].forEach(x=>x.classList.toggle('on',x===b)); render(); });
-$('#gens').addEventListener('click', e=>{ const b=e.target.closest('button[data-g]'); if(!b) return;
-  GEN=b.dataset.g; [...$('#gens').querySelectorAll('button')].forEach(x=>x.classList.toggle('on',x===b)); render(); });
 $('#q').addEventListener('input', e=>{ Q=e.target.value; render(); });
 $('#sort').addEventListener('change', e=>{ SORT=e.target.value; render(); });
 $('#hideres').addEventListener('change', e=>{ HIDE_RES=e.target.checked; render(); });
 sections.addEventListener('click', e=>{ const h=e.target.closest('.genhead'); if(!h) return;
-  const sec=h.closest('.gensec'); const gk=sec.dataset.g;
-  if(collapsed.has(gk)) collapsed.delete(gk); else collapsed.add(gk);
+  const sec=h.closest('.gensec'); const lk=sec.dataset.l;
+  if(collapsed.has(lk)) collapsed.delete(lk); else collapsed.add(lk);
   sec.classList.toggle('collapsed'); });
 
 load();

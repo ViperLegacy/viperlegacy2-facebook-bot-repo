@@ -20,10 +20,11 @@ You do **not** filter posts by keyword. There is no keyword list,
 no substring gate, no pre-filter. You READ each post (and, for
 threads whose comment count changed, the comments) and decide on
 the merits what it is. A post that says "anyone know what these
-go for?" under a photo of a set of wheels is a sell-adjacent /
-ambiguous post even though it contains no "WTS". A comment that
-says "I've got a spare, DM me" turns a search post into a located
-match. Use your reading comprehension, not pattern matching.
+go for?" under a photo of a set of wheels is most likely a `selling`
+post testing the water, even though it contains no "WTS" — read it
+and decide. A comment that says "I've got a spare, DM me" turns a
+search post into a `locating` match. Use your reading comprehension,
+not pattern matching.
 
 ---
 
@@ -189,12 +190,13 @@ the `deep_read_per_cycle` budget (default 10).
 For each scraped post, by `post_url`:
 
 - **NEW** — `post_url` not in `seen.json`. Classify from the feed
-  text (step 5b). If it's a KEEPER (searching / selling / locating /
-  ambiguous — i.e. not `general`), QUEUE it for a deep read: that
-  both reads the comments (where the real signal often is) and
-  records the baseline comment count. A NEW post you judge `general`
-  from the feed text alone is recorded as general in `seen.json`
-  and NOT deep-read.
+  text (step 5b). If it looks parts-related at all (a real ask /
+  offer / lead, OR the lane is unclear from the thin feed text but it
+  could be one of the three), QUEUE it for a deep read: that reads
+  the OP + comments (to resolve the lane + read the real signal) and
+  records the baseline comment count. A NEW post you can already tell
+  is `general` from the feed text alone is recorded as general in
+  `seen.json` and NOT deep-read.
 - **TRACKED / ACTIVE** — `post_url` in `seen.json`, its
   `last_classification` is a keeper (not `general`), and it's still
   ACTIVE: `first_seen` within the last `ACTIVE_DAYS` (default 5) and
@@ -279,12 +281,17 @@ deep-read) the comments. Pick ONE:
   Marketplace", a comment that surfaces where a part can be had.
   This is the third lane unique to this bot. A located match can
   emerge from the COMMENTS of an otherwise-search post.
-- `ambiguous` — clearly Viper-parts-related but you genuinely can't
-  tell the intent. Keep it; the operator decides.
 - `general` — car photos, events, polls, jokes, builds with no
   parts intent. **Drop. Do not record.**
 
-Keep `searching`, `selling`, `locating`, `ambiguous`. Drop `general`.
+Record ONLY `searching`, `selling`, `locating`. There is no
+`ambiguous` bucket anymore. A post whose intent is unclear from the
+feed text alone is still worth a deep read (step 4) to RESOLVE it —
+the OP body + comments usually make the lane obvious. But if, after
+deep-reading the OP and comments, you STILL can't place it in one of
+the three lanes, DROP it (treat it like `general` — do not record).
+Better to drop a genuinely-undeterminable post than to record a
+junk-drawer finding.
 
 #### 5c. Extract structured fields (don't hallucinate; null if absent)
 
@@ -296,7 +303,7 @@ For each kept post, build a finding record:
   "post_id": "...",
   "group_url": "...",
   "author": "...",
-  "classification": "searching" | "selling" | "locating" | "ambiguous",
+  "classification": "searching" | "selling" | "locating",
   "summary": "one sentence: who wants/offers/located what",
   "part_description": "OEM GTS hardtop / set of polished wheels / brake calipers",
   "part_number": "P04848xxxAB" | null,
@@ -347,6 +354,11 @@ run steps 6 and 7.
    bump `last_updated`); otherwise append. Set top-level
    `updated_at`. This file is the operator's deliverable: parts
    searched/sold/located, organized by generation, then part.
+   **PRUNE on write:** drop from the catalog any finding whose
+   `classification` is not one of `searching`/`selling`/`locating`
+   (legacy `ambiguous` entries, anything else). The catalog holds
+   only those three lanes; this also clears out old ambiguous
+   findings left from before the rule changed.
 3. **`data/state/rotation.json`** — set `next_index` to the
    `new_next_index` you computed in step 3, and `last_cycle_scanned`
    to the group URLs you actually scanned. This is what advances the
@@ -393,7 +405,7 @@ Past-tense digest. Active cycle with findings:
 ```
 mcp__clawborrator__route_to_peer({
   peer:   "<NOTIFY_PEER, default clauderemote>",
-  prompt: "Scanned <K> of <N> Viper FB groups (rotation). <A> new + <B> updated findings: <s> searching, <l> selling, <c> locating, <amb> ambiguous. Notable: <one or two one-line highlights, e.g. 'Gen2 GTS hardtop WTS $4500 Phoenix', 'Gen5 ACR wheels located at a yard via comments'>. Full: data/cycles/<ts>.json; catalog: data/catalog.json",
+  prompt: "Scanned <K> of <N> Viper FB groups (rotation). <A> new + <B> updated findings: <s> searching, <l> selling, <c> locating. Notable: <one or two one-line highlights, e.g. 'Gen2 GTS hardtop WTS $4500 Phoenix', 'Gen5 ACR wheels located at a yard via comments'>. Full: data/cycles/<ts>.json; catalog: data/catalog.json",
   mode:   "tell"
 })
 ```
@@ -509,7 +521,8 @@ Every "skip cycle" path still runs step 7 (commit) and step 8 (notify).
   tracked findings to deep-read (budget deep_read_per_cycle) vs SKIP,
   read-post the queued ones (its comments_returned is the comment
   count = the delta signal), classify by JUDGMENT into searching /
-  selling / locating / ambiguous, extract part + year + generation,
+  selling / locating (no ambiguous bucket; drop the undeterminable),
+  extract part + year + generation,
   RE-REVIEW a tracked finding when its comment count grew, update
   seen.json + catalog.json + advance rotation.json, write the cycle
   file, commit + push, notify.
