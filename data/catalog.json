@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T19:37:00Z",
+  "updated_at": "2026-06-21T20:45:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -58,13 +58,13 @@
           "generation": 1,
           "price": "$3,000 (rockers)",
           "location": null,
-          "signal_source": "post",
+          "signal_source": "comments",
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 6,
+          "comments_seen": 7,
           "first_seen": "2026-06-21T01:43:52.161Z",
-          "last_updated": "2026-06-21T16:30:00Z"
+          "last_updated": "2026-06-21T20:45:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/261218964862013/posts/1773116060338955/",
@@ -406,8 +406,8 @@
           "group_url": "https://www.facebook.com/groups/4viperclub/",
           "author": null,
           "classification": "locating",
-          "summary": "1999 GTS (Gen 2) owner seeking weighted shift knob and short shifter; community recommends Ipsco short shifter; Paul Huntress has an MGW Sneaky Pete shift knob available",
-          "part_description": "Gen 2 shift knob and short shifter; MGW Sneaky Pete knob available from Paul Huntress; Ipsco short shifter community recommended",
+          "summary": "1999 GTS (Gen 2) seeking shift knob + short shifter; Paul Huntress has MGW Sneaky Pete (will send pics); Dave Strange made custom knob; Michael Bowyer prefers stock; Joshua Greywolf shared photo",
+          "part_description": "Gen 2 shift knob and short shifter; MGW Sneaky Pete knob (Paul Huntress); Ipsco short shifter (community recommended); custom knob (Dave Strange)",
           "part_number": null,
           "year": 1999,
           "generation": 2,
@@ -417,9 +417,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 4,
+          "comments_seen": 14,
           "first_seen": "2026-06-21T16:30:00Z",
-          "last_updated": "2026-06-21T16:30:00Z"
+          "last_updated": "2026-06-21T20:45:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/25339227989060093/",
@@ -782,13 +782,13 @@
           "generation": 5,
           "price": "$299k",
           "location": null,
-          "signal_source": "post",
+          "signal_source": "comments",
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 8,
+          "comments_seen": 9,
           "first_seen": "2026-06-21T01:43:52.161Z",
-          "last_updated": "2026-06-21T01:43:52.161Z"
+          "last_updated": "2026-06-21T20:45:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1515574226868992/",

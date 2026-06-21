@@ -1,0 +1,63 @@
+{
+  "cycle_ts": "2026-06-21T20:45:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/3552832571664906/",
+    "https://www.facebook.com/groups/4viperclub/",
+    "https://www.facebook.com/groups/646530975516107/",
+    "https://www.facebook.com/groups/2574946562765549/"
+  ],
+  "group_names": [
+    "Viper Owners (3552832571664906)",
+    "Viper Club of America (4viperclub)",
+    "Viper Club of Ontario (646530975516107)",
+    "Chicagoland Viper Owners (2574946562765549)"
+  ],
+  "posts_seen": 41,
+  "new_posts": 4,
+  "deep_reads_performed": 3,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/646530975516107/posts/3531317660370743/",
+    "https://www.facebook.com/groups/3552832571664906/posts/4396587847289370/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163588057397955/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 3,
+  "dropped_reads": [],
+  "re_reviews": [
+    {
+      "post_id": "3531317660370743",
+      "group": "646530975516107",
+      "classification": "selling",
+      "delta": "+1 comment (6→7)",
+      "summary": "Mason Wellesley confirmed rockers asking $3,000 in reply to Jackie Tucker. OP parting out 1994 Gen 1 RT/10; available: hardtop, rocker panels, bumpers. NOT available: hood, headlights, rad support, drivetrain. Jackie Tucker considering purchase."
+    },
+    {
+      "post_id": "4396587847289370",
+      "group": "3552832571664906",
+      "classification": "selling",
+      "delta": "+1 comment (8→9)",
+      "summary": "Zachary Tymrak general enthusiasm comment added (5d ago). Core info unchanged: Stryker Green 2014 GTS, 202 miles, $299k pending sale per Jeremy Boyle. Richard Folks admiring color."
+    },
+    {
+      "post_id": "10163588057397955",
+      "group": "4viperclub",
+      "classification": "locating",
+      "delta": "+10 comments (4→14)",
+      "summary": "Active discussion. Paul Huntress confirmed MGW Sneaky Pete and offered to send pics. Dave Strange: 'I made one!' (custom knob). Michael Bowyer prefers stock shifter for real-world driving. Joshua Greywolf shared photo (49m ago). Andrew Joseph asking Joshua about his knob choice."
+    }
+  ],
+  "new_findings": [],
+  "general_new_posts": [
+    "G17 (4viperclub): 4 new general posts — post IDs not recovered after context compaction mid-cycle; will appear as new on next G17 scan"
+  ],
+  "notes": [
+    "G16 (3552832571664906 Viper Owners): 6 posts; 0 NEW; 6 prev-seen; deep-read: 4396587847289370 (RE-REVIEW +1, $299k pending sale confirmed)",
+    "G17 (4viperclub Viper Club of America): 16 posts; 4 NEW general (IDs not recovered post-compaction); 12 prev-seen; deep-read: 10163588057397955 (RE-REVIEW +10, Paul Huntress MGW Sneaky Pete offer active)",
+    "G18 (646530975516107 Viper Club of Ontario): 7 posts; 0 NEW; 6 trackable prev-seen + 1 null ID cross-post (skipped); deep-read: 3531317660370743 (RE-REVIEW +1, rockers $3,000 confirmed)",
+    "G19 (2574946562765549 Chicagoland Viper Owners): 13 posts; 0 NEW; 13 prev-seen; no deep-read candidates",
+    "Rotation: next_index 16→0 (full rotation complete, wraps back to groups 0-3 next cycle)",
+    "Catalog after cycle 21: gen1:13, gen2:9, gen3:6, gen4:7, gen5:10, unknown:20 = 65 total (0 new, 3 updated)",
+    "Context compaction note: cycle 21 scan was interrupted by context compaction after deep read 1 (3531317660370743). Remaining 2 deep reads and state writes completed in resumed context."
+  ]
+}
