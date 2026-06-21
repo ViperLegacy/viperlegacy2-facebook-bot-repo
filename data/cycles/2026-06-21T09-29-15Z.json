@@ -1,0 +1,34 @@
+{
+  "cycle_ts": "2026-06-21T09:29:15.826Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+    "https://www.facebook.com/groups/481789254000352/",
+    "https://www.facebook.com/groups/1438361473048175/",
+    "https://www.facebook.com/groups/228838842192257/"
+  ],
+  "group_names": [
+    "SRT Viper Owner All Club Members",
+    "Dodge Viper Owners and Enthusiasts",
+    "Dodge Viper RT 10 (0 posts returned)",
+    "Gen 3 & 4 Dodge Viper Owners"
+  ],
+  "posts_seen": 24,
+  "new_posts": 2,
+  "deep_reads_performed": 4,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/228838842192257/posts/1571611361248325/",
+    "https://www.facebook.com/groups/228838842192257/posts/1567386521670809/",
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/posts/3380844398764433/",
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/posts/3380656252116581/"
+  ],
+  "new_classifications": 0,
+  "dropped_reads": [
+    "1571611361248325 (PS pump fitting wrench size Q&A, no trade)",
+    "1567386521670809 (new Viper purchase announcement, no parts trade)",
+    "3380844398764433 (sensor bypass tech discussion, no trade)",
+    "3380656252116581 (DSC coilover tuning question cross-posted; Bobby Archer comment surfaced from different thread)"
+  ],
+  "findings_added": 0,
+  "catalog_total": 51,
+  "notes": "Group 1438361473048175 (Dodge Viper RT 10) returned 0 posts — possibly restricted. 2 new posts added to seen.json (general)."
+}
