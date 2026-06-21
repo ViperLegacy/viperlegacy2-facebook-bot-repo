@@ -1,0 +1,36 @@
+{
+  "cycle_ts": "2026-06-21T11:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/646530975516107/",
+    "https://www.facebook.com/groups/2574946562765549/",
+    "https://www.facebook.com/groups/ViperTech/",
+    "https://www.facebook.com/groups/396856087036918/"
+  ],
+  "group_names": [
+    "Viper Owners (646530975516107)",
+    "Viper Owners (2574946562765549)",
+    "ViperTech",
+    "Gen 1-2 Classifieds (396856087036918)"
+  ],
+  "posts_seen": 38,
+  "new_posts": 1,
+  "deep_reads_performed": 2,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/396856087036918/posts/25075273965435121/",
+    "https://www.facebook.com/groups/396856087036918/posts/26390311687264669/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 0,
+  "dropped_reads": [
+    "25075273965435121 (OP: 'Does anyone have a gen 1 wiring diagram' — documentation/information request, not a physical parts market signal)",
+    "26390311687264669 (OP: 'New from Shift Sector from last weekend' — Shift Sector half-mile event post; comments are social congratulations; Joel Fortin comment is about track capability, not parts)"
+  ],
+  "notes": [
+    "Group 16 (646530975516107): 7 posts scraped; 6 trackable prev seen; 1 post with null post_id (Rick Simpson personal page share, untrackable) — skip",
+    "Group 17 (2574946562765549): 13 posts, all previously seen; all social/event/general; no market signal",
+    "Group 18 (ViperTech): 7 posts, all previously seen; 3357698591053865 (Havik locating) still in feed, no change",
+    "Group 19 (396856087036918): 11 posts, 1 new (25075273965435121 Gen 1 wiring diagram); 10 previously seen; low-yield cycle",
+    "Rotation wraps: next_index advances from 16 to 0 (mod 20)"
+  ]
+}
