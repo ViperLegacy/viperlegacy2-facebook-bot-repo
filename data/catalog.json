@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T20:45:00Z",
+  "updated_at": "2026-06-21T21:42:55Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -235,8 +235,8 @@
           "group_url": "https://www.facebook.com/groups/1439929562963758/",
           "author": null,
           "classification": "searching",
-          "summary": "OP searching for passenger-side Gen 1 Viper rocker panel / side sill (any color, imperfect ok); Brian Jones replied \"I have a few\"; Mike Scherzberg also tagged by commenter as potential source",
-          "part_description": "Gen 1 Viper passenger-side rocker panel / side sill — Brian Jones has several in stock; Mike Scherzberg tagged",
+          "summary": "OP searching for passenger-side Gen 1 Viper rocker panel / side sill (any color, imperfect ok); Matt McCarron has one; Brian Jones has a few; Mike Scherzberg asking where to ship — three active sellers responding",
+          "part_description": "Gen 1 Viper passenger-side rocker panel / side sill — Matt McCarron (has one), Brian Jones (has several), Mike Scherzberg (offering to ship)",
           "part_number": null,
           "year": null,
           "generation": 1,
@@ -246,9 +246,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 4,
+          "comments_seen": 8,
           "first_seen": "2026-06-21T17:30:00Z",
-          "last_updated": "2026-06-21T17:30:00Z"
+          "last_updated": "2026-06-21T21:42:55Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4381449655425217/",
@@ -270,6 +270,27 @@
           "comments_seen": 2,
           "first_seen": "2026-06-21T17:30:00Z",
           "last_updated": "2026-06-21T17:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1439929562963758/posts/4156851214604899/",
+          "post_id": "4156851214604899",
+          "group_url": "https://www.facebook.com/groups/1439929562963758/",
+          "author": null,
+          "classification": "locating",
+          "summary": "OP seeking driver-side Gen 1/2 hood hinge spring; Matt McCarron responds he should have one available",
+          "part_description": "Gen 1/2 driver-side hood hinge spring — Matt McCarron likely has one",
+          "part_number": null,
+          "year": null,
+          "generation": 1,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 2,
+          "first_seen": "2026-06-21T21:42:55Z",
+          "last_updated": "2026-06-21T21:42:55Z"
         }
       ]
     },
@@ -462,6 +483,48 @@
           "comments_seen": 4,
           "first_seen": "2026-06-21T00:54:14Z",
           "last_updated": "2026-06-21T18:44:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4375547512682098/",
+          "post_id": "4375547512682098",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": "Cameron Webster",
+          "classification": "selling",
+          "summary": "Cameron Webster selling complete Gen 2 OEM headers-back exhaust set (from headers all the way back), Los Angeles CA, $400 for the complete set; Alfredo Robles expressed interest via DM",
+          "part_description": "Gen 2 OEM exhaust headers-back complete set — Cameron Webster, Los Angeles CA, $400",
+          "part_number": null,
+          "year": null,
+          "generation": 2,
+          "price": "$400",
+          "location": "Los Angeles, CA",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 12,
+          "first_seen": "2026-06-21T21:42:55Z",
+          "last_updated": "2026-06-21T21:42:55Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4382266898676826/",
+          "post_id": "4382266898676826",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": null,
+          "classification": "searching",
+          "summary": "OP searching for a gray Gen 2 GTS (driver car, clean title); Mike Scherzberg has a 2000 GTS in steel grey/silver stripes with new engine, heads, and cam; Tim Dunn also expressing interest (competing buyer)",
+          "part_description": "Gray Gen 2 GTS Viper (complete car, driver quality) — Mike Scherzberg has 2000 GTS steel grey, new engine/heads/cam",
+          "part_number": null,
+          "year": null,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 8,
+          "first_seen": "2026-06-21T21:42:55Z",
+          "last_updated": "2026-06-21T21:42:55Z"
         }
       ]
     },
@@ -664,21 +727,21 @@
           "post_id": "4156038008019553",
           "group_url": "https://www.facebook.com/groups/1439929562963758/",
           "author": null,
-          "classification": "locating",
-          "summary": "OP searching for Gen 4+ air intake box with filter; James Tierney has several; Brian Jones also likely has one",
+          "classification": "searching",
+          "summary": "OP searching for Gen 4+ Viper air intake box with filter; James Tierney has several; Andrew Stimmel confirms Brian Jones likely has one too",
           "part_description": "Gen 4+ air intake box with filter — James Tierney has several; Brian Jones also has one",
           "part_number": null,
           "year": null,
           "generation": 4,
           "price": null,
           "location": null,
-          "signal_source": "comments",
+          "signal_source": "post",
           "resolved": false,
           "photos": [],
           "age_hours": null,
           "comments_seen": 4,
           "first_seen": "2026-06-20T23:25:40Z",
-          "last_updated": "2026-06-21T07:29:55.412Z"
+          "last_updated": "2026-06-21T21:42:55Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1500586725034409/",
@@ -1116,7 +1179,7 @@
           "group_url": "https://www.facebook.com/groups/1439929562963758/",
           "author": "Charles Plamondon (OP)",
           "classification": "searching",
-          "summary": "Buyer searching for underhood relay protective cap; Cameron Webster offers to 3D print one",
+          "summary": "Buyer (Charles Plamondon) searching for underhood relay protective cap (OEM or 3D print); Cameron Webster offers to design and 3D print one; Plamondon confirmed interest and asked Cameron for price",
           "part_description": "underhood relay protective cap",
           "part_number": null,
           "year": null,
@@ -1127,9 +1190,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 4,
+          "comments_seen": 5,
           "first_seen": "2026-06-21T02:38:44.739Z",
-          "last_updated": "2026-06-21T02:38:44.739Z"
+          "last_updated": "2026-06-21T21:42:55Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/TheViperStore/posts/3345495008985277/",

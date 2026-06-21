@@ -1,0 +1,99 @@
+{
+  "cycle_ts": "2026-06-21T21:42:55Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1439929562963758/",
+    "https://www.facebook.com/groups/TheViperStore/",
+    "https://www.facebook.com/groups/1490844011152477/",
+    "https://www.facebook.com/groups/1406749243343144/"
+  ],
+  "group_names": [
+    "Viper Owners (1439929562963758)",
+    "The Viper Store (TheViperStore)",
+    "Viper Marketplace (1490844011152477)",
+    "Viper Club (1406749243343144)"
+  ],
+  "posts_seen": 44,
+  "new_posts": 5,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/1490844011152477/posts/4375547512682098/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4381551868748329/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4382266898676826/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4156851214604899/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4379938158909700/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4381449655425217/",
+    "https://www.facebook.com/groups/TheViperStore/posts/3346928932175218/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4150317671924920/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4156781601278527/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4156038008019553/"
+  ],
+  "new_classifications": 3,
+  "new_catalog_findings": 3,
+  "updated_catalog_findings": 3,
+  "new_findings": [
+    {
+      "post_id": "4375547512682098",
+      "group": "1490844011152477",
+      "classification": "selling",
+      "generation": 2,
+      "summary": "Cameron Webster selling complete Gen 2 OEM headers-back exhaust set (full set from headers to exhaust), Los Angeles CA, $400; Alfredo Robles expressed interest via DM. lcs_baseline=12."
+    },
+    {
+      "post_id": "4382266898676826",
+      "group": "1490844011152477",
+      "classification": "searching",
+      "generation": 2,
+      "summary": "OP searching for gray Gen 2 GTS, driver car, clean title; Mike Scherzberg has 2000 GTS steel grey/silver stripes, new engine/heads/cam; Tim Dunn also interested (competing buyer). lcs_baseline=8."
+    },
+    {
+      "post_id": "4156851214604899",
+      "group": "1439929562963758",
+      "classification": "locating",
+      "generation": 1,
+      "summary": "OP seeking driver-side Gen 1/2 hood hinge spring; Matt McCarron: 'I should have one.' lcs_baseline=2."
+    }
+  ],
+  "re_reviews": [
+    {
+      "post_id": "4150317671924920",
+      "group": "1439929562963758",
+      "classification": "searching",
+      "delta": "+1 comment (4→5)",
+      "summary": "Charles Plamondon asked Cameron Webster for price on 3D-printed relay cap; catalog updated with active pricing dialogue."
+    },
+    {
+      "post_id": "4156781601278527",
+      "group": "1439929562963758",
+      "classification": "searching",
+      "delta": "+4 comments (4→8)",
+      "summary": "Gen 1 rocker panel search exploded: Matt McCarron ('I have one'), Brian Jones ('I have a few'), Mike Scherzberg ('Where do you want it shipped?') all responding as sellers. Catalog updated with three active sellers."
+    }
+  ],
+  "reclassifications": [
+    {
+      "post_id": "4156038008019553",
+      "group": "1439929562963758",
+      "old_classification": "locating",
+      "new_classification": "searching",
+      "reason": "OP text confirmed: 'Lmk in need of a gen 4+ air intake box w filter' — buyer seeking part. Prior locating label came from surfaced feed card ('I've got a few' from James Tierney). Deep read establishes OP is the searcher; Tierney and Brian Jones are the locating leads."
+    }
+  ],
+  "dropped_reads": [
+    "4381551868748329 (G2 NEW general: Ferrari F430 tires — not Viper-specific, dropped)",
+    "4379938158909700 (NO DELTA: returns 4 < stored 8, keep 8 — selling maintained: 2004 Viper SRT-10 convertible 78k miles $41k)",
+    "4381449655425217 (NO DELTA: 2=2 — selling maintained: 1994 RT/10 32,532 miles $48,999 dealer, Lemke top noted by Scott Chambers)",
+    "3346928932175218 (NO DELTA: 8=8 — selling maintained: OEM Viper hoods new in Mopar packaging $3,500 WI / $3,700+shipping)"
+  ],
+  "general_new_posts": [
+    "4381551868748329 (G2, Ferrari F430 tires — not Viper-specific, dropped)",
+    "3352406581627453 (G1 TheViperStore, general)"
+  ],
+  "notes": [
+    "G0 (1439929562963758): 4 active posts deep-read; 1 new locating (4156851214604899 hood hinge spring); 2 re-reviews (4150317671924920 +1, 4156781601278527 +4); 1 reclassification (4156038008019553 locating→searching)",
+    "G1 (TheViperStore): 1 active deep-read (3346928932175218 no delta 8=8); 1 new general post (3352406581627453)",
+    "G2 (1490844011152477): 3 new classified posts (4375547512682098 selling Gen2, 4382266898676826 searching Gen2, 4381551868748329 general/dropped); 2 active no-delta (4379938158909700, 4381449655425217)",
+    "G3 (1406749243343144): scanned; no new marketable posts",
+    "Rotation: next_index 0→4 (groups 4-7 next cycle)",
+    "Catalog after cycle 22: gen1:14, gen2:11, gen3:6, gen4:7, gen5:10, unknown:20 = 68 total (3 new, 3 updated)"
+  ]
+}
