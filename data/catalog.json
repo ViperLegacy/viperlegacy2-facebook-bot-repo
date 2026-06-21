@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T15:30:00Z",
+  "updated_at": "2026-06-21T16:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -51,7 +51,7 @@
           "group_url": "https://www.facebook.com/groups/646530975516107/",
           "author": null,
           "classification": "selling",
-          "summary": "Gen 1 1994 RT/10 part-out: hardtop, rocker panels, and bumpers available; rockers priced at $3,000",
+          "summary": "Gen 1 1994 RT/10 part-out: hardtop, rocker panels, and bumpers available; rockers priced at $3,000 (confirmed); Jackie Tucker inquired and is considering purchase",
           "part_description": "Gen 1 RT/10 part-out: hardtop, rocker panels, bumpers (hood/headlights/rad support/drivetrain not available)",
           "part_number": null,
           "year": 1994,
@@ -62,9 +62,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 3,
+          "comments_seen": 6,
           "first_seen": "2026-06-21T01:43:52.161Z",
-          "last_updated": "2026-06-21T01:43:52.161Z"
+          "last_updated": "2026-06-21T16:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/261218964862013/posts/1773116060338955/",
@@ -357,6 +357,27 @@
           "comments_seen": 12,
           "first_seen": "2026-06-21T14:30:00Z",
           "last_updated": "2026-06-21T14:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163588057397955/",
+          "post_id": "10163588057397955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "locating",
+          "summary": "1999 GTS (Gen 2) owner seeking weighted shift knob and short shifter; community recommends Ipsco short shifter; Paul Huntress has an MGW Sneaky Pete shift knob available",
+          "part_description": "Gen 2 shift knob and short shifter; MGW Sneaky Pete knob available from Paul Huntress; Ipsco short shifter community recommended",
+          "part_number": null,
+          "year": 1999,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-21T16:30:00Z",
+          "last_updated": "2026-06-21T16:30:00Z"
         }
       ]
     },
@@ -746,6 +767,27 @@
           "comments_seen": 6,
           "first_seen": "2026-06-21T00:22:12Z",
           "last_updated": "2026-06-21T08:35:08.267Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163581691107955/",
+          "post_id": "10163581691107955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "locating",
+          "summary": "Cross-post of Gen 5 OEM TA1.0 CF splitter + rear lip search: Justin Kim has OEM TA1.0 for $1,600 shipped; AJ Mehta has OEM front TA1.0 with PPF (removable); Ryan Frankenfield has OEM set needing fresh clear coat; Andrew Oswald (OP) has located splitters so far, still seeking spoiler",
+          "part_description": "OEM Gen 5 TA1.0 carbon fiber front splitter — Justin Kim ($1,600 shipped); AJ Mehta (OEM front, PPF-covered); Ryan Frankenfield (OEM set, needs clear)",
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": "$1,600 shipped (Justin Kim)",
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 10,
+          "first_seen": "2026-06-21T16:30:00Z",
+          "last_updated": "2026-06-21T16:30:00Z"
         }
       ]
     },

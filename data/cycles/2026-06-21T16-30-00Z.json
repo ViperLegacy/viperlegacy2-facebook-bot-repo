@@ -1,0 +1,65 @@
+{
+  "cycle_ts": "2026-06-21T16:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/3552832571664906/",
+    "https://www.facebook.com/groups/4viperclub/",
+    "https://www.facebook.com/groups/646530975516107/",
+    "https://www.facebook.com/groups/2574946562765549/"
+  ],
+  "group_names": [
+    "Viper Owners (3552832571664906)",
+    "Viper Club of America (4viperclub)",
+    "Viper Club of Ontario (646530975516107)",
+    "Chicagoland Viper Owners (2574946562765549)"
+  ],
+  "posts_seen": 29,
+  "new_posts": 4,
+  "deep_reads_performed": 6,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/4viperclub/posts/10163581691107955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163588057397955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163585543977955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163588099897955/",
+    "https://www.facebook.com/groups/646530975516107/posts/3531317660370743/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163583820737955/"
+  ],
+  "new_classifications": 2,
+  "new_catalog_findings": 2,
+  "updated_catalog_findings": 1,
+  "dropped_reads": [
+    "10163585543977955 (NEW general: Kenda tire discussion; Levi Dale can't find 355/19 rears — Kenda doesn't make them; no parts transaction signal)",
+    "10163588099897955 (NEW general: Wisconsin Viper event/group inquiry; Andy Kreuziger has Wisconsin group — community social)",
+    "10163583820737955 (TRACKED: NO DELTA 20=20 — Gen 2 rack and pinion searching, Bobby Archer in stock, viper-parts.com has tie rods)"
+  ],
+  "re_reviews": [
+    {
+      "post_id": "3531317660370743",
+      "group": "646530975516107",
+      "classification": "selling",
+      "delta": "+3 comments (3→6)",
+      "summary": "Gen 1 94 RT/10 part-out; Jackie Tucker inquired about rocker price ($3,000 confirmed by Mason Wellesley); Jackie Tucker 'will think about it'"
+    }
+  ],
+  "new_findings": [
+    {
+      "post_id": "10163581691107955",
+      "group": "4viperclub",
+      "classification": "locating",
+      "summary": "Cross-post of Gen 5 OEM TA1.0 search: Justin Kim has OEM TA1.0 for $1,600 shipped; AJ Mehta has OEM front with PPF; Ryan Frankenfield has OEM set needing clear; Andrew Oswald found splitters, still needs spoiler"
+    },
+    {
+      "post_id": "10163588057397955",
+      "group": "4viperclub",
+      "classification": "locating",
+      "summary": "1999 GTS owner seeking weighted shift knob + short shifter; Paul Huntress has MGW Sneaky Pete; Ipsco short shifter community recommended"
+    }
+  ],
+  "notes": [
+    "G16 (3552832571664906): 5 posts, all prev seen general — no deep reads, no new posts",
+    "G17 (4viperclub): 10 posts, 4 new (10163585543977955 general Kenda tires, 10163588099897955 general WI gathering, 10163588057397955 locating MGW shift knob, 10163581691107955 locating OEM TA1.0); 10163583820737955 no delta 20=20",
+    "G18 (646530975516107): 5 posts, 3531317660370743 RE-REVIEW +3 (rockers price confirmed $3k, Jackie Tucker considering)",
+    "G19 (2574946562765549): 9 posts, all prev seen general — no deep reads, no new posts",
+    "Rotation wrapped: next_index 16→0 (full rotation complete)",
+    "Catalog after cycle 16: gen1:11, gen2:7, gen3:6, gen4:4, gen5:9, unknown:22 = 59 total (2 new, 1 updated)"
+  ]
+}
