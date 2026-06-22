@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T17:00:00Z",
+  "updated_at": "2026-06-22T18:15:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -595,7 +595,7 @@
           "group_url": "https://www.facebook.com/groups/1490844011152477/",
           "author": null,
           "classification": "selling",
-          "summary": "AI-generated style ad selling silver Gen 2 GTS with black racing stripes; seller taking CASH or TRADE offers; V10 engine, manual transmission, chrome five-spoke wheels; Dennis Sokolov noted AI-generated presentation",
+          "summary": "AI-generated style ad selling silver Gen 2 GTS with black racing stripes; seller taking CASH or TRADE offers; V10 engine, manual transmission, chrome five-spoke wheels; community mocking unsophisticated listing (Richard Pickering: not a real viper guy for saying V10; Dennis Sokolov: AI-generated ad).",
           "part_description": "Gen 2 Dodge Viper GTS (complete car, silver with black racing stripes)",
           "part_number": null,
           "year": null,
@@ -605,9 +605,9 @@
           "signal_source": "post",
           "photos": [],
           "age_hours": null,
-          "comments_seen": 4,
+          "comments_seen": 8,
           "first_seen": "2026-06-22T01:45:00Z",
-          "last_updated": "2026-06-22T01:45:00Z"
+          "last_updated": "2026-06-22T18:15:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163583136847955/",

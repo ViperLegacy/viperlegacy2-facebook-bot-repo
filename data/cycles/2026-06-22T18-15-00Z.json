@@ -1,0 +1,75 @@
+{
+  "cycle_ts": "2026-06-22T18:15:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1439929562963758/",
+    "https://www.facebook.com/groups/TheViperStore/",
+    "https://www.facebook.com/groups/1490844011152477/",
+    "https://www.facebook.com/groups/1406749243343144/"
+  ],
+  "group_names": [
+    "Dodge Viper Parts - Buy/Sell/Trade (1439929562963758)",
+    "Dodge Viper Parts & Accessories FORSALE (TheViperStore)",
+    "Dodge Viper Buy & Sale (1490844011152477)",
+    "Dodge Viper For Sale (1406749243343144)"
+  ],
+  "posts_seen": 29,
+  "new_posts": 0,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/1439929562963758/posts/4148503358773018/",
+    "https://www.facebook.com/groups/1439929562963758/posts/3612613142362045/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4382266898676826/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4152706598352694/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4375547512682098/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4156781601278527/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4379938158909700/",
+    "https://www.facebook.com/groups/TheViperStore/posts/3346928932175218/",
+    "https://www.facebook.com/groups/1439929562963758/posts/4150317671924920/",
+    "https://www.facebook.com/groups/1490844011152477/posts/4382221548681361/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 1,
+  "new_findings": [],
+  "re_reviews": [
+    {
+      "post_id": "4382221548681361",
+      "group": "1490844011152477",
+      "classification": "selling",
+      "generation": 2,
+      "lcs_old": 4,
+      "lcs_new": 8,
+      "reason": "CR=8 > lcs=4; community mocking AI-generated listing (Richard Pickering: 'Can tell your not a real viper guy if you say it has a v10'; Pete Talarico: 'well it coulda been the V6 option'). No change to classification or part details."
+    }
+  ],
+  "resolved": [],
+  "dropped_reads": [
+    "4148503358773018 (NO DELTA: CR=18=lcs=18 — selling maintained: Gen3/4 Mamba Edition complete interior set, red panels + steering wheel, Andrew Blair not separating yet; Rich Tatton DM'd)",
+    "3612613142362045 (NO DELTA: CR=16=lcs=16 — selling maintained: steering rack rebuild service all Viper gens; Jonathan Silva asking about fluid lines separately)",
+    "4382266898676826 (NO DELTA: CR=14=lcs=14 — searching maintained: gray Gen2 GTS buyer; Mike Scherzberg offering 2000 GTS steel grey/silver stripes new engine 16h ago; Chris Gizzi tag-in 13h ago)",
+    "4152706598352694 (NO DELTA: CR=14=lcs=14 — locating maintained: Gen5 bellhousing; Brian Jones has several, Andy Kreuziger sold some, may be G4-compatible per Mike Scherzberg)",
+    "4375547512682098 (NO DELTA: CR=12 < lcs=13 → max=13 — selling maintained: Gen2 OEM exhaust headers-back <10k mi Los Angeles $400; Alfredo Robles planning pickup 18h ago)",
+    "4156781601278527 (NO DELTA: CR=8=lcs=8 — searching maintained: Gen1 passenger rocker/side sill; Brian Jones has a few 1d, Matt McCarron has one 19h, Mike Scherzberg asking shipping 16h)",
+    "4379938158909700 (NO DELTA: CR=4 < lcs=8 → max=8 — selling maintained: 2004 Gen3 RT/10 convertible 78k mi; buyer asked about stock wheels, seller says custom wheels match car)",
+    "3346928932175218 (NO DELTA: CR=8=lcs=8 — selling maintained: new OEM Viper hoods $3,500 pickup WI/$3,700+shipping LTL freight; Bobby Archer buying one 5d; no inserts included)",
+    "4150317671924920 (NO DELTA: CR=4 < lcs=5 → max=5 — searching maintained: relay protective cap under hood; Cameron Webster offering 3D print 2d; OP interested asking price)",
+    "4382221548681361 (RE-REVIEW: CR=8 > lcs=4 → lcs=8 — selling maintained: silver Gen2 GTS coupe whole car CASH/TRADE; community mocking AI-style ad; Richard Pickering V10 comment)"
+  ],
+  "deferred_deep_reads": 4,
+  "deferred": [
+    "4156851214604899 (G0, lcs=2 — below budget threshold)",
+    "4382334762003373 (G1, lcs=2 — below budget threshold)",
+    "4381449655425217 (G2, lcs=2 — below budget threshold)",
+    "4156038008019553 (G0, lcs=4 — below budget threshold)"
+  ],
+  "notes": [
+    "G0 (1439929562963758 Dodge Viper Parts Buy/Sell/Trade): 9 posts; 5 active deep-read (all no-delta); 4 prev-seen skip",
+    "G1 (TheViperStore Dodge Viper Parts & Accessories FORSALE): 6 posts; 1 active deep-read (no-delta: 3346928932175218 OEM hoods $3,500 WI); 1 deferred (4382334762003373 lcs=2); 4 prev-seen skip",
+    "G2 (1490844011152477 Dodge Viper Buy & Sale): 11 posts; 4 active deep-read (1 RE-REVIEW: 4382221548681361 GTS car lcs 4→8; 3 no-delta); 1 deferred (4381449655425217 lcs=2); 1 new mod post 4382617238641792 → general; 4 prev-seen skip",
+    "G3 (1406749243343144 Dodge Viper For Sale): 3 posts; 0 deep reads (all prev-seen general/skip)",
+    "1 RE-REVIEW: 4382221548681361 silver Gen2 GTS whole car listing; lcs 4→8; community mocking AI-style listing ('V10' verbiage); no classification change",
+    "1 new general post added to seen.json: 4382617238641792 (mod post G2)",
+    "Rotation: next_index 0→4 (groups G4-G7 next cycle)",
+    "Catalog after cycle 37: gen1:15 gen2:15 gen3:10 gen4:8 gen5:14 unk:21 = 83 total (0 new, 1 updated)"
+  ]
+}
