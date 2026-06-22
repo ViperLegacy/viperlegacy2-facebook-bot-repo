@@ -1,0 +1,80 @@
+{
+  "cycle_ts": "2026-06-22T19:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/261218964862013/",
+    "https://www.facebook.com/groups/335349806967085/",
+    "https://www.facebook.com/groups/1012457883847298/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/"
+  ],
+  "group_names": [
+    "Dodge Viper Originals 92-02 Classifieds - Cars & Parts (261218964862013)",
+    "Dodge Viper Originals 92-02 Sneaky Pete (335349806967085)",
+    "Gen V Dodge Vipers Buy/Sell/Trade/Chat (1012457883847298)",
+    "VIPER related Help-Sell-Buy (ViperRelatedSellBuy)"
+  ],
+  "posts_seen": 38,
+  "new_posts": 0,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/335349806967085/posts/2449834888851889/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27118951811087693/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1548378836921864/",
+    "https://www.facebook.com/groups/335349806967085/posts/2454562378379140/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1535235378236210/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449862685515776/",
+    "https://www.facebook.com/groups/335349806967085/posts/2450248968810481/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772684247048803/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/26835568966092647/",
+    "https://www.facebook.com/groups/261218964862013/posts/1777050786612149/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 1,
+  "new_findings": [],
+  "re_reviews": [
+    {
+      "post_id": "1777050786612149",
+      "group": "261218964862013",
+      "classification": "locating",
+      "generation": 1,
+      "lcs_old": 9,
+      "lcs_new": 10,
+      "reason": "CR=10 > lcs=9; new 1d comments: Apollonius Salis 'Got them, make me an offer' AND Tony Hanks 'I think I still have both my original manifolds with shields in the attic'; Kurt Ó Cinnéide PM'd both sellers. Strong locating signal for Gen1 manifold heat shields."
+    }
+  ],
+  "resolved": [],
+  "dropped_reads": [
+    "2449834888851889 (NO DELTA: CR=18 < lcs=20 → max=20 — selling maintained: 1995 Gen1 Viper 39,928 mi Houston TX; uncle had stroke, wife selling; community estimates $35-40k; Ben Park offering shop assistance; possible Roe Racing SC seen in hood)",
+    "27118951811087693 (NO DELTA: CR=20=lcs=20 — selling already RESOLVED from prior cycle; Dana Mennerich 'Thanks all for the interest everything sold'; 2000 Gen2 parts lot: keys, oil pan gasket, valve cover gaskets)",
+    "1548378836921864 (NO DELTA: CR=9 < lcs=18 → max=18 — selling maintained: 2014 Gen5 SRT base 'Cheeseburger 6-vent bolt ons'; Gen5 market discussion $120-180k range; Coltin Sherrell offering his for $180k)",
+    "2454562378379140 (NO DELTA: CR=14=lcs=14 — locating maintained: Gen1 92 soft top compatibility question; Mike Scherzberg has 1992 original vinyl top + 1993 antenna-car top for sale; Patrick Morgan got one for $540)",
+    "1535235378236210 (NO DELTA: CR=12=lcs=12 — selling maintained: 2014 Gen5 SRT $149,998 Michigan, 2500 mi red/white; seller stopped responding to DMs — Jim Campbell 'Watch out!!!'; community skeptical of pricing)",
+    "2449862685515776 (NO DELTA: CR=10=lcs=10 — locating maintained: Roe Racing CPU/PCM failure; Dan Lesser/ViperSpecialty has replacements in stock; Augie Duesenberg confirmed CPU failure root cause)",
+    "2450248968810481 (NO DELTA: CR=10=lcs=10 — locating maintained: Gen1 top radiator hose + fog lamp covers sourcing for Australia; Havik silicone hoses, Mishimoto USA; local Oz owner had spare once)",
+    "1772684247048803 (NO DELTA: CR=10=lcs=10 — locating maintained: relay protective cap under hood; Todd at Don Scharf Auto WI, Brian Jones tagged; Andy Sommer also needs opposite-side cover)",
+    "26835568966092647 (NO DELTA: CR=10=lcs=10 — selling maintained: 2003 Gen3 SRT-10 convertible 40k mi Southlake TX on C&B; Christian Tanso 13h ago confirms C&B listing unsold; private sale est $45-55k)",
+    "1777050786612149 (RE-REVIEW: CR=10 > lcs=9 → lcs=10 — locating maintained: Gen1 manifold heat shields; Apollonius Salis 'Got them' 1d, Tony Hanks 'I think I still have both' 1d, Kurt PM'd both)"
+  ],
+  "deferred_deep_reads": 8,
+  "deferred": [
+    "1776485186668709 (G4, selling lcs=4 — below threshold)",
+    "1772589947058233 (G4, selling lcs=6 — below threshold)",
+    "1773116060338955 (G4, selling lcs=8 — below threshold)",
+    "1500586725034409 (G6, selling lcs=9 — below threshold)",
+    "1558679672558447 (G6, selling lcs=2 — below threshold)",
+    "1544750113951403 (G6, selling lcs=4 — below threshold)",
+    "1516173610142387 (G6, selling lcs=6 — below threshold)",
+    "27019684554347753 (G7, locating lcs=2 — below threshold)"
+  ],
+  "notes": [
+    "G4 (261218964862013 Dodge Viper Originals 92-02 Classifieds): 6 posts; 2 active deep-read (1 RE-REVIEW: 1777050786612149 manifold heat shields lcs 9→10; 1 no-delta: 1772684247048803 relay cap); 3 deferred; 1 prev-seen general",
+    "G5 (335349806967085 Dodge Viper Originals 92-02 Sneaky Pete): 11 posts; 5 active deep-read (all no-delta: 2449834888851889 Gen1 car Houston, 2454562378379140 soft top, 2449862685515776 Roe Racing CPU, 2450248968810481 radiator hose AUS); 1 new general (2446003805901664 'Looks sick')",
+    "G6 (1012457883847298 Gen V Dodge Vipers Buy/Sell/Trade/Chat): 9 posts; 3 active deep-read (all no-delta: 1548378836921864 Gen5 SRT 'Cheeseburger', 1535235378236210 $149,998 Gen5 Michigan suspicious, 1500586725034409 deferred not read)",
+    "G7 (ViperRelatedSellBuy VIPER related Help-Sell-Buy): 12 posts; 2 active deep-read (no-delta: 27118951811087693 already resolved from prior cycle, 26835568966092647 Gen3 C&B unsold); 1 new general (27170976875885186 vapor system comment)",
+    "27118951811087693 already marked resolved=true in catalog and seen.json from prior cycle — confirmed still CR=20=lcs=20",
+    "1777050786612149 RE-REVIEW: Apollonius Salis AND Tony Hanks both surfaced (1d) as sources for Gen1 manifold heat shields",
+    "2 new general posts added to seen.json: 2446003805901664 (G5 'Looks sick' appreciation), 27170976875885186 (G7 vapor system comment)",
+    "Rotation: next_index 4→8 (G8-G11 next cycle)",
+    "Catalog after cycle 38: gen1:15 gen2:15 gen3:10 gen4:8 gen5:14 unk:21 = 83 total (0 new, 1 updated)"
+  ]
+}
