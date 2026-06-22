@@ -1,0 +1,79 @@
+{
+  "cycle_ts": "2026-06-22T07:00:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1438361473048175/",
+    "https://www.facebook.com/groups/228838842192257/",
+    "https://www.facebook.com/groups/viperownersassociation/",
+    "https://www.facebook.com/groups/BestViperClub/"
+  ],
+  "group_names": [
+    "Dodge Viper RT 10 (1438361473048175)",
+    "Gen 3 & 4 Dodge Viper Owners (228838842192257)",
+    "Viper Owners Association (viperownersassociation)",
+    "Viper Owners Group (BestViperClub)"
+  ],
+  "posts_seen": 32,
+  "new_posts": 4,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/228838842192257/posts/1570725821336879/",
+    "https://www.facebook.com/groups/228838842192257/posts/1572524347823693/",
+    "https://www.facebook.com/groups/228838842192257/posts/1572521867823941/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3525129057662814/",
+    "https://www.facebook.com/groups/228838842192257/posts/1569026524840142/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3528406150668438/",
+    "https://www.facebook.com/groups/228838842192257/posts/1566517541757707/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3530589477116772/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 1,
+  "new_findings": [
+    {
+      "post_id": "1572524347823693",
+      "group": "228838842192257",
+      "classification": "searching",
+      "generation": "unknown",
+      "summary": "OP searching for fangs logo gripper shift ball (gray or red), offering MGW short throw shifter in trade; Jacob Sandow has one. lcs_baseline=6."
+    }
+  ],
+  "re_reviews": [
+    {
+      "post_id": "1566517541757707",
+      "group": "228838842192257",
+      "classification": "searching",
+      "delta": "+2 comments (14->16)",
+      "summary": "Gen 4 ACR buyer in Switzerland still active (Lucas Reis 'Bump. Still looking'). New leads: Paul L. Gooding offering #14 of 20 Factory Built 2010 ACR Convertible; Ben Lindsey 'one for sale in Tulsa.' Catalog updated."
+    }
+  ],
+  "reclassifications": [
+    {
+      "post_id": "3528406150668438",
+      "group": "BestViperClub",
+      "old_classification": "searching",
+      "new_classification": "general",
+      "reason": "OP text confirmed: 'Got Amy all cleaned up and ready for a drive tomorrow! OG paint and dash still holding up well for 32yrs old.' — show-off post, not searching. Prior surfaced card was Hoordad Ghandehari's dash paint question in comments. Pruned from catalog."
+    }
+  ],
+  "dropped_reads": [
+    "1570725821336879 (NEW read returned empty — post inaccessible or deleted; added to seen.json as cls=null)",
+    "1572521867823941 (NEW GENERAL: G4 steering rack bushing upgrade tech discussion)",
+    "3525129057662814 (NEW GENERAL: Viper oil filter 836 vs 041 comparison post)",
+    "1569026524840142 (NO DELTA: CR=18 < lcs=19, keep 19 — searching maintained: Gen3 forged connecting rods; Rich Tatton has full set; Adam Canales has full pistons/rods/rings set)",
+    "3529282953914091 (NO DELTA: 16=16 — locating maintained: Autoform still makes Viper aero kits)",
+    "3527371310771922 (NO DELTA: 14=14 — selling maintained: Gen1 clutch pedal travel reduction kit, production expected early August)",
+    "3530589477116772 (NO DELTA: 13=13 — locating maintained: Vitour P1X-01R tire review; available in 345 wide rear)"
+  ],
+  "notes": [
+    "G12 (1438361473048175 Dodge Viper RT10): 0 posts — empty feed again",
+    "G13 (228838842192257 Gen 3&4 Viper Owners): 14 posts; 3 new (1570725821336879 read-empty/null, 1572524347823693 NEW searching shift ball, 1572521867823941 general); 5 deep-reads",
+    "G14 (viperownersassociation VOA): 7 posts; all prev-seen; 0 deep-reads (all cls=general or low-priority)",
+    "G15 (BestViperClub): 11 posts; 1 new (3525129057662814 general oil filter); 5 deep-reads",
+    "RE-REVIEW: 1566517541757707 lcs 14->16 — significant new lead: Paul L. Gooding #14/20 2010 ACR Convertible",
+    "RECLASSIFICATION: 3528406150668438 show-off post misclassified as searching — corrected to general, pruned",
+    "Rotation: next_index 12->16 (groups 16-19 next cycle)",
+    "Catalog after cycle 30: gen1:13, gen2:14, gen3:9, gen4:8, gen5:12, unknown:21 = 77 total (1 new, 1 updated, 1 pruned)"
+  ]
+}

@@ -1,29 +1,8 @@
 {
-  "updated_at": "2026-06-22T05:15:00Z",
+  "updated_at": "2026-06-22T07:00:00Z",
   "by_generation": {
     "1": {
       "findings": [
-        {
-          "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3528406150668438/",
-          "post_id": "3528406150668438",
-          "group_url": "https://www.facebook.com/groups/BestViperClub/",
-          "author": "Hoordad Ghandehari",
-          "classification": "searching",
-          "summary": "1994 Viper (Gen 1) owner searching for dash paint vendor or recommendations to fix scratches and misalignments; Tracy Burkhart recommends 'Honda Pro Cleaner' / 'The Original' spray polish as a care solution",
-          "part_description": "dash paint / dash refinishing service",
-          "part_number": null,
-          "year": 1994,
-          "generation": 1,
-          "price": null,
-          "location": null,
-          "signal_source": "comments",
-          "resolved": false,
-          "photos": [],
-          "age_hours": null,
-          "comments_seen": 16,
-          "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-21T15:30:00Z"
-        },
         {
           "post_url": "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
           "post_id": "3527371310771922",
@@ -810,7 +789,7 @@
           "group_url": "https://www.facebook.com/groups/228838842192257/",
           "author": null,
           "classification": "searching",
-          "summary": "Buyer in Switzerland searching for a Gen 4 ACR private deal; two located in comments (Montreal, Canada and Tulsa, OK) Updated: OP confirmed in Switzerland; Montreal CA and Tulsa TX leads noted; OP bumped post (still looking).",
+          "summary": "Buyer in Switzerland searching for a Gen 4 ACR private deal (no hardcore package); leads: George Kay (Montreal CA), Ben Lindsey (Tulsa OK); Paul L. Gooding offering #14 of 20 Factory Built 2010 ACR Convertible; Lucas Reis still searching (bump)",
           "part_description": "Gen 4 ACR coupe (full car)",
           "part_number": null,
           "year": null,
@@ -821,9 +800,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 14,
+          "comments_seen": 16,
           "first_seen": "2026-06-21T01:18:36.229Z",
-          "last_updated": "2026-06-22T00:10:00Z"
+          "last_updated": "2026-06-22T07:00:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/396856087036918/posts/26917519861210513/",
@@ -1627,6 +1606,26 @@
           "age_hours": null,
           "first_seen": "2026-06-22T00:55:00Z",
           "last_updated": "2026-06-22T00:55:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/228838842192257/posts/1572524347823693/",
+          "post_id": "1572524347823693",
+          "group_url": "https://www.facebook.com/groups/228838842192257/",
+          "author": null,
+          "classification": "searching",
+          "summary": "OP searching for fangs logo gripper shift ball (gray or red), offering MGW short throw shifter in trade; Jacob Sandow has one",
+          "part_description": "Viper fangs logo gripper shift ball (gray or red)",
+          "part_number": null,
+          "year": null,
+          "generation": null,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 6,
+          "first_seen": "2026-06-22T07:00:00Z",
+          "last_updated": "2026-06-22T07:00:00Z"
         }
       ]
     }
