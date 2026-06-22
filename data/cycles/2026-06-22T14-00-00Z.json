@@ -1,0 +1,62 @@
+{
+  "cycle_ts": "2026-06-22T14:00:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/ViperTech/",
+    "https://www.facebook.com/groups/396856087036918/",
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+    "https://www.facebook.com/groups/481789254000352/"
+  ],
+  "group_names": [
+    "Viper Owners Tech Help/How to/Q&A (ViperTech)",
+    "The Viper Garage.com (396856087036918)",
+    "DODGE VIPER OWNERS AND ALL VIPER CLUBS MEMBER'S SITE (srtviperownerallclubmembers)",
+    "Dodge Viper Owners and Enthusiasts (481789254000352)"
+  ],
+  "posts_seen": 31,
+  "new_posts": 0,
+  "deep_reads_performed": 8,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/396856087036918/posts/26917519861210513/",
+    "https://www.facebook.com/groups/481789254000352/posts/1380509867461615/",
+    "https://www.facebook.com/groups/481789254000352/posts/1385056243673644/",
+    "https://www.facebook.com/groups/396856087036918/posts/25885910991038077/",
+    "https://www.facebook.com/groups/396856087036918/posts/25641004548862057/",
+    "https://www.facebook.com/groups/396856087036918/posts/26392824543680050/",
+    "https://www.facebook.com/groups/ViperTech/posts/3357698591053865/",
+    "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 1,
+  "new_findings": [],
+  "re_reviews": [],
+  "resolved": [
+    {
+      "post_id": "25885910991038077",
+      "group": "396856087036918",
+      "classification": "selling",
+      "reason": "Arthur Ward commented 'Sold' — Gen 2 Paxton Novi 2000 SC kit ($5,000) confirmed sold. Marked resolved=true in seen.json and catalog.json."
+    }
+  ],
+  "dropped_reads": [
+    "26917519861210513 (NO DELTA: CR=12=lcs=12 — locating maintained: Gen4 window regulators; Arizona Power Window Repair; Mopar #4865610AI passenger ~$367, #4865611AI driver ~$770 at moparpartsgiant.com)",
+    "1380509867461615 (NO DELTA: CR=12=lcs=12 — searching maintained: 2000 Gen2 GTS suspension advice; BC Racing, MCS, KW V2, Nitron; Kevin James has KW V2 for sale needing rebuild)",
+    "1385056243673644 (NO DELTA: CR=5 < lcs=10, keep 10 — locating maintained: 2009 ACR fender vents completed; community asking where to buy; VIPER Carbon commenter)",
+    "25885910991038077 (RESOLVED: CR=8=lcs=8 — Gen2 Paxton Novi 2000 SC kit $5,000 confirmed SOLD per Arthur Ward comment; marked resolved)",
+    "25641004548862057 (NO DELTA: CR=6=lcs=6 — locating maintained: Brian Jones + Todd at Don Scharf Automotive as go-to Viper parts sources)",
+    "26392824543680050 (NO DELTA: CR=4=lcs=4 — searching maintained: 1998 Gen2 GTS driver window regulator+motor; Arizona Power Window Repair for rebuilds)",
+    "3357698591053865 (NO DELTA: CR=4=lcs=4 — locating maintained: 1997 Gen2 GTS water pump; Havik Performance rebuilds)",
+    "1368331015346167 (NO DELTA: CR=2=lcs=2 — selling maintained: 2001 Gen2 RT/10 6-spd 15k mi Queens NY $50,000)"
+  ],
+  "deferred_deep_reads": 0,
+  "deferred": [],
+  "notes": [
+    "G8 (ViperTech Viper Owners Tech Help): 8 posts; 1 active tracked deep-read (3357698591053865 no-delta: Gen2 GTS water pump / Havik); 7 prev-seen general/null",
+    "G9 (396856087036918 The Viper Garage): 10 posts; 4 active tracked deep-read (1 resolved: 25885910991038077 Paxton SC sold; 3 no-delta); 6 prev-seen general",
+    "G10 (srtviperownerallclubmembers All Viper Clubs): 10 posts; 0 deep reads (all prev-seen general); 0 parts signal",
+    "G11 (481789254000352 Owners and Enthusiasts): 3 posts; 3 active tracked deep-read (all no-delta: 1380509867461615 Gen2 suspension, 1385056243673644 ACR vents, 1368331015346167 Gen2 RT/10 $50k)",
+    "RESOLVED: 25885910991038077 — Gen2 Paxton Novi 2000 SC kit confirmed sold (Arthur Ward: 'Sold')",
+    "Rotation: next_index 8->12 (groups 12-15 next cycle)",
+    "Catalog after cycle 34: gen1:15 gen2:15 gen3:10 gen4:8 gen5:13 unk:21 = 82 total (0 new, 1 resolved)"
+  ]
+}
