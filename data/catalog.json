@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T08:45:00Z",
+  "updated_at": "2026-06-22T10:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -490,20 +490,20 @@
           "group_url": "https://www.facebook.com/groups/1490844011152477/",
           "author": "Cameron Webster",
           "classification": "selling",
-          "summary": "Cameron Webster selling complete Gen 2 OEM headers-back exhaust set (from headers all the way back), Los Angeles CA, $400 for the complete set; Alfredo Robles expressed interest via DM",
+          "summary": "Cameron Webster selling complete Gen 2 OEM headers-back exhaust set, Los Angeles CA, $400 complete set (headers $300, resonators $80ea, cats+flex $200ea, muffler $250); Alfredo Robles pursuing local pickup. lcs=13.",
           "part_description": "Gen 2 OEM exhaust headers-back complete set — Cameron Webster, Los Angeles CA, $400",
           "part_number": null,
           "year": null,
           "generation": 2,
           "price": "$400",
           "location": "Los Angeles, CA",
-          "signal_source": "post",
+          "signal_source": "comments",
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 12,
+          "comments_seen": 13,
           "first_seen": "2026-06-21T21:42:55Z",
-          "last_updated": "2026-06-21T21:42:55Z"
+          "last_updated": "2026-06-22T10:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4382266898676826/",
@@ -1247,6 +1247,27 @@
           "age_hours": null,
           "first_seen": "2026-06-22T00:55:00Z",
           "last_updated": "2026-06-22T08:45:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4382334762003373/",
+          "post_id": "4382334762003373",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": null,
+          "classification": "selling",
+          "summary": "Gen 5 Viper, black/cognac interior, 24k miles, Borla cat-back exhaust, Gen 3/4 Brembo 4-piston caliper + 14\" rotor conversion (Ipsco brackets), hyper black Sidewinder 2 Time Attack Edition wheels, short throw shifter, black suede headliner. LA area (can transport to Vista). Will trade for 2nd-gen Charger (manual only). No price listed. lcs_baseline=2.",
+          "part_description": null,
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": null,
+          "location": "Los Angeles, CA (can transport to Vista)",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 2,
+          "first_seen": "2026-06-22T10:30:00Z",
+          "last_updated": "2026-06-22T10:30:00Z"
         }
       ]
     },
