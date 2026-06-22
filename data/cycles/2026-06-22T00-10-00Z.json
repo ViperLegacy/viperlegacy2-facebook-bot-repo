@@ -1,0 +1,91 @@
+{
+  "cycle_ts": "2026-06-22T00:10:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1438361473048175/",
+    "https://www.facebook.com/groups/228838842192257/",
+    "https://www.facebook.com/groups/viperownersassociation/",
+    "https://www.facebook.com/groups/BestViperClub/"
+  ],
+  "group_names": [
+    "Dodge Viper RT 10 (1438361473048175) — empty feed",
+    "Gen 3 & 4 Dodge Viper Owners (228838842192257)",
+    "Viper Owners Association VOA (viperownersassociation)",
+    "Viper Owners Group (BestViperClub)"
+  ],
+  "posts_seen": 34,
+  "new_posts": 7,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/BestViperClub/posts/3530589477116772/",
+    "https://www.facebook.com/groups/228838842192257/posts/1571611361248325/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1618916653149546/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529517833890603/",
+    "https://www.facebook.com/groups/228838842192257/posts/1569026524840142/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3528406150668438/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",
+    "https://www.facebook.com/groups/228838842192257/posts/1566517541757707/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 3,
+  "new_findings": [
+    {
+      "post_id": "3530589477116772",
+      "group": "BestViperClub",
+      "classification": "locating",
+      "generation": 5,
+      "summary": "OP reviews Vitour P1X-01R as best tire run to date — beats Bridgestone RE-71RZ, 345 wide rear, instant grip unlike R888R, easy to temp on street. Nick Barry requests 355/19. Made in China per Momo Momo but build quality great. lcs_baseline=13."
+    }
+  ],
+  "re_reviews": [
+    {
+      "post_id": "1566517541757707",
+      "group": "228838842192257",
+      "classification": "searching",
+      "delta": "+4 comments (10→14)",
+      "summary": "Gen 4 ACR buyer in Switzerland still searching — 'Bump. Still looking'. New leads: Montreal CA and Tulsa TX (Ben Lindsey). lcs updated 10→14."
+    },
+    {
+      "post_id": "3527371310771922",
+      "group": "BestViperClub",
+      "classification": "selling",
+      "delta": "+4 comments (10→14)",
+      "summary": "Gen 1 clutch pedal travel reduction kit — buyer demand building: Chris Cantrell 'Can I pay you now?', two 'Put me on the list' requests; production early August still on track. lcs updated 10→14."
+    },
+    {
+      "post_id": "3529282953914091",
+      "group": "BestViperClub",
+      "classification": "locating",
+      "delta": "+4 comments (12→16)",
+      "summary": "Autoform aero kit — Art Irvin confirms Autoform still makes front bumper/aero. lcs updated 12→16."
+    }
+  ],
+  "reclassifications": [],
+  "dropped_reads": [
+    "1571611361248325 (NO DELTA: 12=12 — GENERAL: power steering pump fitting wrench size Q&A; cls updated null→general)",
+    "1618916653149546 (NO DELTA: 4=4 — GENERAL: Gen5 battery-dead electrical oddities tech Q&A; cls updated null→general)",
+    "3529517833890603 (NO DELTA: 12=12 — GENERAL: new owner 2006 vert celebration post; cls updated null→general)",
+    "1569026524840142 (NO DELTA: 18<19, keep 19 — searching Gen3 forged rods maintained; Prefix/Molnar/DM sellers active)",
+    "3528406150668438 (NO DELTA: 15<16, keep 16 — searching Gen1 94 dash paint maintained)",
+    "1616954850012393 (NO DELTA: 10<11, keep 11 — selling Gen1/2 rebuilt pumps maintained; Injector Masters LLC / Michael Kuchavik Jr.)"
+  ],
+  "general_new_posts": [
+    "1568282281581233 (G13, Cam Dauer: power steering fitting tech comment — general)",
+    "1572426484500146 (G13, Heather Miracle: humorous reaction — general)",
+    "1572388617837266 (G13, Brian Jones: radio bezel tech tip — general)",
+    "1569571444785650 (G13, Zachariah Nauss: humorous reaction — general)",
+    "1614703840237494 (G14, Jim Templeton: compliment to Christopher Ingle — general)",
+    "1620726442968567 (G14, Peter Sessler: Toyo tire opinion — general)"
+  ],
+  "notes": [
+    "G12 (1438361473048175 Dodge Viper RT10): 0 posts — empty feed again",
+    "G13 (228838842192257 Gen3&4): 12 posts; 5 new (4 general + 1 already-seen with new position); 7 prev-seen; RE-REVIEW: 1566517541757707 +4; no-delta: 1569026524840142 18<19 keep 19, 1571611361248325 12=12 general",
+    "G14 (viperownersassociation): 10 posts; 2 new general; 8 prev-seen; no-delta: 1618916653149546 4=4 general, 1616954850012393 10<11 keep 11",
+    "G15 (BestViperClub): 12 posts; 1 new locating (3530589477116772); 11 prev-seen; RE-REVIEWs: 3527371310771922 +4, 3529282953914091 +4; no-delta: 3528406150668438 15<16, 3529517833890603 12=12 general",
+    "Skipped deep reads (limit reached): 1617401826634362 (lcs=12 selling, G14 — no text change cue), 3527238127451907 (lcs=8 searching, G15 — established)",
+    "Rotation: next_index 12→16 (groups 16-19 next cycle)",
+    "Catalog after cycle 25: gen1:14, gen2:12, gen3:6, gen4:7, gen5:11, unknown:19 = 69 total (1 new locating Gen5 tire, 3 updated)"
+  ]
+}
