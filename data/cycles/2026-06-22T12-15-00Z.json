@@ -1,0 +1,73 @@
+{
+  "cycle_ts": "2026-06-22T12:15:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/261218964862013/",
+    "https://www.facebook.com/groups/335349806967085/",
+    "https://www.facebook.com/groups/1012457883847298/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/"
+  ],
+  "group_names": [
+    "Dodge Viper Originals 92-02 Classifieds (261218964862013)",
+    "Dodge Viper Originals 92-02 Sneaky Pete (335349806967085)",
+    "Gen V Dodge Vipers Buy/Sell/Trade/Chat (1012457883847298)",
+    "VIPER related Help-Sell-Buy (ViperRelatedSellBuy)"
+  ],
+  "posts_seen": 37,
+  "new_posts": 1,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/261218964862013/posts/1776485186668709/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449834888851889/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1548378836921864/",
+    "https://www.facebook.com/groups/335349806967085/posts/2454562378379140/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1535235378236210/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/26835568966092647/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449862685515776/",
+    "https://www.facebook.com/groups/335349806967085/posts/2450248968810481/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772684247048803/",
+    "https://www.facebook.com/groups/261218964862013/posts/1777050786612149/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 0,
+  "new_findings": [
+    {
+      "post_id": "1776485186668709",
+      "group": "261218964862013",
+      "classification": "selling",
+      "generation": 1,
+      "summary": "Seller offering Gen 1 Viper parts in classifieds (post: 'Fits Dodge Viper Gen 1 Vipers', photos included). Ryan Fox responded with shipping address (Castle Rock CO) and payment methods (Venmo/PayPal/Zelle). George Harley Roush asks how to open the doors. Specific part not named in text. lcs_baseline=4."
+    }
+  ],
+  "re_reviews": [],
+  "dropped_reads": [
+    "2449834888851889 (NO DELTA: CR=20=lcs=20 — selling maintained: 1995 Gen1 RT/10, 39,928 mi, Houston TX, Roe Racing SC, uncle's car; wife selling)",
+    "1548378836921864 (NO DELTA: CR=18=lcs=18 — selling maintained: 2014 Gen5 SRT base, AJ Mehta seller; Daniel Cundiff offered $120k, market discussion $120-180k)",
+    "2454562378379140 (NO DELTA: CR=14=lcs=14 — locating maintained: 1992 Gen1 soft top pins interchangeability; Mike Scherzberg has original vinyl 92 top and antenna-93 top for sale)",
+    "1535235378236210 (NO DELTA: CR=12=lcs=12 — selling maintained: 2014 Gen5 SRT, 2,500 mi, Michigan, $149,998; Jeremy Brower notes OP quit responding to DMs; Jim Campbell 'Watch out!!!')",
+    "26835568966092647 (NO DELTA: CR=10=lcs=10 — selling maintained: 2003 Gen3 convertible on Cars & Bids; Christian Tanso confirms not sold per C&B listing)",
+    "2449862685515776 (NO DELTA: CR=10=lcs=10 — locating maintained: Roe Racing PCM/CPU failure; Dan Lesser at ViperSpecialty has units in stock)",
+    "2450248968810481 (NO DELTA: CR=10=lcs=10 — locating maintained: Viper radiator hoses; Havik silicone hoses+clamps, Mishimoto (USA-based) as sources)",
+    "1772684247048803 (NO DELTA: CR=10=lcs=10 — locating maintained: under-hood relay protective cap; Todd at Don Scharf Auto WI, Brian Jones)",
+    "1777050786612149 (NO DELTA: CR=9=lcs=9 — locating maintained: Gen1 manifold heat shields; Apollonius Salis has them, Tony Hanks has manifolds w/shields in attic)"
+  ],
+  "deferred_deep_reads": 7,
+  "deferred": [
+    "1773116060338955 (selling lcs:8, G4 — deferred to next G4 rotation)",
+    "1772589947058233 (selling lcs:6, G4 — deferred to next G4 rotation)",
+    "1558679672558447 (selling lcs:2, G6 — deferred to next G6 rotation)",
+    "1544750113951403 (selling lcs:4, G6 — deferred to next G6 rotation)",
+    "25339227989060093 (searching lcs:2, G7 — deferred to next G7 rotation)",
+    "27048392398143635 (selling lcs:4, G7 — deferred to next G7 rotation)",
+    "27019684554347753 (locating lcs:2, G7 — deferred to next G7 rotation)"
+  ],
+  "notes": [
+    "G4 (261218964862013 Dodge Viper Originals 92-02 Classifieds): ~10 posts; 1 new (1776485186668709 Gen1 selling parts); 4 active tracked (2 deep-read no-delta, 2 deferred); prev-seen general/skip",
+    "G5 (335349806967085 Dodge Viper Originals 92-02 Sneaky Pete): ~10 posts; 4 active tracked deep-read (all no-delta: 2449834888851889 Gen1 selling, 2454562378379140 Gen1 locating soft top, 2449862685515776 locating PCM, 2450248968810481 locating radiator hoses)",
+    "G6 (1012457883847298 Gen V Dodge Vipers Buy/Sell/Trade/Chat): ~10 posts; 4 active tracked (2 deep-read no-delta: 1548378836921864 Gen5 selling 2014 SRT, 1535235378236210 Gen5 selling $149,998 Michigan; 2 deferred); prev-seen skip",
+    "G7 (ViperRelatedSellBuy VIPER related Help-Sell-Buy): ~7 posts; 4 active tracked (1 deep-read no-delta: 26835568966092647 Gen3 selling convertible C&B; 3 deferred); prev-seen skip",
+    "All 9 active deep-reads: NO DELTA (CR=lcs for every post)",
+    "Rotation: next_index 4->8 (groups 8-11 next cycle)",
+    "Catalog after cycle 33: gen1:15, gen2:15, gen3:10, gen4:8, gen5:13, unknown:21 = 82 total (1 new, 0 updated)"
+  ]
+}

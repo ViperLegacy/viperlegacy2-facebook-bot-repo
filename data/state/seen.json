@@ -265,7 +265,7 @@
       "post_id": "1777050786612149",
       "group_url": "https://www.facebook.com/groups/261218964862013/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "locating",
       "last_comments_seen": 9
@@ -310,7 +310,7 @@
       "post_id": "1772684247048803",
       "group_url": "https://www.facebook.com/groups/261218964862013/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "locating",
       "last_comments_seen": 10
@@ -364,7 +364,7 @@
       "post_id": "2449834888851889",
       "group_url": "https://www.facebook.com/groups/335349806967085/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "selling",
       "last_comments_seen": 20
@@ -373,7 +373,7 @@
       "post_id": "2449862685515776",
       "group_url": "https://www.facebook.com/groups/335349806967085/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "locating",
       "last_comments_seen": 10
@@ -391,7 +391,7 @@
       "post_id": "2454562378379140",
       "group_url": "https://www.facebook.com/groups/335349806967085/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "locating",
       "last_comments_seen": 14
@@ -409,7 +409,7 @@
       "post_id": "2450248968810481",
       "group_url": "https://www.facebook.com/groups/335349806967085/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "locating",
       "last_comments_seen": 10
@@ -436,7 +436,7 @@
       "post_id": "1548378836921864",
       "group_url": "https://www.facebook.com/groups/1012457883847298/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "selling",
       "last_comments_seen": 18
@@ -463,7 +463,7 @@
       "post_id": "1535235378236210",
       "group_url": "https://www.facebook.com/groups/1012457883847298/",
       "first_seen": "2026-06-21T00:22:12Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "selling",
       "last_comments_seen": 12
@@ -2137,7 +2137,7 @@
       "post_id": "26835568966092647",
       "group_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/",
       "first_seen": "2026-06-22T03:30:00Z",
-      "last_seen": "2026-06-22T03:30:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
       "last_comments_count": null,
       "last_classification": "selling",
       "last_comments_seen": 10
@@ -2258,6 +2258,15 @@
       "last_comments_count": null,
       "last_classification": "selling",
       "last_comments_seen": 2
+    },
+    "https://www.facebook.com/groups/261218964862013/posts/1776485186668709/": {
+      "post_id": "1776485186668709",
+      "group_url": "https://www.facebook.com/groups/261218964862013/",
+      "first_seen": "2026-06-22T12:15:00Z",
+      "last_seen": "2026-06-22T12:15:00Z",
+      "last_comments_count": null,
+      "last_classification": "selling",
+      "last_comments_seen": 4
     }
   }
 }

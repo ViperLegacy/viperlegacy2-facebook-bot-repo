@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T10:30:00Z",
+  "updated_at": "2026-06-22T12:15:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -291,6 +291,27 @@
           "comments_seen": 20,
           "first_seen": "2026-06-22T08:45:00Z",
           "last_updated": "2026-06-22T08:45:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/261218964862013/posts/1776485186668709/",
+          "post_id": "1776485186668709",
+          "group_url": "https://www.facebook.com/groups/261218964862013/",
+          "author": null,
+          "classification": "selling",
+          "summary": "Seller offering parts that fit Gen 1 Vipers (post text: \"Fits Dodge Viper Gen 1 Vipers\", photos included). Buyer Ryan Fox responded with shipping address (Castle Rock CO) and payment methods (Venmo/PayPal/Zelle). George Harley Roush asks how to open the doors.",
+          "part_description": "Gen 1 Viper parts (specific part unidentified in text; photos present)",
+          "part_number": null,
+          "year": null,
+          "generation": 1,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-22T12:15:00Z",
+          "last_updated": "2026-06-22T12:15:00Z"
         }
       ]
     },
