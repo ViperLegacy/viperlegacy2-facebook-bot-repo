@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T01:45:00Z",
+  "updated_at": "2026-06-22T03:30:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -91,7 +91,7 @@
           "post_id": "2454562378379140",
           "group_url": "https://www.facebook.com/groups/335349806967085/",
           "author": null,
-          "classification": "selling",
+          "classification": "locating",
           "summary": "Mike Scherzberg has original Gen 1 vinyl soft tops for sale: one for 1992, one for rear-antenna 1993 (longer front pins)",
           "part_description": "Gen 1 OEM vinyl soft top — original 1992 version and rear-antenna 1993 version (Mike Scherzberg)",
           "part_number": null,
@@ -104,7 +104,7 @@
           "age_hours": null,
           "comments_seen": 14,
           "first_seen": "2026-06-21T00:22:12Z",
-          "last_updated": "2026-06-21T03:44:49.283Z"
+          "last_updated": "2026-06-22T03:30:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/261218964862013/posts/1777050786612149/",
@@ -738,6 +738,46 @@
           "age_hours": null,
           "first_seen": "2026-06-22T00:55:00Z",
           "last_updated": "2026-06-22T00:55:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1012457883847298/posts/1558679672558447/",
+          "post_id": "1558679672558447",
+          "group_url": "https://www.facebook.com/groups/1012457883847298/",
+          "author": null,
+          "classification": "selling",
+          "summary": "2005 Dodge Viper for sale, bright yellow with black rag top, 32,155 miles; contact for price/location details",
+          "part_description": "2005 Dodge Viper SRT-10 (complete car, bright yellow, black rag top)",
+          "part_number": null,
+          "year": 2005,
+          "generation": 3,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 2,
+          "first_seen": "2026-06-22T03:30:00Z",
+          "last_updated": "2026-06-22T03:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/26835568966092647/",
+          "post_id": "26835568966092647",
+          "group_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/",
+          "author": null,
+          "classification": "selling",
+          "summary": "2003 Dodge Viper convertible, 40k miles, Southlake TX, new tires and battery; previously listed on Cars & Bids (did not sell)",
+          "part_description": "2003 Dodge Viper SRT-10 convertible (complete car, 40k miles, Southlake TX)",
+          "part_number": null,
+          "year": 2003,
+          "generation": 3,
+          "price": null,
+          "location": "Southlake, TX",
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 10,
+          "first_seen": "2026-06-22T03:30:00Z",
+          "last_updated": "2026-06-22T03:30:00Z"
         }
       ]
     },

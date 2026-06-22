@@ -1,0 +1,75 @@
+{
+  "cycle_ts": "2026-06-22T03:30:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/261218964862013/",
+    "https://www.facebook.com/groups/335349806967085/",
+    "https://www.facebook.com/groups/1012457883847298/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/"
+  ],
+  "group_names": [
+    "Dodge Viper Originals 92-02 Classifieds (261218964862013)",
+    "Dodge Viper Originals 92-02 Sneaky Pete (335349806967085)",
+    "Gen V Dodge Vipers Buy/Sell/Trade/Chat (1012457883847298)",
+    "VIPER related Help-Sell-Buy (ViperRelatedSellBuy)"
+  ],
+  "posts_seen": 34,
+  "new_posts": 2,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/1012457883847298/posts/1558679672558447/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/26835568966092647/",
+    "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/27118951811087693/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449834888851889/",
+    "https://www.facebook.com/groups/1012457883847298/posts/1548378836921864/",
+    "https://www.facebook.com/groups/335349806967085/posts/2454562378379140/",
+    "https://www.facebook.com/groups/335349806967085/posts/2449862685515776/",
+    "https://www.facebook.com/groups/335349806967085/posts/2450248968810481/",
+    "https://www.facebook.com/groups/261218964862013/posts/1772684247048803/",
+    "https://www.facebook.com/groups/261218964862013/posts/1777050786612149/"
+  ],
+  "new_classifications": 2,
+  "new_catalog_findings": 2,
+  "updated_catalog_findings": 1,
+  "new_findings": [
+    {
+      "post_id": "1558679672558447",
+      "group": "1012457883847298",
+      "classification": "selling",
+      "generation": 3,
+      "summary": "2005 Dodge Viper for sale, bright yellow with black rag top, 32,155 miles; contact for price/location. lcs_baseline=2."
+    },
+    {
+      "post_id": "26835568966092647",
+      "group": "ViperRelatedSellBuy",
+      "classification": "selling",
+      "generation": 3,
+      "summary": "2003 Dodge Viper convertible for sale, 40k miles, new tires and battery, Southlake TX; Cars & Bids listing didn't sell; Joshua Reeves commenting about his own car for sale (low-ball frustration). lcs_baseline=10."
+    }
+  ],
+  "reclassifications": [
+    {
+      "post_id": "2454562378379140",
+      "group": "335349806967085",
+      "old_classification": "selling",
+      "new_classification": "locating",
+      "reason": "OP asking compatibility question about a Gen 1 soft top they were already buying; question resolved (both pin styles work). Mike Scherzberg has original Gen 1 vinyl soft top for 1992 and rear-antenna 1993 — the catalog value is the locating signal, not a selling transaction."
+    }
+  ],
+  "dropped_reads": [
+    "2449834888851889 (NO DELTA: 20=20 — selling maintained: 1995 Gen1 RT/10 Houston TX, Roe Racing supercharger, uncle's estate sale)",
+    "1548378836921864 (NO DELTA: CR=9 < lcs=18, keep 18 — selling maintained: 2014 Gen5 SRT base, price discussion $120k-$180k range)",
+    "27118951811087693 (NO DELTA: 20=20 — already resolved: 2000 Viper parts lot sold, resolved=true confirmed in catalog)",
+    "2449862685515776 (NO DELTA: 10=10 — locating maintained: PCM failure, Dan Lesser/ViperSpecialty has PCM replacements in stock)",
+    "2450248968810481 (NO DELTA: 10=10 — locating maintained: Gen1 1995 RT/10 radiator hose Australia; Havik silicone hoses and Mishimoto recommended)",
+    "1772684247048803 (NO DELTA: 10=10 — locating maintained: relay cap under-hood search; Todd at Don Scharf Auto Wisconsin + Brian Jones tagged)",
+    "1777050786612149 (NO DELTA: 9=9 — locating maintained: Gen1 manifold heat shields; Apollonius Salis and Tony Hanks both have them)"
+  ],
+  "notes": [
+    "G4 (261218964862013 Viper Originals 92-02 Classifieds): 5 posts; 2 deep-reads — 1777050786612149 no-delta (9=9), 1772684247048803 no-delta (10=10)",
+    "G5 (335349806967085 Sneaky Pete): 10 posts; 3 deep-reads — 2454562378379140 reclassified selling->locating (14=14), 2449862685515776 no-delta (10=10), 2450248968810481 no-delta (10=10); 2449834888851889 no-delta (20=20 already resolved confirmed)",
+    "G6 (1012457883847298 Gen V Vipers Buy/Sell/Trade): 7 posts; 2 deep-reads — 1558679672558447 NEW selling Gen3 (2005 yellow rag top), 1548378836921864 no-delta (CR=9<lcs=18)",
+    "G7 (ViperRelatedSellBuy): 12 posts; 3 deep-reads — 26835568966092647 NEW selling Gen3 (2003 convertible Southlake TX), 27118951811087693 already resolved confirmed (20=20)",
+    "Rotation: next_index 4->8 (groups 8-11 next cycle)",
+    "Catalog after cycle 28: gen1:14, gen2:14, gen3:9, gen4:8, gen5:12, unknown:20 = 77 total (2 new, 1 reclassified)"
+  ]
+}
