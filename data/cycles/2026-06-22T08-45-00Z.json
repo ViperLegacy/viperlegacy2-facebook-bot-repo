@@ -1,0 +1,88 @@
+{
+  "cycle_ts": "2026-06-22T08:45:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/3552832571664906/",
+    "https://www.facebook.com/groups/4viperclub/",
+    "https://www.facebook.com/groups/646530975516107/",
+    "https://www.facebook.com/groups/2574946562765549/"
+  ],
+  "group_names": [
+    "Viper Owners (3552832571664906)",
+    "Viper Club of America (4viperclub)",
+    "Viper Club Of Ontario (646530975516107)",
+    "Chicagoland Viper Owners (2574946562765549)"
+  ],
+  "posts_seen": 35,
+  "new_posts": 8,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/3552832571664906/posts/4401798630101625/",
+    "https://www.facebook.com/groups/3552832571664906/posts/4401799116768243/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163583136847955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163590538822955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163590597637955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163590717582955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163573650917955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163587220317955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163588922077955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163589758707955/"
+  ],
+  "new_classifications": 3,
+  "new_catalog_findings": 3,
+  "updated_catalog_findings": 1,
+  "new_findings": [
+    {
+      "post_id": "10163583136847955",
+      "group": "4viperclub",
+      "classification": "locating",
+      "generation": 2,
+      "summary": "Gen 2 GTS windscreen rubber channel: Bobby Archer has some; removable without glass removal (best by pro); also available at glass shops. Australian owner asking. lcs_baseline=10."
+    },
+    {
+      "post_id": "10163573650917955",
+      "group": "4viperclub",
+      "classification": "locating",
+      "generation": 1,
+      "summary": "1995 Gen 1 Viper gas handle protector: Jerry Carrico directs to Jon B at Parts Rack; Chris Kennedy says available at vendors online; Steve Clark suggests neoprene DIY. lcs_baseline=20."
+    },
+    {
+      "post_id": "10163587220317955",
+      "group": "4viperclub",
+      "classification": "selling",
+      "generation": 3,
+      "summary": "2004 Dodge Viper SRT-10, all original, 4,360 miles, always garaged, Minnesota, $62,000; PENDING (Michael Gregory negotiating). Deb Sonnek seller. lcs_baseline=14."
+    }
+  ],
+  "re_reviews": [
+    {
+      "post_id": "10163589758707955",
+      "group": "4viperclub",
+      "classification": "selling",
+      "delta": "+4 comments (12->16)",
+      "summary": "GEN 5 VIPERS FOR SALE: Bob Dillon-Broker endorsed as 'Trusted Seller'; continued buyer price inquiries (red one, DM prices). No sale confirmed. lcs updated 12->16."
+    }
+  ],
+  "dropped_reads": [
+    "4401798630101625 (NEW GENERAL: karate hashtag post misfiled in Viper Owners group)",
+    "4401799116768243 (NEW GENERAL: AI-generated Viper carbon fiber stripe image; commenter discussing investment/miles)",
+    "10163590538822955 (NEW GENERAL: Viper spotted in Houston photo shared from Houston Area Car Spotters)",
+    "10163590597637955 (NEW GENERAL: Gen 2 first oil change oil brand discussion)",
+    "10163590717582955 (NEW GENERAL: video teaser with cat removal photo; commenter 'I will buy the old cats' but OP not offering)",
+    "10163588922077955 (NO DELTA: CR=8 < lcs=18, keep 18 — searching maintained: Gen 2/3 Viper purchase search with community advice thread)"
+  ],
+  "deferred_deep_reads": 3,
+  "deferred": [
+    "3531317660370743 (selling lcs:7, G18 — deferred to next G18 rotation)",
+    "10163568365732955 (cls:null lcs:null, G17 — deferred to next G17 rotation)",
+    "10163569910332955 (cls:null lcs:null, G17 — deferred to next G17 rotation)"
+  ],
+  "notes": [
+    "G16 (3552832571664906 Viper Owners): 7 posts; 2 new deep-read (both general); 5 prev-seen general; 0 parts findings",
+    "G17 (4viperclub Viper Club of America): 12 posts; 6 new deep-read (3 general, 2 locating, 1 selling); 2 active tracked deep-read (1 no-delta, 1 RE-REVIEW); 2 prev-seen cls:null deferred",
+    "G18 (646530975516107 Viper Club Of Ontario): 5 posts; all prev-seen; 1 selling tracked (3531317660370743) deferred due to budget",
+    "G19 (2574946562765549 Chicagoland Viper Owners): 11 posts; all prev-seen general; 0 deep reads needed",
+    "RE-REVIEW: 10163589758707955 Gen5 Vipers lcs 12->16 — Bob Dillon-Broker 'Trusted Seller' endorsement; continued active buyer interest",
+    "Rotation: next_index 16->0 (full rotation complete, wraps back to G0-G3 next cycle)",
+    "Catalog after cycle 31: gen1:14, gen2:15, gen3:10, gen4:8, gen5:12, unknown:21 = 80 total (3 new, 1 updated)"
+  ]
+}

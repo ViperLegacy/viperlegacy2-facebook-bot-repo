@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T07:00:00Z",
+  "updated_at": "2026-06-22T08:45:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -270,6 +270,27 @@
           "comments_seen": 2,
           "first_seen": "2026-06-21T21:42:55Z",
           "last_updated": "2026-06-21T21:42:55Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163573650917955/",
+          "post_id": "10163573650917955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "locating",
+          "summary": "OP asking about 1995 Gen 1 Viper gas handle protector material and replacement. Jerry Carrico: 'Call Jon B at Parts Rack for a new one.' Chris Kennedy: available from vendors online. Steve Clark: neoprene, make your own.",
+          "part_description": "gas handle protector (fuel filler neoprene guard)",
+          "part_number": null,
+          "year": 1995,
+          "generation": 1,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 20,
+          "first_seen": "2026-06-22T08:45:00Z",
+          "last_updated": "2026-06-22T08:45:00Z"
         }
       ]
     },
@@ -566,6 +587,27 @@
           "comments_seen": 4,
           "first_seen": "2026-06-22T01:45:00Z",
           "last_updated": "2026-06-22T01:45:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163583136847955/",
+          "post_id": "10163583136847955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "locating",
+          "summary": "OP (Australia) asking about Gen 2 GTS windscreen rubber channel: removable without glass removal. Bobby Archer has some; Mike Hontz says available at glass shops.",
+          "part_description": "windscreen rubber channel/surround (Gen 2 GTS)",
+          "part_number": null,
+          "year": null,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "comments",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 10,
+          "first_seen": "2026-06-22T08:45:00Z",
+          "last_updated": "2026-06-22T08:45:00Z"
         }
       ]
     },
@@ -757,6 +799,27 @@
           "comments_seen": 10,
           "first_seen": "2026-06-22T03:30:00Z",
           "last_updated": "2026-06-22T03:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163587220317955/",
+          "post_id": "10163587220317955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": "Deb Sonnek",
+          "classification": "selling",
+          "summary": "2004 Dodge Viper SRT-10, all original, 4,360 miles, always garaged, Minnesota; $62,000; PENDING (Michael Gregory negotiating via PM).",
+          "part_description": null,
+          "part_number": null,
+          "year": 2004,
+          "generation": 3,
+          "price": "$62,000",
+          "location": "Minnesota",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 14,
+          "first_seen": "2026-06-22T08:45:00Z",
+          "last_updated": "2026-06-22T08:45:00Z"
         }
       ]
     },
@@ -1170,20 +1233,20 @@
           "group_url": "https://www.facebook.com/groups/4viperclub/",
           "author": "OP (feed card: Michael Amy Seaver)",
           "classification": "selling",
-          "summary": "GEN 5 VIPERS FOR SALE — Houston TX dealer not yet open (Brent Foster). Multiple buyers inquiring (prices via DM, Tony Smith Jr. from Texas). lcs_baseline=12.",
+          "summary": "GEN 5 VIPERS FOR SALE — multiple Gen5 Vipers offered (including red one, prices via DM). Bob Dillon-Broker endorsed as 'Trusted Seller'. Continued active buyer interest. lcs=16.",
           "part_description": "Gen 5 Viper complete car(s)",
           "year": null,
           "generation": 5,
           "price": null,
           "location": "Houston, TX",
-          "comments_seen": 12,
+          "comments_seen": 16,
           "part_number": null,
-          "signal_source": "post",
+          "signal_source": "comments",
           "resolved": false,
           "photos": [],
           "age_hours": null,
           "first_seen": "2026-06-22T00:55:00Z",
-          "last_updated": "2026-06-22T00:55:00Z"
+          "last_updated": "2026-06-22T08:45:00Z"
         }
       ]
     },
