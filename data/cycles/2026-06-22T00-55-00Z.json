@@ -1,0 +1,92 @@
+{
+  "cycle_ts": "2026-06-22T00:55:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/3552832571664906/",
+    "https://www.facebook.com/groups/4viperclub/",
+    "https://www.facebook.com/groups/646530975516107/",
+    "https://www.facebook.com/groups/2574946562765549/"
+  ],
+  "group_names": [
+    "Viper Owners (3552832571664906)",
+    "Viper Club of America (4viperclub)",
+    "Viper Club Of Ontario (646530975516107)",
+    "Chicagoland Viper Owners (2574946562765549)"
+  ],
+  "posts_seen": 39,
+  "new_posts": 12,
+  "deep_reads_performed": 8,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/4viperclub/posts/10163590172262955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163569905277955/",
+    "https://www.facebook.com/groups/646530975516107/posts/3531317660370743/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163582015112955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163589758707955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163588922077955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163590060112955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163555004317955/"
+  ],
+  "new_classifications": 5,
+  "new_catalog_findings": 5,
+  "updated_catalog_findings": 0,
+  "new_findings": [
+    {
+      "post_id": "10163590172262955",
+      "group": "4viperclub",
+      "classification": "searching",
+      "generation": 3,
+      "summary": "OP searching Gen 3 Viper, budget $35-40k max, New England, will travel. Brian Jones counter-offer: Gen 3 78k miles $35k. lcs_baseline=11."
+    },
+    {
+      "post_id": "10163582015112955",
+      "group": "4viperclub",
+      "classification": "searching",
+      "generation": null,
+      "summary": "OP vetting Viper at Country Auto Blair NE (3 owners). Bobby Isbell counter: red Viper $52k 14k miles forgestars+factory wheels. Matt Wagg: specialty Viper shop ~10 mi from Blair NE. lcs_baseline=14."
+    },
+    {
+      "post_id": "10163589758707955",
+      "group": "4viperclub",
+      "classification": "selling",
+      "generation": 5,
+      "summary": "GEN 5 VIPERS FOR SALE, Houston TX dealer not yet open (Brent Foster). Multiple buyer inquiries. lcs_baseline=12."
+    },
+    {
+      "post_id": "10163588922077955",
+      "group": "4viperclub",
+      "classification": "searching",
+      "generation": 2,
+      "summary": "OP looking to buy Gen 2 (or Gen 3). Community buyer tips: AC seals, PCM failures, door sag. Ryan-Heather Stanley: 30k RT/10 + 2015 GT. lcs_baseline=18."
+    },
+    {
+      "post_id": "10163555004317955",
+      "group": "4viperclub",
+      "classification": "selling",
+      "generation": 4,
+      "summary": "2008 Gen 4 Viper convertible, completely stock, 7,800 miles, Venom Red; 18-yr-old tires (will replace). OP hinting at sale: 'I will post when ready.' David Purpura PM'd with buy interest. lcs_baseline=20."
+    }
+  ],
+  "re_reviews": [],
+  "reclassifications": [],
+  "dropped_reads": [
+    "10163569905277955 (NO DELTA: 20=20 — GENERAL: 'cheeseburger Viper' builder showcasing 35 builds; cls updated null→general)",
+    "3531317660370743 (NO DELTA: 6<7, keep 7 — selling Gen1 1994 RT/10 part-out: rockers $3k, hardtop+bumpers; updated lcs confirmed)",
+    "10163590060112955 (GENERAL: Gen2 wiring/front-end tech Q; Travis Maldeney briefly offered hood — no transaction formed; CR=6)"
+  ],
+  "general_new_posts": [
+    "10163589414977955 (G17, Ryan Nicholson: 200 miles on gen 1 — general)",
+    "10163581986837955 (G17, John Bonjovi: horsepower reaction — general)",
+    "10163590176842955 (G17, Shawn Netkowicz: Balls Chiller humor — general)",
+    "10163589267032955 (G17, Ryan-Heather Stanley: relay found, crisis averted — general)",
+    "10163588412852955 (G17, Jps Acr: car appreciation comment — general)",
+    "10163582389032955 (G17, Todd Geary: CD player trunk Q — general)"
+  ],
+  "notes": [
+    "G16 (3552832571664906 Viper Owners): 5 posts; all prev-seen; no catalog entries; no deep reads",
+    "G17 (4viperclub VCA): 17 posts; 12 new (5 catalog + 6 general + 1 deep-read general); 5 prev-seen (2 tracked: 10163569905277955 lcs=20 general, 10163574581987955 lcs=0 general); deep reads: 5 new classified + 3 checks",
+    "G18 (646530975516107 Viper Club Ontario): 6 posts (1 null-id skip); all prev-seen; 1 tracked (3531317660370743 no delta 6<7 keep 7)",
+    "G19 (2574946562765549 Chicagoland): 12 posts; all prev-seen; no catalog entries in active range",
+    "Skipped deep reads: 10163587800237955 (James Grant VCA shop finder — general appreciation), 10163574581987955 (Joe Shannon cup-holder humor lcs=0 — general), remaining G17 posts clearly general from feed text",
+    "Rotation: next_index 16→0 (wraps; G0-G3 next cycle — full rotation complete)",
+    "Catalog after cycle 26: gen1:14, gen2:13, gen3:7, gen4:8, gen5:12, unknown:20 = 74 total (5 new)"
+  ]
+}
