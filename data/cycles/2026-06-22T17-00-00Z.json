@@ -1,0 +1,67 @@
+{
+  "cycle_ts": "2026-06-22T17:00:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/3552832571664906/",
+    "https://www.facebook.com/groups/4viperclub/",
+    "https://www.facebook.com/groups/646530975516107/",
+    "https://www.facebook.com/groups/2574946562765549/"
+  ],
+  "group_names": [
+    "Viper Owners (3552832571664906)",
+    "Viper Club of America (4viperclub)",
+    "Viper Club Of Ontario (646530975516107)",
+    "Chicagoland Viper Owners (2574946562765549)"
+  ],
+  "posts_seen": 43,
+  "new_posts": 1,
+  "deep_reads_performed": 7,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/4viperclub/posts/10163559959132955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163590608037955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163589618382955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163588057397955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163588922077955/",
+    "https://www.facebook.com/groups/4viperclub/posts/10163573650917955/",
+    "https://www.facebook.com/groups/646530975516107/posts/3531317660370743/"
+  ],
+  "new_classifications": 1,
+  "new_catalog_findings": 1,
+  "updated_catalog_findings": 1,
+  "new_findings": [
+    {
+      "post_id": "10163590608037955",
+      "group": "4viperclub",
+      "classification": "selling",
+      "generation": 5,
+      "summary": "Forgeline 19/19 wheels with Kumho V720 355 rear and V730 305/30/19 front tires for Gen 5 Viper (base/ACR), gloss black lips/barrels/brass monkey face, ~400 miles/2 track sessions, TPMS included, $6,500 CONUS; Minneapolis MN. Seller upgrading to CCW wheels. lcs_baseline=4."
+    }
+  ],
+  "re_reviews": [
+    {
+      "post_id": "10163588057397955",
+      "group": "4viperclub",
+      "classification": "locating",
+      "delta": "+1 comment (14->15)",
+      "summary": "Gen 2 1999 GTS shift knob/short shifter thread: Christopher Boudakian (25m) says stock 99+ shifter ideal for height/wheel position; Michael Bowyer (20h) switched back to stock. No new parts supply signal beyond Paul Huntress MGW Sneaky Pete already in catalog. lcs updated 14->15."
+    }
+  ],
+  "resolved": [],
+  "dropped_reads": [
+    "10163559959132955 (NEW GENERAL: fan appreciation post 'would love to find a Viper for my dad someday'; Rosco P Coltrane advice 'Get a 2nd Gen or 5th'; no real parts/buying intent)",
+    "10163589618382955 (NEW GENERAL: Gen1 stereo replacement tutorial; George Harley Roush 200R=20-gauge-orange clarification; CP71WA head unit mentioned; Micah links eastcoastmoparts.com fuel filler door shield — tutorial content, not a transaction)",
+    "10163588922077955 (NO DELTA: CR=8 < lcs=18, keep 18 — searching maintained: buyer looking for Gen2/Gen3; community advice on known issues)",
+    "10163573650917955 (NO DELTA: CR=20=lcs=20 — locating maintained: 1995 Gen1 gas handle protector; Jon B/Parts Rack, eastcoastmoparts.com, Chris Kennedy vendors, neoprene DIY)",
+    "3531317660370743 (NO DELTA: CR=6 < lcs=7, keep 7 — selling maintained: 1994 Gen1 RT/10 part-out; Jackie Tucker asked about rockers; Mason Wellesley asking $3,000)"
+  ],
+  "deferred_deep_reads": 0,
+  "deferred": [],
+  "notes": [
+    "G16 (3552832571664906 Viper Owners): 7 posts; all prev-seen general (car appreciation, comment replies); 0 parts signal",
+    "G17 (4viperclub VCA): 16 posts; 1 NEW selling (10163590608037955 Gen5 Forgeline wheels $6,500 Minneapolis); 1 NEW general (fan post); 1 NEW general (stereo tutorial); 4 NEW general skipped from feed; 3 ACTIVE deep-read (1 RE-REVIEW +1: Gen2 shift knob thread; 2 no-delta: Gen2/3 buyer research, Gen1 gas handle protector)",
+    "G18 (646530975516107 Viper Club Ontario): 7 posts; 1 ACTIVE deep-read (3531317660370743 Gen1 part-out no-delta); 5 prev-seen general; 1 external link (null post_id, skipped)",
+    "G19 (2574946562765549 Chicagoland Viper Owners): 13 posts; all prev-seen general; 0 deep reads needed",
+    "RE-REVIEW: 10163588057397955 Gen2 shift knob lcs 14->15 — Christopher Boudakian/Michael Bowyer note stock 99+ shifter ideal; no new supply signal",
+    "Rotation: next_index 16->0 (full 20-group rotation complete; wraps back to G0-G3 next cycle)",
+    "Catalog after cycle 36: gen1:15 gen2:15 gen3:10 gen4:8 gen5:14 unk:21 = 83 total (1 new, 1 updated)"
+  ]
+}

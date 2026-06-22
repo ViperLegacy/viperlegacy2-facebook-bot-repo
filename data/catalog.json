@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T16:00:00Z",
+  "updated_at": "2026-06-22T17:00:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -459,9 +459,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 14,
+          "comments_seen": 15,
           "first_seen": "2026-06-21T16:30:00Z",
-          "last_updated": "2026-06-21T20:45:00Z"
+          "last_updated": "2026-06-22T17:00:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/ViperRelatedSellBuy/posts/25339227989060093/",
@@ -1289,6 +1289,27 @@
           "comments_seen": 2,
           "first_seen": "2026-06-22T10:30:00Z",
           "last_updated": "2026-06-22T10:30:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/4viperclub/posts/10163590608037955/",
+          "post_id": "10163590608037955",
+          "group_url": "https://www.facebook.com/groups/4viperclub/",
+          "author": null,
+          "classification": "selling",
+          "summary": "Seller offering Forgeline 19/19 wheels with Kumho V720 355 rear and V730 305/30/19 front tires for Gen 5 Viper (base or ACR); gloss black lips/barrels, brass monkey face, ~400 miles/2 track sessions (Hastings Motorsport); TPMS included; $6,500 CONUS; Minneapolis MN. Seller switching to CCW wheels.",
+          "part_description": "Forgeline 19/19 wheel set with Kumho V720 355 rear and V730 305/30/19 front tires + TPMS (Gen 5 base/ACR)",
+          "part_number": null,
+          "year": null,
+          "generation": 5,
+          "price": "$6,500",
+          "location": "Minneapolis MN",
+          "signal_source": "post",
+          "resolved": false,
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-22T17:00:00Z",
+          "last_updated": "2026-06-22T17:00:00Z"
         }
       ]
     },
