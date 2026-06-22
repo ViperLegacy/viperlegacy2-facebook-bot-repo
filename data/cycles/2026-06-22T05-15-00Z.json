@@ -1,0 +1,48 @@
+{
+  "cycle_ts": "2026-06-22T05:15:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/ViperTech/",
+    "https://www.facebook.com/groups/396856087036918/",
+    "https://www.facebook.com/groups/srtviperownerallclubmembers/",
+    "https://www.facebook.com/groups/481789254000352/"
+  ],
+  "group_names": [
+    "Viper Owners Tech Help/How to/Q&A (ViperTech)",
+    "The Viper Garage.com (396856087036918)",
+    "DODGE VIPER OWNERS AND ALL VIPER CLUBS MEMBER'S SITE (srtviperownerallclubmembers)",
+    "Dodge Viper Owners and Enthusiasts (481789254000352)"
+  ],
+  "posts_seen": 28,
+  "new_posts": 0,
+  "deep_reads_performed": 7,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/396856087036918/posts/26917519861210513/",
+    "https://www.facebook.com/groups/481789254000352/posts/1380509867461615/",
+    "https://www.facebook.com/groups/481789254000352/posts/1385056243673644/",
+    "https://www.facebook.com/groups/396856087036918/posts/25885910991038077/",
+    "https://www.facebook.com/groups/396856087036918/posts/26392824543680050/",
+    "https://www.facebook.com/groups/ViperTech/posts/3357698591053865/",
+    "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 0,
+  "dropped_reads": [
+    "26917519861210513 (NO DELTA: 12=12 — locating maintained: Gen3/4 window regulator search; Francisco H Ramos has unit rebuilt by Arizona Power Window Repair)",
+    "1380509867461615 (NO DELTA: 12=12 — searching maintained: Gen2 2000 GTS suspension/coilover recommendations; Kevin James has KW V2 to sell)",
+    "1385056243673644 (NO DELTA: 10=10 — locating maintained: Gen4 2009 ACR fender vent installation service showcased; Mike Scherzberg inquiring about cost)",
+    "25885910991038077 (NO DELTA: 8=8 — already resolved confirmed: Gen2 Paxton Novi 2000 kit $5,000 — Arthur Ward confirmed 'Sold'; resolved=true in catalog)",
+    "26392824543680050 (NO DELTA: 4=4 — searching maintained: Gen2 1998 GTS driver side window regulator+motor search; Michael Kuchavik Jr. routes to Arizona Power Window Repair)",
+    "3357698591053865 (NO DELTA: 4=4 — locating maintained: Gen2 1997 GTS water pump search; Josh Haskell: Havik Performance rebuilds them)",
+    "1368331015346167 (NO DELTA: 2=2 — selling maintained: 2001 Gen2 RT/10 6-speed 15k miles $50k Queens NY clean title)"
+  ],
+  "notes": [
+    "G8 (ViperTech): 7 posts; 1 deep-read — 3357698591053865 no-delta (4=4); all other posts general/tech help",
+    "G9 (396856087036918 Viper Garage): 8 posts; 3 deep-reads — 26917519861210513 no-delta (12=12), 25885910991038077 already-resolved confirmed (8=8), 26392824543680050 no-delta (4=4)",
+    "G10 (srtviperownerallclubmembers): 10 posts; 0 deep-reads — all general community content",
+    "G11 (481789254000352): 3 posts; 3 deep-reads — 1380509867461615 no-delta (12=12), 1385056243673644 no-delta (10=10), 1368331015346167 no-delta (2=2)",
+    "Quiet cycle: 0 new posts across all 4 groups, 7 deep reads all no-delta",
+    "Rotation: next_index 8->12 (groups 12-15 next cycle)",
+    "Catalog unchanged: gen1:14, gen2:14, gen3:9, gen4:8, gen5:12, unknown:20 = 77 total"
+  ]
+}
