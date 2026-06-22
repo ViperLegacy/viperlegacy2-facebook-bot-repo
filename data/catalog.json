@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T00:55:00Z",
+  "updated_at": "2026-06-22T01:45:00Z",
   "by_generation": {
     "1": {
       "findings": [
@@ -511,7 +511,7 @@
           "group_url": "https://www.facebook.com/groups/1490844011152477/",
           "author": null,
           "classification": "searching",
-          "summary": "OP searching for a gray Gen 2 GTS (driver car, clean title); Mike Scherzberg has a 2000 GTS in steel grey/silver stripes with new engine, heads, and cam; Tim Dunn also expressing interest (competing buyer)",
+          "summary": "OP searching for gray Gen 2 GTS (driver car, clean title, stock or close to stock); leads: Mike Scherzberg 2000 GTS steel grey/silver stripes new engine/heads/cam; Robert Lopresti 2000 GTS 22,000 miles all-stock original owner; Albuquerque area lead; Chris Gizzi old car; competing buyer Tim Dunn",
           "part_description": "Gray Gen 2 GTS Viper (complete car, driver quality) — Mike Scherzberg has 2000 GTS steel grey, new engine/heads/cam",
           "part_number": null,
           "year": null,
@@ -522,9 +522,9 @@
           "resolved": false,
           "photos": [],
           "age_hours": null,
-          "comments_seen": 8,
+          "comments_seen": 14,
           "first_seen": "2026-06-21T21:42:55Z",
-          "last_updated": "2026-06-21T21:42:55Z"
+          "last_updated": "2026-06-22T01:45:00Z"
         },
         {
           "post_url": "https://www.facebook.com/groups/481789254000352/posts/1368331015346167/",
@@ -567,6 +567,26 @@
           "age_hours": null,
           "first_seen": "2026-06-22T00:55:00Z",
           "last_updated": "2026-06-22T00:55:00Z"
+        },
+        {
+          "post_url": "https://www.facebook.com/groups/1490844011152477/posts/4382221548681361/",
+          "post_id": "4382221548681361",
+          "group_url": "https://www.facebook.com/groups/1490844011152477/",
+          "author": null,
+          "classification": "selling",
+          "summary": "AI-generated style ad selling silver Gen 2 GTS with black racing stripes; seller taking CASH or TRADE offers; V10 engine, manual transmission, chrome five-spoke wheels; Dennis Sokolov noted AI-generated presentation",
+          "part_description": "Gen 2 Dodge Viper GTS (complete car, silver with black racing stripes)",
+          "part_number": null,
+          "year": null,
+          "generation": 2,
+          "price": null,
+          "location": null,
+          "signal_source": "post",
+          "photos": [],
+          "age_hours": null,
+          "comments_seen": 4,
+          "first_seen": "2026-06-22T01:45:00Z",
+          "last_updated": "2026-06-22T01:45:00Z"
         }
       ]
     },
