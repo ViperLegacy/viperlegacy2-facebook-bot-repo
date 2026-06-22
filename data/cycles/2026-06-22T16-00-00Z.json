@@ -1,0 +1,90 @@
+{
+  "cycle_ts": "2026-06-22T16:00:00Z",
+  "groups_scanned": [
+    "https://www.facebook.com/groups/1438361473048175/",
+    "https://www.facebook.com/groups/228838842192257/",
+    "https://www.facebook.com/groups/viperownersassociation/",
+    "https://www.facebook.com/groups/BestViperClub/"
+  ],
+  "group_names": [
+    "Dodge Viper RT 10 (1438361473048175)",
+    "Gen 3 & 4 Dodge Viper Owners (228838842192257)",
+    "Viper Owners Association (viperownersassociation)",
+    "Viper Owners Group (BestViperClub)"
+  ],
+  "posts_seen": 36,
+  "new_posts": 0,
+  "deep_reads_performed": 10,
+  "deep_read_urls": [
+    "https://www.facebook.com/groups/228838842192257/posts/1569026524840142/",
+    "https://www.facebook.com/groups/228838842192257/posts/1566517541757707/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3529282953914091/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3527371310771922/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3530589477116772/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1617401826634362/",
+    "https://www.facebook.com/groups/viperownersassociation/posts/1616954850012393/",
+    "https://www.facebook.com/groups/228838842192257/posts/1570341921375269/",
+    "https://www.facebook.com/groups/BestViperClub/posts/3527238127451907/",
+    "https://www.facebook.com/groups/228838842192257/posts/1572524347823693/"
+  ],
+  "new_classifications": 0,
+  "new_catalog_findings": 0,
+  "updated_catalog_findings": 5,
+  "new_findings": [],
+  "re_reviews": [
+    {
+      "post_id": "1566517541757707",
+      "group": "228838842192257",
+      "classification": "searching",
+      "delta": "+1 comment (16->17)",
+      "summary": "Gen4 ACR Switzerland buyer (Lucas Reis) still active — bump 15h ago. Paul L. Gooding still offering #14/20 Factory Built 2010 ACR Convertible; Ben Lindsey pointing to one in Tulsa. lcs updated 16->17."
+    },
+    {
+      "post_id": "3530589477116772",
+      "group": "BestViperClub",
+      "classification": "locating",
+      "delta": "+4 comments (13->17)",
+      "summary": "Vitour P1X-01R tire thread: Eric Peachey (42m) confirms 355/19 is in production at vitourp1.com. Previously only 345 wide rear was known. lcs updated 13->17."
+    },
+    {
+      "post_id": "1617401826634362",
+      "group": "viperownersassociation",
+      "classification": "selling",
+      "delta": "+2 comments (12->14)",
+      "summary": "2009 Viper convertible Gen4 1200whp Indiana: James William Herrington 'I hate these stupid posts' (9h); no new sale signal. lcs updated 12->14."
+    },
+    {
+      "post_id": "1570341921375269",
+      "group": "228838842192257",
+      "classification": "locating",
+      "delta": "+9 comments (11->20)",
+      "summary": "Gen4 ACR aero ID thread: 9 new confirmations — OEM Mopar, Mark A Taylor replicas (highly recommended), Kees Mets Europe (1:1 copies + ACRX canards). No additional sources beyond what was already cataloged. lcs updated 11->20."
+    },
+    {
+      "post_id": "3527238127451907",
+      "group": "BestViperClub",
+      "classification": "searching",
+      "delta": "+2 comments (8->10)",
+      "summary": "Denver CO Gen3-5 buyer: Darin Mullens (5h) notes Gen3/4 GTS wasn't a trim name; no new parts leads beyond Mike Scherzberg TT Gen3 and Jeff Morton Venom Red 2008. lcs updated 8->10."
+    }
+  ],
+  "resolved": [],
+  "dropped_reads": [
+    "1569026524840142 (NO DELTA: CR=18 < lcs=19, keep 19 — searching maintained: Gen3 forged rods WTB; Rich Tatton + Adam Canales have full sets)",
+    "3529282953914091 (NO DELTA: CR=16=lcs — locating maintained: Autoform aero installation; Stephen Perkins confirms Autoform still makes them)",
+    "3527371310771922 (NO DELTA: CR=14=lcs — selling maintained: Gen1 clutch pedal travel reduction kit; production early August; buyers lining up)",
+    "1616954850012393 (NO DELTA: CR=10 < lcs=11, keep 11 — selling maintained: Viper Parts store AI stripe post; Michael Kuchavik Jr. sells rebuilt Gen1/2 pumps)",
+    "1572524347823693 (NO DELTA: CR=2 < lcs=6, keep 6 — searching maintained: carbon fiber or Alcantara Viper steering wheel; Jack Little PMd seller)"
+  ],
+  "deferred_deep_reads": 0,
+  "deferred": [],
+  "notes": [
+    "G12 (1438361473048175 Dodge Viper RT 10): 0 posts visible this cycle",
+    "G13 (228838842192257 Gen3&4 Viper Owners): 16 posts; 4 active tracked deep-read (1 no-delta: forged rods; 1 RE-REVIEW +1: Gen4 ACR Switzerland buyer still active; 1 RE-REVIEW +9: ACR aero sources now 20 comments; 1 no-delta: CF steering wheel); 12 skip",
+    "G14 (viperownersassociation Viper Owners Association): 9 posts; 2 active tracked deep-read (1 RE-REVIEW +2: Gen4 1200whp Viper complaint comment; 1 no-delta: AI stripe post pump thread); 7 skip",
+    "G15 (BestViperClub Viper Owners Group): 11 posts; 4 active tracked deep-read (1 no-delta: Autoform aero; 1 no-delta: Gen1 clutch kit; 1 RE-REVIEW +4: Vitour 355/19 confirmed in production; 1 RE-REVIEW +2: Denver Gen3-5 buyer still open); 7 skip",
+    "Notable signal: Vitour P1X-01R 355/19 now confirmed in production (vitourp1.com) per Eric Peachey",
+    "Rotation: next_index 12->16 (groups 16-19 next cycle, then wraps to 0)",
+    "Catalog after cycle 35: gen1:15 gen2:15 gen3:10 gen4:8 gen5:13 unk:21 = 82 total (0 new, 5 updated)"
+  ]
+}
